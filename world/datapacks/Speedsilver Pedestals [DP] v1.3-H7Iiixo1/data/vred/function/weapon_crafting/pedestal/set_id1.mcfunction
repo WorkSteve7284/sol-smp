@@ -1,0 +1,1 @@
+execute store result score @s pedestal_ID run scoreboard players add #new pedestal_ID 1

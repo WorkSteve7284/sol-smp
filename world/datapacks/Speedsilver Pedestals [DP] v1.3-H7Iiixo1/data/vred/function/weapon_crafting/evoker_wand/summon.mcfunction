@@ -1,0 +1,15 @@
+scoreboard players operation #temp pedestal_ID = @s pedestal_ID
+kill @e[predicate=vred:id_check1,tag=pedestal_display,distance=..5]
+execute align xyz run summon item_display ~0.5 ~1.25 ~0.5 {teleport_duration:2,item_display:"ground",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},Tags:["evoker_wand_item","evoker_wand_pedestal","pedestal_display_evoker_wand","pedestal_display"],item:{id:"minecraft:stone_sword",count:1b,components:{custom_model_data:7}}}
+execute align xyz run summon interaction ~0.5 ~1 ~0.5 {width:1,height:1,response:1b,Tags:["crafting_evoker_wand","crafting_inter","evoker_wand_pedestal","pedestal_display_evoker_wand","pedestal_display"]}
+execute align xyz run summon text_display ~0.5 ~2 ~0.5 {alignment:"center",billboard:"center",shadow:1b,Tags:["evoker_wand_text1","evoker_wand_pedestal","pedestal_display_evoker_wand","pedestal_display"],brightness:{sky:15,block:15},text:'[{"text":"Evoker Wand","color":"gold","bold":true}]'}
+execute align xyz run summon text_display ~0.5 ~2.25 ~0.5 {alignment:"center",billboard:"center",shadow:1b,Tags:["evoker_wand_text0","evoker_wand_pedestal","pedestal_display_evoker_wand","pedestal_display"],brightness:{sky:15,block:15},text:'[{"text":"x1 ","color":"white"},{"translate":"item.minecraft.totem_of_undying","color":"green"}]'}
+execute align xyz run summon text_display ~0.5 ~2.5 ~0.5 {alignment:"center",billboard:"center",shadow:1b,Tags:["evoker_wand_text1","evoker_wand_pedestal","pedestal_display_evoker_wand","pedestal_display"],brightness:{sky:15,block:15},text:'[{"text":"x2 ","color":"white"},{"translate":"item.minecraft.gold_ingot","color":"green"}]'}
+execute align xyz run summon text_display ~0.5 ~2.75 ~0.5 {alignment:"center",billboard:"center",shadow:1b,Tags:["evoker_wand_text2","evoker_wand_pedestal","pedestal_display_evoker_wand","pedestal_display"],brightness:{sky:15,block:15},text:'[{"text":"x2 ","color":"white"},{"translate":"item.minecraft.diamond","color":"green"}]'}
+execute align xyz run summon text_display ~0.5 ~3.0 ~0.5 {alignment:"center",billboard:"center",shadow:1b,Tags:["evoker_wand_text3","evoker_wand_pedestal","pedestal_display_evoker_wand","pedestal_display"],brightness:{sky:15,block:15},text:'[{"text":"x2 ","color":"white"},{"translate":"item.minecraft.bone","color":"green"}]'}
+execute align xyz run summon text_display ~0.5 ~3.25 ~0.5 {alignment:"center",billboard:"center",shadow:1b,Tags:["evoker_wand_text3","evoker_wand_pedestal","pedestal_display_evoker_wand","pedestal_display"],brightness:{sky:15,block:15},text:'[{"text":"Requirements:","color":"blue"}]'}
+scoreboard players operation @e[tag=pedestal_display_evoker_wand,distance=..5,tag=!ID_added] pedestal_ID = @s pedestal_ID
+scoreboard players operation #temp pedestal_ID = @s pedestal_ID
+execute as @e[tag=pedestal_display_evoker_wand,distance=..5,predicate=vred:id_check1] at @s run tag @s add ID_added
+scoreboard players operation #temp ID = @s ID
+clear @a[predicate=vred:id_check] written_book[custom_data={vred_recipe_book:1b}]

@@ -1,0 +1,12 @@
+execute if score #mjolnir.crafted item_check matches ..0 run function vred:weapon_crafting/pedestal/fail1
+execute store result score #lodestone item_check run clear @s lodestone 0
+execute store result score #diamond_axe item_check run clear @s diamond_axe[!custom_data,!custom_model_data] 0
+execute store result score #magma_cream item_check run clear @s magma_cream 0
+execute if score #mjolnir.crafted item_check matches 1.. run execute if score #lodestone item_check matches ..0 if score #diamond_axe item_check matches ..0 if score #magma_cream item_check matches ..0 run function vred:weapon_crafting/pedestal/fail
+execute if score #mjolnir.crafted item_check matches 1.. run execute if score #lodestone item_check matches ..0 if score #diamond_axe item_check matches ..0 if score #magma_cream item_check matches 1.. run function vred:weapon_crafting/pedestal/fail
+execute if score #mjolnir.crafted item_check matches 1.. run execute if score #lodestone item_check matches ..0 if score #diamond_axe item_check matches 1.. if score #magma_cream item_check matches ..0 run function vred:weapon_crafting/pedestal/fail
+execute if score #mjolnir.crafted item_check matches 1.. run execute if score #lodestone item_check matches ..0 if score #diamond_axe item_check matches 1.. if score #magma_cream item_check matches 1.. run function vred:weapon_crafting/pedestal/fail
+execute if score #mjolnir.crafted item_check matches 1.. run execute if score #lodestone item_check matches 1.. if score #diamond_axe item_check matches ..0 if score #magma_cream item_check matches ..0 run function vred:weapon_crafting/pedestal/fail
+execute if score #mjolnir.crafted item_check matches 1.. run execute if score #lodestone item_check matches 1.. if score #diamond_axe item_check matches ..0 if score #magma_cream item_check matches 1.. run function vred:weapon_crafting/pedestal/fail
+execute if score #mjolnir.crafted item_check matches 1.. run execute if score #lodestone item_check matches 1.. if score #diamond_axe item_check matches 1.. if score #magma_cream item_check matches ..0 run function vred:weapon_crafting/pedestal/fail
+execute if score #mjolnir.crafted item_check matches 1.. run execute if score #lodestone item_check matches 1.. if score #diamond_axe item_check matches 1.. if score #magma_cream item_check matches 1.. run function vred:weapon_crafting/mjolnir/success

@@ -1,0 +1,1 @@
+scoreboard players add @s midas_sword1 1

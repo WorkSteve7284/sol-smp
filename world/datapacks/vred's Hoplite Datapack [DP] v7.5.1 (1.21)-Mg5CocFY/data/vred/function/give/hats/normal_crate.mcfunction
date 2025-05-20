@@ -1,0 +1,1 @@
+give @s recovery_compass[custom_name='[{"text":"Hat Crate","italic":false,"color":"green"},{"text":" (Normal)","italic":false,"color":"white"}]',minecraft:food={nutrition:0,saturation:0,can_always_eat:true,eat_seconds:1000000},custom_data={crate:1b},custom_model_data=6]

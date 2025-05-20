@@ -1,0 +1,15 @@
+scoreboard players operation #temp pedestal_ID = @s pedestal_ID
+kill @e[predicate=vred:id_check1,tag=pedestal_display,distance=..5]
+execute align xyz run summon item_display ~0.5 ~1.25 ~0.5 {teleport_duration:2,item_display:"ground",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},Tags:["void_staff_item","void_staff_pedestal","pedestal_display_void_staff","pedestal_display"],item:{id:"minecraft:stone_sword",count:1b,components:{custom_model_data:4}}}
+execute align xyz run summon interaction ~0.5 ~1 ~0.5 {width:1,height:1,response:1b,Tags:["crafting_void_staff","crafting_inter","void_staff_pedestal","pedestal_display_void_staff","pedestal_display"]}
+execute align xyz run summon text_display ~0.5 ~2 ~0.5 {alignment:"center",billboard:"center",shadow:1b,Tags:["void_staff_text1","void_staff_pedestal","pedestal_display_void_staff","pedestal_display"],brightness:{sky:15,block:15},text:'[{"text":"Void Staff","color":"gold","bold":true}]'}
+execute align xyz run summon text_display ~0.5 ~2.25 ~0.5 {alignment:"center",billboard:"center",shadow:1b,Tags:["void_staff_text0","void_staff_pedestal","pedestal_display_void_staff","pedestal_display"],brightness:{sky:15,block:15},text:'[{"text":"x2 ","color":"white"},{"translate":"block.minecraft.soul_torch","color":"green"}]'}
+execute align xyz run summon text_display ~0.5 ~2.5 ~0.5 {alignment:"center",billboard:"center",shadow:1b,Tags:["void_staff_text1","void_staff_pedestal","pedestal_display_void_staff","pedestal_display"],brightness:{sky:15,block:15},text:'[{"text":"x1 ","color":"white"},{"translate":"item.minecraft.ender_eye","color":"green"}]'}
+execute align xyz run summon text_display ~0.5 ~2.75 ~0.5 {alignment:"center",billboard:"center",shadow:1b,Tags:["void_staff_text2","void_staff_pedestal","pedestal_display_void_staff","pedestal_display"],brightness:{sky:15,block:15},text:'[{"text":"x2 ","color":"white"},{"translate":"item.minecraft.diamond","color":"green"}]'}
+execute align xyz run summon text_display ~0.5 ~3.0 ~0.5 {alignment:"center",billboard:"center",shadow:1b,Tags:["void_staff_text3","void_staff_pedestal","pedestal_display_void_staff","pedestal_display"],brightness:{sky:15,block:15},text:'[{"text":"x2 ","color":"white"},{"translate":"block.minecraft.obsidian","color":"green"}]'}
+execute align xyz run summon text_display ~0.5 ~3.25 ~0.5 {alignment:"center",billboard:"center",shadow:1b,Tags:["void_staff_text3","void_staff_pedestal","pedestal_display_void_staff","pedestal_display"],brightness:{sky:15,block:15},text:'[{"text":"Requirements:","color":"blue"}]'}
+scoreboard players operation @e[tag=pedestal_display_void_staff,distance=..5,tag=!ID_added] pedestal_ID = @s pedestal_ID
+scoreboard players operation #temp pedestal_ID = @s pedestal_ID
+execute as @e[tag=pedestal_display_void_staff,distance=..5,predicate=vred:id_check1] at @s run tag @s add ID_added
+scoreboard players operation #temp ID = @s ID
+clear @a[predicate=vred:id_check] written_book[custom_data={vred_recipe_book:1b}]
