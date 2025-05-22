@@ -1,0 +1,3 @@
+execute if entity @s[type=!player] at @s facing entity @e[type=item_display,distance=..8,tag=aiglos_trident,sort=nearest,limit=1] feet facing ^ ^.5 ^-1 run function vred:aiglos/non_player
+scoreboard players set $strength player_motion.api.launch 17500
+execute if entity @s[type=player] at @s facing entity @e[type=item_display,distance=..8,tag=aiglos_trident,sort=nearest,limit=1] feet facing ^ ^.5 ^-1 run function player_motion:api/launch_looking

@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "vred:wither_sickles"
+        }
+      }
+    },
+    "rewards": {
+      "function": "vred:wither_sickles/craft"
+    }
+  }
+  

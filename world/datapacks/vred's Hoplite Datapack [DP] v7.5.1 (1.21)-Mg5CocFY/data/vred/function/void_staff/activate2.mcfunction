@@ -1,0 +1,2 @@
+execute unless score @s void_staffcounter matches 2 run function vred:void_staff/teleport/raycast
+execute if score @s void_staffcounter matches 2 run tellraw @s {"color":"red","text":"[!] You can't use the Teleport ability, 2 portals are active at the moment"}

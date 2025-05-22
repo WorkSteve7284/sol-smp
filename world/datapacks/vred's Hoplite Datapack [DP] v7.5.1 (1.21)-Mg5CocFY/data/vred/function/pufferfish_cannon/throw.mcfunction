@@ -1,0 +1,4 @@
+execute if score #skins_vfx.enabled item_check matches 1.. unless predicate vred:pufferfish_cannon_skin run execute anchored eyes run summon minecraft:pufferfish ^ ^ ^0.8 {Tags:["motion_pf"]}
+execute if score #skins_vfx.enabled item_check matches 1.. if predicate vred:pufferfish_cannon_skin run execute anchored eyes run summon minecraft:pufferfish ^ ^ ^0.8 {Tags:["motion_pf","skin_pf"]}
+execute if score #skins_vfx.enabled item_check matches ..0 run execute anchored eyes run summon minecraft:pufferfish ^ ^ ^0.8 {Tags:["motion_pf"]}
+scoreboard players set @s[tag=!no_cooldown] pufferfish_cooldown 120

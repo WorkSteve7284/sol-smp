@@ -1,0 +1,2 @@
+scoreboard players operation #temp ID = @s ID
+$execute as @e[distance=..10,predicate=!vred:stuff,predicate=!vred:id_check] at @s run damage @s $(damage) player_explosion by @a[predicate=vred:id_check,limit=1]

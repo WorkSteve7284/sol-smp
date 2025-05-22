@@ -1,0 +1,1 @@
+execute if score @s warpick_cooldown matches ..0 run function vred:warpick/mine1

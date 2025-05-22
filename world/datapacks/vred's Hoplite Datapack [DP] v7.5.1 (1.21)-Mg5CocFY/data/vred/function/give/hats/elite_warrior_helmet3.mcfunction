@@ -1,0 +1,1 @@
+give @p carved_pumpkin[custom_name='[{"text":"Elite Warrior Helmet","italic":false,"color":"white"}]',custom_model_data=252,minecraft:food={nutrition:0,saturation:0,can_always_eat:true,eat_seconds:1000000},attribute_modifiers={modifiers:[{type:"generic.armor",amount:5,slot:head,id:"hat.generic.armor",operation:add_value}]},custom_data={hoplitecustom_hat:1b}]

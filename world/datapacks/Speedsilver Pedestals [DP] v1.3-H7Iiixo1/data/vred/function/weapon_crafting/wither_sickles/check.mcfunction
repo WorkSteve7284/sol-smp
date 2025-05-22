@@ -1,0 +1,12 @@
+execute if score #wither_sickles.crafted item_check matches ..0 run function vred:weapon_crafting/pedestal/fail1
+execute store result score #wither_skeleton_skull item_check run clear @s wither_skeleton_skull 0
+execute store result score #diamond_hoe item_check run clear @s diamond_hoe[!custom_data,!custom_model_data] 0
+execute store result score #soul_sand item_check run clear @s soul_sand 0
+execute if score #wither_sickles.crafted item_check matches 1.. run execute if score #wither_skeleton_skull item_check matches ..0 if score #diamond_hoe item_check matches ..1 if score #soul_sand item_check matches ..1 run function vred:weapon_crafting/pedestal/fail
+execute if score #wither_sickles.crafted item_check matches 1.. run execute if score #wither_skeleton_skull item_check matches ..0 if score #diamond_hoe item_check matches ..1 if score #soul_sand item_check matches 2.. run function vred:weapon_crafting/pedestal/fail
+execute if score #wither_sickles.crafted item_check matches 1.. run execute if score #wither_skeleton_skull item_check matches ..0 if score #diamond_hoe item_check matches 2.. if score #soul_sand item_check matches ..1 run function vred:weapon_crafting/pedestal/fail
+execute if score #wither_sickles.crafted item_check matches 1.. run execute if score #wither_skeleton_skull item_check matches ..0 if score #diamond_hoe item_check matches 2.. if score #soul_sand item_check matches 2.. run function vred:weapon_crafting/pedestal/fail
+execute if score #wither_sickles.crafted item_check matches 1.. run execute if score #wither_skeleton_skull item_check matches 1.. if score #diamond_hoe item_check matches ..1 if score #soul_sand item_check matches ..1 run function vred:weapon_crafting/pedestal/fail
+execute if score #wither_sickles.crafted item_check matches 1.. run execute if score #wither_skeleton_skull item_check matches 1.. if score #diamond_hoe item_check matches ..1 if score #soul_sand item_check matches 2.. run function vred:weapon_crafting/pedestal/fail
+execute if score #wither_sickles.crafted item_check matches 1.. run execute if score #wither_skeleton_skull item_check matches 1.. if score #diamond_hoe item_check matches 2.. if score #soul_sand item_check matches ..1 run function vred:weapon_crafting/pedestal/fail
+execute if score #wither_sickles.crafted item_check matches 1.. run execute if score #wither_skeleton_skull item_check matches 1.. if score #diamond_hoe item_check matches 2.. if score #soul_sand item_check matches 2.. run function vred:weapon_crafting/wither_sickles/success

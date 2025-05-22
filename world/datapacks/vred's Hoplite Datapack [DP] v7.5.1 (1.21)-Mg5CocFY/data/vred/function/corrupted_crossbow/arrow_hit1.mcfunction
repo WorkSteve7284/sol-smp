@@ -1,0 +1,1 @@
+$damage @s $(corrupted_crossbow) player_attack by @a[tag=corrupted_crossbowdmg,limit=1]

@@ -1,0 +1,1 @@
+$damage @s $(crimson_extrahit) vred:atk_nocd by @a[tag=crimson_hit,limit=1]

@@ -1,0 +1,38 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:blaze_rod"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{ice_horn:1b}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "items": [
+                "minecraft:blaze_rod"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{ice_horn:1b}"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+  

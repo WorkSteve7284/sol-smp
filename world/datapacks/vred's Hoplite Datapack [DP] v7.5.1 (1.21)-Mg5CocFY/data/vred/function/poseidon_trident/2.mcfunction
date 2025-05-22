@@ -1,0 +1,2 @@
+execute if entity @e[type=arrow,distance=..2.5,nbt={life:0s,inGround:0b,crit:1b}] run function vred:poseidon_trident/riptide
+execute if entity @e[type=arrow,distance=..2.5,nbt={life:0s,inGround:0b,crit:0b}] run function vred:poseidon_trident/poseidon2

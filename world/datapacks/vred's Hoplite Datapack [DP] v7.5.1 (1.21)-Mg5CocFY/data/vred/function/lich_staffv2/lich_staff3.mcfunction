@@ -1,0 +1,1 @@
+execute as @e[tag=iceball,nbt=!{item:{id:"minecraft:snowball",Count:1b,tag:{CustomModelData:6}}}] at @s run data merge entity @s {billboard:"center",item:{id:"minecraft:snowball",Count:1b,tag:{CustomModelData:6}}}

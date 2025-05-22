@@ -1,0 +1,15 @@
+execute positioned ^ ^ ^1 run function vred:evoker_wand/raycast/raycast
+execute positioned ^ ^ ^2 run function vred:evoker_wand/raycast/raycast
+execute positioned ^ ^ ^3 run function vred:evoker_wand/raycast/raycast
+execute positioned ^ ^ ^4 run function vred:evoker_wand/raycast/raycast
+execute positioned ^ ^ ^5 run function vred:evoker_wand/raycast/raycast
+execute positioned ^ ^ ^6 run function vred:evoker_wand/raycast/raycast
+execute positioned ^ ^ ^7 run function vred:evoker_wand/raycast/raycast
+execute positioned ^ ^ ^8 run function vred:evoker_wand/raycast/raycast
+execute positioned ^ ^ ^9 run function vred:evoker_wand/raycast/raycast
+execute positioned ^ ^ ^10 run function vred:evoker_wand/raycast/raycast
+execute positioned ^ ^ ^11 run function vred:evoker_wand/raycast/raycast
+execute positioned ^ ^ ^12 run function vred:evoker_wand/raycast/raycast
+execute positioned ^ ^ ^13 run function vred:evoker_wand/raycast/raycast
+execute positioned ^ ^ ^14 run function vred:evoker_wand/raycast/raycast
+execute positioned ^ ^ ^15 run function vred:evoker_wand/raycast/raycast

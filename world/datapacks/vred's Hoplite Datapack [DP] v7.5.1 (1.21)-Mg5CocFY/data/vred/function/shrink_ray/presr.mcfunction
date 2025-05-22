@@ -1,0 +1,2 @@
+execute if entity @e[type=arrow,distance=..4,nbt={life:0s,inGround:0b,crit:1b}] run function vred:shrink_ray/sr
+execute if entity @e[type=arrow,distance=..4,nbt={life:0s,inGround:0b,crit:0b}] run function vred:shrink_ray/fake

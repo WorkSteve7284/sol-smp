@@ -1,0 +1,15 @@
+scoreboard players operation #temp pedestal_ID = @s pedestal_ID
+kill @e[predicate=vred:id_check1,tag=pedestal_display,distance=..5]
+execute align xyz run summon item_display ~0.5 ~1.25 ~0.5 {teleport_duration:2,item_display:"ground",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},Tags:["cloud_sword_item","cloud_sword_pedestal","pedestal_display_cloud_sword","pedestal_display"],item:{id:"minecraft:diamond_sword",count:1b,components:{custom_model_data:7}}}
+execute align xyz run summon interaction ~0.5 ~1 ~0.5 {width:1,height:1,response:1b,Tags:["crafting_cloud_sword","crafting_inter","cloud_sword_pedestal","pedestal_display_cloud_sword","pedestal_display"]}
+execute align xyz run summon text_display ~0.5 ~2 ~0.5 {alignment:"center",billboard:"center",shadow:1b,Tags:["cloud_sword_text1","cloud_sword_pedestal","pedestal_display_cloud_sword","pedestal_display"],brightness:{sky:15,block:15},text:'[{"text":"Cloud Sword","color":"gold","bold":true}]'}
+execute align xyz run summon text_display ~0.5 ~2.25 ~0.5 {alignment:"center",billboard:"center",shadow:1b,Tags:["cloud_sword_text0","cloud_sword_pedestal","pedestal_display_cloud_sword","pedestal_display"],brightness:{sky:15,block:15},text:'[{"text":"x1 ","color":"white"},{"translate":"block.minecraft.cake","color":"green"}]'}
+execute align xyz run summon text_display ~0.5 ~2.5 ~0.5 {alignment:"center",billboard:"center",shadow:1b,Tags:["cloud_sword_text1","cloud_sword_pedestal","pedestal_display_cloud_sword","pedestal_display"],brightness:{sky:15,block:15},text:'[{"text":"x1 ","color":"white"},{"translate":"item.minecraft.golden_carrot","color":"green"}]'}
+execute align xyz run summon text_display ~0.5 ~2.75 ~0.5 {alignment:"center",billboard:"center",shadow:1b,Tags:["cloud_sword_text2","cloud_sword_pedestal","pedestal_display_cloud_sword","pedestal_display"],brightness:{sky:15,block:15},text:'[{"text":"x6 ","color":"white"},{"translate":"item.minecraft.feather","color":"green"}]'}
+execute align xyz run summon text_display ~0.5 ~3.0 ~0.5 {alignment:"center",billboard:"center",shadow:1b,Tags:["cloud_sword_text3","cloud_sword_pedestal","pedestal_display_cloud_sword","pedestal_display"],brightness:{sky:15,block:15},text:'[{"text":"x1 ","color":"white"},{"translate":"item.minecraft.diamond_sword","color":"green"}]'}
+execute align xyz run summon text_display ~0.5 ~3.25 ~0.5 {alignment:"center",billboard:"center",shadow:1b,Tags:["cloud_sword_text3","cloud_sword_pedestal","pedestal_display_cloud_sword","pedestal_display"],brightness:{sky:15,block:15},text:'[{"text":"Materials: ","color":"blue"}]'}
+scoreboard players operation @e[tag=pedestal_display_cloud_sword,distance=..5,tag=!ID_added] pedestal_ID = @s pedestal_ID
+scoreboard players operation #temp pedestal_ID = @s pedestal_ID
+execute as @e[tag=pedestal_display_cloud_sword,distance=..5,predicate=vred:id_check1] at @s run tag @s add ID_added
+scoreboard players operation #temp ID = @s ID
+clear @a[predicate=vred:id_check] written_book[custom_data={vred_recipe_book:1b}]

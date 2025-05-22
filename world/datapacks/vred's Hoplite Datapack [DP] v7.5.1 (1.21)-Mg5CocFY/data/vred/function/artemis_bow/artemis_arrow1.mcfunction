@@ -1,0 +1,6 @@
+scoreboard players add @e[type=arrow,tag=artemis_arrow] atimer 1
+execute as @e[type=arrow,tag=artemis_arrow,scores={atimer=10..}] at @s run teleport @s ~ ~ ~ facing entity @e[sort=nearest,type=!arrow,tag=!artemis_bow,predicate=!vred:stuff,limit=1,distance=..40]
+execute as @e[type=arrow,tag=artemis_arrow,scores={atimer=10..}] at @s if entity @e[sort=nearest,type=!arrow,predicate=!vred:stuff,tag=!artemis_bow,limit=1,distance=..40] run teleport @s ^ ^ ^1 facing entity @e[sort=nearest,type=!arrow,tag=!artemis_bow,predicate=!vred:stuff,limit=1,distance=..40]
+execute at @e[type=arrow,tag=artemis_arrow,scores={atimer=10..}] if entity @e[distance=..1,predicate=!vred:stuff,type=!arrow,type=!player] run summon lightning_bolt
+execute as @e[type=arrow,tag=artemis_arrow,scores={atimer=10..}] at @s run execute at @e[type=lightning_bolt,distance=..2] run particle dust{color:[1.00,0.88,0.31],scale:1} ~ ~1 ~ 1 1 1 0.2 150
+execute as @e[type=arrow,tag=artemis_arrow,scores={atimer=10..}] at @s if entity @e[type=lightning_bolt,distance=..2] run kill

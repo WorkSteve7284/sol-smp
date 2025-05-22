@@ -1,0 +1,10 @@
+function vred:give/artemis_bow
+function vred:give/dragon_katana
+function vred:give/emerald_sword
+function vred:give/lich_staff
+function vred:give/magma_club
+function vred:give/midas_sword
+function vred:give/reaper_scythe
+function vred:give/shadow_blade
+function vred:give/sonic_crossbow
+function vred:give/warpick

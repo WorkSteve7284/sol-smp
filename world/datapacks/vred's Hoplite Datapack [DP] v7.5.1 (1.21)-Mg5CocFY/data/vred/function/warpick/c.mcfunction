@@ -1,0 +1,8 @@
+execute as @s[scores={warpick_cooldown=81..100},predicate=vred:warpick] at @s run title @s actionbar ["War Pick ",{"score":{"name":"@s","objective":"warpick_cooldown1"}},"s \uE011\uE012\uE012\uE012\uE013"]
+execute as @s[scores={warpick_cooldown=61..80},predicate=vred:warpick] at @s run title @s actionbar ["War Pick ",{"score":{"name":"@s","objective":"warpick_cooldown1"}},"s \uE008\uE012\uE012\uE012\uE013"]
+execute as @s[scores={warpick_cooldown=41..60},predicate=vred:warpick] at @s run title @s actionbar ["War Pick ",{"score":{"name":"@s","objective":"warpick_cooldown1"}},"s \uE008\uE009\uE012\uE012\uE013"]
+execute as @s[scores={warpick_cooldown=21..40},predicate=vred:warpick] at @s run title @s actionbar ["War Pick ",{"score":{"name":"@s","objective":"warpick_cooldown1"}},"s \uE008\uE009\uE009\uE012\uE013"]
+execute as @s[scores={warpick_cooldown=1..20},predicate=vred:warpick] at @s run title @s actionbar ["War Pick ",{"score":{"name":"@s","objective":"warpick_cooldown1"}},"s \uE008\uE009\uE009\uE009\uE013"]
+execute as @s[scores={warpick_cooldown=1},predicate=vred:warpick] at @s run title @s actionbar ["War Pick ",{"score":{"name":"@s","objective":"warpick_cooldown1"}},"s \uE008\uE009\uE009\uE009\uE010"]
+execute as @s[scores={warpick_cooldown=1}] at @s run playsound entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+tellraw @s[scores={warpick_cooldown=1}] [{"text":"\uE030 "},{"text":"War Pick","color":"gold"},{"text":" has recharged.","color":"green"}]

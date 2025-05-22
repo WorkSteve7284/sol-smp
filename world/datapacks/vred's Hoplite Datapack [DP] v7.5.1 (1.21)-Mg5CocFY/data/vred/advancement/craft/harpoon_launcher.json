@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "vred:harpoon_launcher"
+      }
+    }
+  },
+  "rewards": {
+    "function": "vred:crafting/harpoon_launcher"
+  }
+}

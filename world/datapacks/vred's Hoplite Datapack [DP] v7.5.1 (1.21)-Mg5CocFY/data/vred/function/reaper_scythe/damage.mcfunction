@@ -1,0 +1,1 @@
+$say I got hit $(damage1) times! 

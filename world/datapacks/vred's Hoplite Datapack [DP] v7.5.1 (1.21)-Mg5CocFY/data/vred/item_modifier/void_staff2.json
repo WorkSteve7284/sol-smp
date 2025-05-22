@@ -1,0 +1,29 @@
+[
+  {
+    "function": "minecraft:set_custom_model_data",
+    "value": 4
+  },
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "Void Staff",
+      "color": "gold",
+      "bold": false,
+      "italic": false,
+      "extra": [
+        {
+          "text": " - ",
+          "color": "gray"
+        },
+        {
+          "text": "Teleport Mode",
+          "color": "white"
+        }
+      ]
+    }
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{void_staff:2b}"
+  }
+]

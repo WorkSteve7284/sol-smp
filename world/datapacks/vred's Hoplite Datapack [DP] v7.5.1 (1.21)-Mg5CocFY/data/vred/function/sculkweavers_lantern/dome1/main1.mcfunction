@@ -1,0 +1,22 @@
+execute if score @s rayAge matches 1 run function vred:sculkweavers_lantern/dome1/placing/1
+execute if score @s rayAge matches 301 run function vred:sculkweavers_lantern/dome1/removal/10
+execute if score @s rayAge matches 5 run function vred:sculkweavers_lantern/dome1/placing/2
+execute if score @s rayAge matches 305 run function vred:sculkweavers_lantern/dome1/removal/9
+execute if score @s rayAge matches 9 run function vred:sculkweavers_lantern/dome1/placing/3
+execute if score @s rayAge matches 309 run function vred:sculkweavers_lantern/dome1/removal/8
+execute if score @s rayAge matches 13 run function vred:sculkweavers_lantern/dome1/placing/4
+execute if score @s rayAge matches 313 run function vred:sculkweavers_lantern/dome1/removal/7
+execute if score @s rayAge matches 17 run function vred:sculkweavers_lantern/dome1/placing/5
+execute if score @s rayAge matches 317 run function vred:sculkweavers_lantern/dome1/removal/6
+execute if score @s rayAge matches 21 run function vred:sculkweavers_lantern/dome1/placing/6
+execute if score @s rayAge matches 321 run function vred:sculkweavers_lantern/dome1/removal/5
+execute if score @s rayAge matches 25 run function vred:sculkweavers_lantern/dome1/placing/7
+execute if score @s rayAge matches 325 run function vred:sculkweavers_lantern/dome1/removal/4
+execute if score @s rayAge matches 29 run function vred:sculkweavers_lantern/dome1/placing/8
+execute if score @s rayAge matches 329 run function vred:sculkweavers_lantern/dome1/removal/3
+execute if score @s rayAge matches 33 run function vred:sculkweavers_lantern/dome1/placing/9
+execute if score @s rayAge matches 333 run function vred:sculkweavers_lantern/dome1/removal/2
+execute if score @s rayAge matches 37 run function vred:sculkweavers_lantern/dome1/placing/10
+execute if score @s rayAge matches 337 run function vred:sculkweavers_lantern/dome1/removal/1
+execute if score @s rayAge matches 338.. run kill @s
+scoreboard players add @s rayAge 1

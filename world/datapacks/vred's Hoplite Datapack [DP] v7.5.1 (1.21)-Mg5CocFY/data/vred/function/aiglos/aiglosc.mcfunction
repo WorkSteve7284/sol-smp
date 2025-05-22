@@ -1,0 +1,10 @@
+execute as @s[scores={aiglos_cooldown=121..140},predicate=vred:aiglos] at @s run title @s actionbar ["Aiglos ",{"score":{"name":"@s","objective":"aiglos_cooldown1"}},"s \uE011\uE012\uE012\uE012\uE012\uE012\uE013"]
+execute as @s[scores={aiglos_cooldown=101..120},predicate=vred:aiglos] at @s run title @s actionbar ["Aiglos ",{"score":{"name":"@s","objective":"aiglos_cooldown1"}},"s \uE008\uE012\uE012\uE012\uE012\uE012\uE013"]
+execute as @s[scores={aiglos_cooldown=81..100},predicate=vred:aiglos] at @s run title @s actionbar ["Aiglos ",{"score":{"name":"@s","objective":"aiglos_cooldown1"}},"s \uE008\uE009\uE012\uE012\uE012\uE012\uE013"]
+execute as @s[scores={aiglos_cooldown=61..80},predicate=vred:aiglos] at @s run title @s actionbar ["Aiglos ",{"score":{"name":"@s","objective":"aiglos_cooldown1"}},"s \uE008\uE009\uE009\uE012\uE012\uE012\uE013"]
+execute as @s[scores={aiglos_cooldown=41..60},predicate=vred:aiglos] at @s run title @s actionbar ["Aiglos ",{"score":{"name":"@s","objective":"aiglos_cooldown1"}},"s \uE008\uE009\uE009\uE009\uE012\uE012\uE013"]
+execute as @s[scores={aiglos_cooldown=21..40},predicate=vred:aiglos] at @s run title @s actionbar ["Aiglos ",{"score":{"name":"@s","objective":"aiglos_cooldown1"}},"s \uE008\uE009\uE009\uE009\uE009\uE012\uE013"]
+execute as @s[scores={aiglos_cooldown=1..20},predicate=vred:aiglos] at @s run title @s actionbar ["Aiglos ",{"score":{"name":"@s","objective":"aiglos_cooldown1"}},"s \uE008\uE009\uE009\uE009\uE009\uE009\uE013"]
+execute as @s[scores={aiglos_cooldown=1},predicate=vred:aiglos] at @s run title @s actionbar ["Aiglos ",{"score":{"name":"@s","objective":"aiglos_cooldown1"}},"s \uE008\uE009\uE009\uE009\uE009\uE009\uE010"]
+execute as @s[scores={aiglos_cooldown=1}] at @s run playsound entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+tellraw @s[scores={aiglos_cooldown=1}] [{"text":"\uE030 "},{"text":"Aiglos","color":"gold"},{"text":" has recharged.","color":"green"}]

@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": " {guardian_cannon:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "vred:guardian_cannon/test"
+  }
+}
