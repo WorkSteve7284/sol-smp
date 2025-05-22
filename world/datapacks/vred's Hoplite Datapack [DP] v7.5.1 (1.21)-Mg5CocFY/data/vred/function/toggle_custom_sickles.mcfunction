@@ -1,1 +1,0 @@
-function vred:purge_sickles/switch-12
