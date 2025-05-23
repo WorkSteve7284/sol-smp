@@ -26,9 +26,63 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2025-05-23 18:51:02 -0400",
+      "minecraft:ocean": "2025-05-23 19:47:36 -0400",
+      "minecraft:river": "2025-05-23 19:46:47 -0400",
+      "minecraft:stony_shore": "2025-05-23 19:47:08 -0400",
+      "minecraft:plains": "2025-05-23 19:46:45 -0400",
       "minecraft:jagged_peaks": "2025-05-23 18:52:31 -0400"
     },
     "done": false
+  },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "criteria": {
+      "netherite_hoe": "2025-05-23 19:43:12 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2025-05-23 19:48:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-05-23 19:48:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-05-23 19:48:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2025-05-23 19:49:23 -0400",
+      "minecraft:nether_wastes": "2025-05-23 19:49:16 -0400",
+      "minecraft:soul_sand_valley": "2025-05-23 19:49:22 -0400"
+    },
+    "done": false
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-05-23 19:49:16 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-05-23 19:49:16 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-05-23 19:49:59 -0400"
+    },
+    "done": true
   },
   "DataVersion": 3955
 }

@@ -9,7 +9,7 @@ data-version: 3|2|3955
   z: -41
   yaw: 161.58888
   type: admin
-  name: Super Duper Shop
+  name: Joe the Dealer
   object:
     type: villager
     baby: false

@@ -24,6 +24,12 @@
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "7d4e6e31-3b64-4b12-887d-0a338e61297e",
+    "name": "CT_Assailant",
+    "level": 1,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "97577127-d93b-3825-9c2e-7d7d310046d3",
     "name": "worksteve",
     "level": 1,
