@@ -1,7 +1,7 @@
-[17:45:53] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:45:54] [ServerMain/ERROR]: Unknown biome, defaulting to plains
-[17:45:55] [ServerMain/INFO]: Loaded 1290 recipes
-[17:45:55] [ServerMain/ERROR]: Failed to load function vred:weapon_crafting/aiglos/success
+[19:15:34] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:15:36] [ServerMain/ERROR]: Unknown biome, defaulting to plains
+[19:15:37] [ServerMain/INFO]: Loaded 1290 recipes
+[19:15:37] [ServerMain/ERROR]: Failed to load function vred:weapon_crafting/aiglos/success
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 13: Can't find element 'minecraft:lightning' of type 'minecraft:entity_type' at position 16: ... lightning<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -17,294 +17,425 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 13
 	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 6 more
-[17:45:56] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[17:45:56] [Server thread/INFO]: Loading properties
-[17:45:56] [Server thread/INFO]: This server is running CraftBukkit version 4344-Spigot-a759b62-19bf846 (MC: 1.21.1) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[17:45:56] [Server thread/INFO]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
-[17:45:56] [Server thread/INFO]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
-[17:45:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:45:56] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:45:56] [Server thread/INFO]: Debug logging is disabled
-[17:45:56] [Server thread/INFO]: Default game type: SURVIVAL
-[17:45:56] [Server thread/INFO]: Generating keypair
-[17:45:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:45:57] [Server thread/INFO]: Using epoll channel type
-[17:45:57] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.131
-[17:45:58] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[17:45:58] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
-[17:45:58] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.3.0
-[17:45:58] [Server thread/INFO]: [VentureChat] Loading VentureChat v3.7.2
-[17:45:58] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.29.0
-[17:45:58] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
-[17:45:58] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
-[17:45:58] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.131[m
-[17:45:58] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
-[17:45:58] [Server thread/INFO]: [m
-[17:45:58] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[17:45:59] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[17:45:59] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[17:45:59] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[17:45:59] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1315ms)
-[17:45:59] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[17:45:59] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[17:45:59] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[17:45:59] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[17:45:59] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
-[17:45:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:45:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:45:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:45:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:45:59] [Server thread/INFO]: Preparing level "world"
-[17:45:59] [Server thread/INFO]: -------- World Settings For [world] --------
-[17:45:59] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:45:59] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:45:59] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:45:59] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:45:59] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:45:59] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:45:59] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:45:59] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:45:59] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:45:59] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:45:59] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:45:59] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:45:59] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:45:59] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:45:59] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:45:59] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:45:59] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[17:45:59] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[17:45:59] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[17:45:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[17:45:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[17:45:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[17:45:59] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:45:59] [Server thread/INFO]: Mob Spawn Range: 6
-[17:45:59] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[17:45:59] [Server thread/INFO]: Max TNT Explosions: 100
-[17:45:59] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:45:59] [Server thread/INFO]: View Distance: 10
-[17:45:59] [Server thread/INFO]: Simulation Distance: 10
-[17:45:59] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:45:59] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:45:59] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:45:59] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[17:45:59] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:45:59] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:46:00] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[17:46:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:46:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:46:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:46:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:46:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:46:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:46:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:46:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:46:00] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:46:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:46:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:46:00] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:46:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:46:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:46:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:46:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:46:00] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[17:46:00] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[17:46:00] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[17:46:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[17:46:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[17:46:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[17:46:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:46:00] [Server thread/INFO]: Mob Spawn Range: 6
-[17:46:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[17:46:00] [Server thread/INFO]: Max TNT Explosions: 100
-[17:46:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:46:00] [Server thread/INFO]: View Distance: 10
-[17:46:00] [Server thread/INFO]: Simulation Distance: 10
-[17:46:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:46:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:46:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:46:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[17:46:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:46:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:46:01] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[17:46:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[17:46:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[17:46:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[17:46:01] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:46:01] [Server thread/INFO]: Mob Spawn Range: 6
-[17:46:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[17:46:01] [Server thread/INFO]: Max TNT Explosions: 100
-[17:46:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:46:01] [Server thread/INFO]: View Distance: 10
-[17:46:01] [Server thread/INFO]: Simulation Distance: 10
-[17:46:01] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:46:01] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:46:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:46:01] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[17:46:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:46:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:46:01] [Server thread/INFO]: -------- World Settings For [world_vred_data_void] --------
-[17:46:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[17:46:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[17:46:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[17:46:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[17:46:01] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:46:01] [Server thread/INFO]: Mob Spawn Range: 6
-[17:46:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[17:46:01] [Server thread/INFO]: Max TNT Explosions: 100
-[17:46:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:46:01] [Server thread/INFO]: View Distance: 10
-[17:46:01] [Server thread/INFO]: Simulation Distance: 10
-[17:46:01] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:46:01] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:46:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:46:01] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[17:46:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:46:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:46:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:46:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:46:02] [Worker-Main-5/INFO]: Preparing spawn area: 93%
-[17:46:02] [Server thread/INFO]: Time elapsed: 536 ms
-[17:46:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:46:02] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[17:46:02] [Server thread/INFO]: Time elapsed: 208 ms
-[17:46:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:46:02] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[17:46:02] [Server thread/INFO]: Time elapsed: 115 ms
-[17:46:02] [Server thread/INFO]: Preparing start region for dimension vred:data_void
-[17:46:02] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[17:46:02] [Server thread/INFO]: Time elapsed: 71 ms
-[17:46:02] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[17:46:02] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[17:46:02] [Server thread/INFO]: [VentureChat] Enabling VentureChat v3.7.2
-[17:46:02] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Initializing...[m
-[17:46:02] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Config found! Loading file.[m
-[17:46:02] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Checking for Vault...[m
-[17:46:02] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Loading player data[m
-[17:46:02] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Registering Listeners[m
-[17:46:02] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Attaching to Executors[m
-[17:46:02] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Enabling PlaceholderAPI Hook[m
-[17:46:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: venturechat [3.7.2]
-[17:46:02] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Enabled Successfully[m
-[17:46:02] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.29.0
-[17:46:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:46:02] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[17:46:02] [Server thread/INFO]: Done (2.933s)! For help, type "help"
-[17:46:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
-[17:46:02] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.4.131 which is not a depend or softdepend of this plugin.
-[17:46:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
-[17:46:02] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend or softdepend of this plugin.
-[17:46:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
-[17:46:02] [Server thread/INFO]: [0;32;1m3 placeholder hook(s) registered![m
-[17:46:02] [Craft Scheduler Thread - 1/INFO]: [Vault] Checking for Updates ... 
-[17:46:03] [Craft Scheduler Thread - 1/INFO]: [Vault] No new version available
-[17:46:03] [pool-11-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (9d4734818ab27069d76f264a4cda74a699806770)
-[17:46:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
-[17:46:04] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[17:46:05] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[17:46:05] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:console-relay(1368283493095702578)
-[17:46:05] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Saved linked accounts in 4ms
-[17:46:05] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling VentureChat hook
-[17:46:05] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling LuckPerms hook
-[17:46:05] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling PlaceholderAPI hook
-[17:46:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: discordsrv [1.29.0]
-[17:46:05] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 2/2 guilds (0 cancelled)
-[17:49:26] [User Authenticator #1/INFO]: UUID of player GalacticCreator7 is 7cbdae8c-394a-33ab-9b48-a6e2e32164ff
-[17:49:26] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;31;1m - Detected Offline UUID![m
-[17:49:26] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;31;1m - If you are using BungeeCord, make sure you have properly setup IP Forwarding.[m
-[17:49:26] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;31;1m - https://www.spigotmc.org/wiki/bungeecord-ip-forwarding/[m
-[17:49:26] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;31;1m - You can access this wiki page from the log file or just Google it.[m
-[17:49:26] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;31;1m - If you're running a "cracked" server, player data might not be stored properly, and thus, you are on your own.[m
-[17:49:26] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;31;1m - If you run your server in offline mode, you will probably lose your player data when switching to online mode![m
-[17:49:26] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;31;1m - No player data will be saved in offline mode unless you set the "cracked" server acknowledgement in the config![m
-[17:49:26] [Server thread/INFO]: GalacticCreator7 joined the game
-[17:49:27] [Server thread/INFO]: GalacticCreator7[/204.111.140.53:1250] logged in with entity id 75 at ([world]86.80869323220982, 84.03260094158935, -361.23030100423347)
-[17:50:05] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Mr.Void > ip
-[17:50:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Mr.Void > address
-[17:50:12] [Server thread/INFO]: GalacticCreator7 issued server command: /kill
-[17:50:12] [Server thread/INFO]: GalacticCreator7 was killed
-[17:50:12] [Server thread/INFO]: [GalacticCreator7: Killed GalacticCreator7]
-[17:50:15] [User Authenticator #2/INFO]: UUID of player voidkiller196 is 621c1320-53bc-322d-be79-38b020d72245
-[17:50:16] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;31;1m - Detected Offline UUID![m
-[17:50:16] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;31;1m - If you are using BungeeCord, make sure you have properly setup IP Forwarding.[m
-[17:50:16] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;31;1m - https://www.spigotmc.org/wiki/bungeecord-ip-forwarding/[m
-[17:50:16] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;31;1m - You can access this wiki page from the log file or just Google it.[m
-[17:50:16] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;31;1m - If you're running a "cracked" server, player data might not be stored properly, and thus, you are on your own.[m
-[17:50:16] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;31;1m - If you run your server in offline mode, you will probably lose your player data when switching to online mode![m
-[17:50:16] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;31;1m - No player data will be saved in offline mode unless you set the "cracked" server acknowledgement in the config![m
-[17:50:16] [Server thread/INFO]: voidkiller196 joined the game
-[17:50:16] [Server thread/INFO]: voidkiller196[/71.58.245.143:56699] logged in with entity id 813 at ([world]-33.16336789955101, 129.78261590512201, 26.089572225780373)
-[17:50:28] [Server thread/INFO]: voidkiller196 issued server command: /a
-[17:50:29] [Server thread/INFO]: voidkiller196 issued server command: /tbd
-[17:50:32] [Craft Scheduler Thread - 4/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [38;2;0;207;255m[Server Developer][m voidkiller196[0;32;22m:[0;32;22m bro[m
-[17:50:40] [Craft Scheduler Thread - 7/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [38;2;0;207;255m[Server Developer][m voidkiller196[0;32;22m:[0;32;22m its not on here[m
-[17:50:44] [Server thread/INFO]: voidkiller196 issued server command: /tbd
-[17:50:56] [Server thread/INFO]: voidkiller196 issued server command: /tbd
-[17:51:06] [Server thread/INFO]: [Not Secure] [Server] i gotta stop this rq
-[17:51:32] [Server thread/INFO]: GalacticCreator7 lost connection: Disconnected
-[17:51:32] [Server thread/INFO]: GalacticCreator7 left the game
-[17:51:33] [Server thread/INFO]: Stopping the server
-[17:51:33] [Server thread/INFO]: Stopping server
-[17:51:33] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.29.0
-[17:51:34] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 278ms
-[17:51:34] [Server thread/INFO]: [VentureChat] Disabling VentureChat v3.7.2
-[17:51:34] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Disabling...[m
-[17:51:34] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Disabled Successfully[m
-[17:51:34] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
-[17:51:34] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
-[17:51:34] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[17:51:34] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.131
-[17:51:34] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[17:51:34] [Server thread/INFO]: [LuckPerms] Closing storage...
-[17:51:34] [Server thread/INFO]: [LuckPerms] Goodbye!
-[17:51:34] [Server thread/INFO]: Saving players
-[17:51:34] [Server thread/INFO]: voidkiller196 lost connection: Server closed
-[17:51:34] [Server thread/INFO]: voidkiller196 left the game.
-[17:51:34] [Server thread/INFO]: Saving worlds
-[17:51:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:51:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:51:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:51:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_vred_data_void]'/vred:data_void
-[17:51:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:51:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:51:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:51:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (data_void): All chunks are saved
-[17:51:38] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:15:38] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[19:15:38] [Server thread/INFO]: Loading properties
+[19:15:38] [Server thread/INFO]: This server is running CraftBukkit version 4344-Spigot-a759b62-19bf846 (MC: 1.21.1) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[19:15:38] [Server thread/INFO]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
+[19:15:38] [Server thread/INFO]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
+[19:15:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:15:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:15:38] [Server thread/INFO]: Debug logging is disabled
+[19:15:38] [Server thread/INFO]: Default game type: SURVIVAL
+[19:15:38] [Server thread/INFO]: Generating keypair
+[19:15:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:15:38] [Server thread/INFO]: Using epoll channel type
+[19:15:39] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.131
+[19:15:40] [Server thread/INFO]: [EnchantControl] Loading EnchantControl v1.4.6
+[19:15:40] [Server thread/INFO]: [DisablePotions] Loading DisablePotions v1.1
+[19:15:40] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[19:15:40] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
+[19:15:40] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.3.0
+[19:15:40] [Server thread/INFO]: [BanItem] Loading BanItem v3.7
+[19:15:40] [Server thread/INFO]: [VentureChat] Loading VentureChat v3.7.2
+[19:15:40] [Server thread/INFO]: [Shopkeepers] Loading Shopkeepers v2.23.5
+[19:15:41] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (644 ms).
+[19:15:41] [Server thread/INFO]: [Shopkeepers] Compatibility provider loaded: 1_21_R2
+[19:15:41] [Server thread/INFO]: [Shopkeepers] Loading config.
+[19:15:41] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': CREAKING
+[19:15:41] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+[19:15:41] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
+[19:15:41] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': CREAKING
+[19:15:41] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+[19:15:41] [Server thread/INFO]: [Shopkeepers] Registering defaults.
+[19:15:41] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.29.0
+[19:15:41] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[19:15:41] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[19:15:41] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.131[m
+[19:15:41] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[19:15:41] [Server thread/INFO]: [m
+[19:15:41] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[19:15:41] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[19:15:42] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[19:15:42] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[19:15:42] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1026ms)
+[19:15:42] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[19:15:42] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[19:15:42] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[19:15:42] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[19:15:42] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[19:15:42] [Server thread/INFO]: Preparing level "world"
+[19:15:42] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:15:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[19:15:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[19:15:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[19:15:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:15:42] [Server thread/INFO]: Mob Spawn Range: 6
+[19:15:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:15:42] [Server thread/INFO]: Max TNT Explosions: 100
+[19:15:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:15:42] [Server thread/INFO]: View Distance: 8
+[19:15:42] [Server thread/INFO]: Simulation Distance: 8
+[19:15:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:15:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:15:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:15:42] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[19:15:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:15:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:15:42] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[19:15:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[19:15:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[19:15:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[19:15:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[19:15:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:15:42] [Server thread/INFO]: Mob Spawn Range: 6
+[19:15:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:15:42] [Server thread/INFO]: Max TNT Explosions: 100
+[19:15:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:15:42] [Server thread/INFO]: View Distance: 8
+[19:15:42] [Server thread/INFO]: Simulation Distance: 8
+[19:15:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:15:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:15:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:15:42] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[19:15:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:15:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:15:43] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[19:15:43] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[19:15:43] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[19:15:43] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[19:15:43] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:15:43] [Server thread/INFO]: Mob Spawn Range: 6
+[19:15:43] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:15:43] [Server thread/INFO]: Max TNT Explosions: 100
+[19:15:43] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:15:43] [Server thread/INFO]: View Distance: 8
+[19:15:43] [Server thread/INFO]: Simulation Distance: 8
+[19:15:43] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:15:43] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:15:43] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:15:43] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[19:15:43] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:15:43] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:15:43] [Server thread/INFO]: -------- World Settings For [world_vred_data_void] --------
+[19:15:43] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[19:15:43] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[19:15:43] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[19:15:43] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[19:15:43] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:15:43] [Server thread/INFO]: Mob Spawn Range: 6
+[19:15:43] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:15:43] [Server thread/INFO]: Max TNT Explosions: 100
+[19:15:43] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:15:43] [Server thread/INFO]: View Distance: 8
+[19:15:43] [Server thread/INFO]: Simulation Distance: 8
+[19:15:43] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:15:43] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:15:43] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:15:43] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[19:15:43] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:15:43] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:15:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:15:43] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:15:44] [Server thread/INFO]: Time elapsed: 526 ms
+[19:15:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:15:44] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[19:15:44] [Server thread/INFO]: Time elapsed: 226 ms
+[19:15:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:15:44] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[19:15:44] [Server thread/INFO]: Time elapsed: 120 ms
+[19:15:44] [Server thread/INFO]: Preparing start region for dimension vred:data_void
+[19:15:44] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[19:15:44] [Server thread/INFO]: Time elapsed: 98 ms
+[19:15:44] [Server thread/INFO]: [EnchantControl] Enabling EnchantControl v1.4.6
+[19:15:44] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[9m---------------------------------------------[m
+[19:15:44] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m                     WARNING                   [m
+[19:15:44] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[m
+[19:15:44] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m            [0;36;22m[[0;31;1mEnchantControl[0;36;22m]             [m
+[19:15:44] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m          Could not determine VERSION.         [m
+[19:15:44] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m  Assuming you are running higher than [0;36;1m1.14  [m
+[19:15:44] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[m
+[19:15:44] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m                     WARNING                   [m
+[19:15:44] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[9m---------------------------------------------[m
+[19:15:44] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[9m---------------------------------[m
+[19:15:44] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m        [0;36;22m[[0;31;1mEnchantControl[0;36;22m][m
+[19:15:44] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m][m
+[19:15:44] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m      EnchantControl Enabled[m
+[19:15:44] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m       Server Version: 1.14[m
+[19:15:44] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m      Plugin Version: 1.4.6[m
+[19:15:44] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m                                               [m
+[19:15:44] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[9m------------------------------------------[m
+[19:15:44] [Server thread/INFO]: 
+[19:15:44] [Server thread/INFO]: [DisablePotions] Enabling DisablePotions v1.1
+[19:15:44] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[19:15:44] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[19:15:44] [Server thread/INFO]: [BanItem] Enabling BanItem v3.7
+[19:15:44] [Server thread/INFO]: [VentureChat] Enabling VentureChat v3.7.2
+[19:15:44] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Initializing...[m
+[19:15:44] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Config found! Loading file.[m
+[19:15:44] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Checking for Vault...[m
+[19:15:44] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Loading player data[m
+[19:15:44] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Registering Listeners[m
+[19:15:44] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Attaching to Executors[m
+[19:15:44] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Enabling PlaceholderAPI Hook[m
+[19:15:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: venturechat [3.7.2]
+[19:15:44] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Enabled Successfully[m
+[19:15:44] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.23.5
+[19:15:45] [Server thread/INFO]: [Shopkeepers] Loading the data of 1 shopkeepers ...
+[19:15:45] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.29.0
+[19:15:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:15:45] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[19:15:45] [Server thread/INFO]: Done (2.960s)! For help, type "help"
+[19:15:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[19:15:45] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.4.131 which is not a depend or softdepend of this plugin.
+[19:15:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[19:15:45] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend or softdepend of this plugin.
+[19:15:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[19:15:45] [Server thread/INFO]: [0;32;1m3 placeholder hook(s) registered![m
+[19:15:45] [Craft Scheduler Thread - 4/INFO]: [Vault] Checking for Updates ... 
+[19:15:45] [Craft Scheduler Thread - 4/INFO]: [Vault] No new version available
+[19:15:46] [pool-11-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (9d4734818ab27069d76f264a4cda74a699806770)
+[19:15:46] [Server thread/INFO]: [BanItem] Successfully loaded 9 blacklisted & 0 whitelisted item(s).[m
+[19:15:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[19:15:46] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[19:15:48] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[19:15:48] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:console-relay(1368283493095702578)
+[19:15:48] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Saved linked accounts in 3ms
+[19:15:48] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling VentureChat hook
+[19:15:48] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling LuckPerms hook
+[19:15:48] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling PlaceholderAPI hook
+[19:15:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: discordsrv [1.29.0]
+[19:15:48] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 2/2 guilds (0 cancelled)
+[19:15:49] [User Authenticator #1/INFO]: UUID of player GalacticCreator7 is 8138fc9b-2060-497c-9c84-c07011d6cb11
+[19:15:50] [Server thread/INFO]: GalacticCreator7 joined the game
+[19:15:50] [Server thread/INFO]: GalacticCreator7 has made the advancement [Diamonds!]
+[19:15:50] [Server thread/INFO]: GalacticCreator7[/204.111.140.53:1998] logged in with entity id 102 at ([world]7.7813098299993815, 151.55502563694355, -42.96561623353501)
+[19:15:57] [User Authenticator #2/INFO]: UUID of player voidkiller196 is bb029f2d-92ab-43d2-aed3-f8e6f976b2a7
+[19:15:58] [Server thread/INFO]: voidkiller196 joined the game
+[19:15:58] [Server thread/INFO]: voidkiller196[/71.58.245.143:58017] logged in with entity id 246 at ([world]11.097299278190471, 151.782615905122, -38.20392011068786)
+[19:16:01] [Craft Scheduler Thread - 0/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] voidkiller196[0;32;22m:[0;37;1m adfas[m
+[19:16:03] [Craft Scheduler Thread - 0/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] voidkiller196[0;32;22m:[0;37;1m YOOOO\[m
+[19:16:06] [Craft Scheduler Thread - 4/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] GalacticCreator7[0;32;22m:[0;37;1m YEAH[m
+[19:16:21] [Server thread/INFO]: voidkiller196 issued server command: /lp user voidkiller196 permission set luckperms.* true
+[19:16:27] [Server thread/INFO]: voidkiller196 issued server command: /lp user voidkiller196 parent add developer
+[19:16:27] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:16:27] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent add developer[m
+[19:16:29] [Craft Scheduler Thread - 6/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [38;2;0;207;255m[Server Developer][m voidkiller196[0;32;22m:[0;37;1m a[m
+[19:16:32] [Craft Scheduler Thread - 1/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] GalacticCreator7[0;32;22m:[0;37;1m yippeee[m
+[19:16:36] [Server thread/INFO]: voidkiller196 issued server command: /lp user GalacticCreator7 parent add developer
+[19:16:36] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mgalacticcreator7[0;30;1m)[m
+[19:16:36] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent add developer[m
+[19:17:04] [Server thread/INFO]: voidkiller196 issued server command: /lp editor
+[19:17:14] [Server thread/INFO]: voidkiller196 issued server command: /lp user voidkiller196 permission set luckperms.editor true
+[19:17:14] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:17:14] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set luckperms.editor true[m
+[19:17:17] [Server thread/INFO]: voidkiller196 issued server command: /lp editor
+[19:17:21] [Craft Scheduler Thread - 8/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [38;2;0;207;255m[Server Developer][m GalacticCreator7[0;32;22m:[0;37;1m you know how to wg right[m
+[19:17:26] [Craft Scheduler Thread - 5/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [38;2;0;207;255m[Server Developer][m voidkiller196[0;32;22m:[0;37;1m yea ofc[m
+[19:17:26] [Craft Scheduler Thread - 6/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [38;2;0;207;255m[Server Developer][m GalacticCreator7[0;32;22m:[0;37;1m westin?[m
+[19:17:27] [Server thread/INFO]: voidkiller196 issued server command: /tbd
+[19:17:29] [Craft Scheduler Thread - 5/INFO]: [0;37;1m[[0;33;22mTBD Team Channel[0;37;1m] [38;2;0;207;255m[Server Developer][m voidkiller196[0;33;22m:[0;33;22m no[m
+[19:17:30] [Craft Scheduler Thread - 6/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [38;2;0;207;255m[Server Developer][m GalacticCreator7[0;32;22m:[0;37;1m ok cool you can help me[m
+[19:17:31] [Craft Scheduler Thread - 2/INFO]: [0;37;1m[[0;33;22mTBD Team Channel[0;37;1m] [38;2;0;207;255m[Server Developer][m voidkiller196[0;33;22m:[0;33;22m yo[m
+[19:17:41] [Server thread/INFO]: voidkiller196 issued server command: /force GalacticCreator7 /tbd
+[19:17:41] [Server thread/INFO]: GalacticCreator7 issued server command: /tbd 
+[19:17:44] [Craft Scheduler Thread - 2/INFO]: [0;37;1m[[0;33;22mTBD Team Channel[0;37;1m] [38;2;0;207;255m[Server Developer][m voidkiller196[0;33;22m:[0;33;22m its our team chat[m
+[19:17:47] [Craft Scheduler Thread - 5/INFO]: [0;37;1m[[0;33;22mTBD Team Channel[0;37;1m] [38;2;0;207;255m[Server Developer][m voidkiller196[0;33;22m:[0;33;22m he left[m
+[19:17:54] [Server thread/INFO]: voidkiller196 issued server command: /chatinfo voidkiller196
+[19:17:57] [Server thread/INFO]: voidkiller196 issued server command: /filter off
+[19:18:00] [Server thread/INFO]: voidkiller196 issued server command: /commandspy
+[19:18:11] [Server thread/INFO]: voidkiller196 issued server command: /lp user voidkiller196 permission set venturechat.* true
+[19:18:11] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:18:11] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set venturechat.* true[m
+[19:18:14] [Server thread/INFO]: voidkiller196 issued server command: /commandspy
+[19:18:19] [Server thread/INFO]: voidkiller196 issued server command: /lp user voidkiller196 permission set venturechat.commandspy true
+[19:18:19] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:18:19] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set venturechat.commandspy true[m
+[19:18:21] [Server thread/INFO]: voidkiller196 issued server command: /commandspy
+[19:19:28] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Hitmen] Idiot (stabs anything moving) > Hello
+[19:19:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Hitmen] Idiot (stabs anything moving) > How is server?
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add venturechat.staffchannel true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add minecraft.command.pardon-ip true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add minecraft.command.stopsound true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add venturechat.chatinfo true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add venturechat.spam.bypass true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add minecraft.command.pardon true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add minecraft.nbt.place true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add venturechat.spy.override true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add venturechat.donatorchannel true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add minecraft.nbt true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add venturechat.spy true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add minecraft.command.tag true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add venturechat.removemessage true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add venturechat.gui true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add minecraft.command.minecraft:execute true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add minecraft.command.say true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add minecraft.command.scoreboard true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add venturechat.format true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add minecraft.command.trigger true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add venturechat.spam true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add venturechat.json.owner true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add minecraft.nbt.copy true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add venturechat.force true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add minecraft.command.stop true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add venturechat.color true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add venturechat.mute true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add minecraft.command.whitelist true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add venturechat.color.legacy true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add venturechat.ignorefilter true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add minecraft.command.minecraft:function true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mvoidkiller196[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add venturechat.commandspy.override true[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1m621c1320-53bc-322d-be79-38b020d72245[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor delete[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1m7cbdae8c-394a-33ab-9b48-a6e2e32164ff[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor delete[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1m97577127-d93b-3825-9c2e-7d7d310046d3[0;30;1m)[m
+[19:19:38] [luckperms-worker-7/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor delete[m
+[19:19:43] [Craft Scheduler Thread - 9/INFO]: [0;37;1m[[0;33;22mTBD Team Channel[0;37;1m] [38;2;0;207;255m[Server Developer][m voidkiller196[0;33;22m:[0;33;22m good[m
+[19:19:57] [Craft Scheduler Thread - 10/INFO]: [0;37;1m[[0;33;22mTBD Team Channel[0;37;1m] [38;2;0;207;255m[Server Developer][m voidkiller196[0;33;22m:[0;33;22m eric let me disable chat spam for yall[m
+[19:20:10] [Server thread/INFO]: voidkiller196 issued server command: /lp group default permission set luckperms.log false
+[19:20:10] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
+[19:20:10] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set luckperms.log false[m
+[19:20:14] [Server thread/INFO]: voidkiller196 issued server command: /lp group default permission set luckperms.log.* false
+[19:20:14] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mvoidkiller196[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
+[19:20:14] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set luckperms.log.* false[m
+[19:20:20] [Server thread/INFO]: voidkiller196 issued server command: /g
+[19:20:21] [Craft Scheduler Thread - 6/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [38;2;0;207;255m[Server Developer][m voidkiller196[0;32;22m:[0;37;1m good[m
+[19:20:24] [Server thread/INFO]: Stopping the server
+[19:20:24] [Server thread/INFO]: Stopping server
+[19:20:24] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.29.0
+[19:20:24] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 354ms
+[19:20:24] [Server thread/INFO]: [Shopkeepers] Disabling Shopkeepers v2.23.5
+[19:20:24] [Server thread/INFO]: [VentureChat] Disabling VentureChat v3.7.2
+[19:20:24] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Disabling...[m
+[19:20:24] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Disabled Successfully[m
+[19:20:24] [Server thread/INFO]: [BanItem] Disabling BanItem v3.7
+[19:20:24] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
+[19:20:24] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[19:20:24] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[19:20:24] [Server thread/INFO]: [DisablePotions] Disabling DisablePotions v1.1
+[19:20:24] [Server thread/INFO]: [EnchantControl] Disabling EnchantControl v1.4.6
+[19:20:24] [Server thread/INFO]: EnchantControl Disabled
+[19:20:24] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.131
+[19:20:24] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[19:20:24] [Server thread/INFO]: [LuckPerms] Closing storage...
+[19:20:24] [Server thread/INFO]: [LuckPerms] Goodbye!
+[19:20:24] [Server thread/INFO]: Saving players
+[19:20:24] [Server thread/INFO]: GalacticCreator7 lost connection: Server closed
+[19:20:24] [Server thread/INFO]: GalacticCreator7 left the game.
+[19:20:24] [Server thread/INFO]: voidkiller196 lost connection: Server closed
+[19:20:24] [Server thread/INFO]: voidkiller196 left the game.
+[19:20:24] [Server thread/INFO]: Saving worlds
+[19:20:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:20:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:20:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:20:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_vred_data_void]'/vred:data_void
+[19:20:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:20:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:20:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:20:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (data_void): All chunks are saved
+[19:20:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

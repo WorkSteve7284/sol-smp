@@ -1,0 +1,16 @@
+name: worksteve
+current: MissingDefault
+ignores: ''
+listen: MissingDefault
+mutes: {}
+blockedcommands: ''
+host: false
+party: ''
+filter: true
+notifications: true
+spy: false
+commandspy: false
+rangedspy: false
+messagetoggle: true
+bungeetoggle: true
+date: 2025/May/23 18:51:30

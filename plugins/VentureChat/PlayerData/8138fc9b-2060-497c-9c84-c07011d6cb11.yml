@@ -1,0 +1,16 @@
+name: GalacticCreator7
+current: TBD
+ignores: ''
+listen: Marketplace,Staff,TBD,Team3,Team2,Team1,Global
+mutes: {}
+blockedcommands: ''
+host: false
+party: ''
+filter: true
+notifications: true
+spy: false
+commandspy: false
+rangedspy: false
+messagetoggle: true
+bungeetoggle: true
+date: 2025/May/23 19:20:24
