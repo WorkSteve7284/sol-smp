@@ -1,1 +1,0 @@
-execute align y if block ~ ~ ~ air positioned ~ ~-1 ~ run function vred:sculkweavers_lantern/entity/raycast

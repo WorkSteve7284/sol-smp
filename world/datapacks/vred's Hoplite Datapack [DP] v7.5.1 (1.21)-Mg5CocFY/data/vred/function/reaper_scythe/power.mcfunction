@@ -1,1 +1,0 @@
-$damage @s $(damage1) vred:reaper_attack by @a[tag=reaper_scythe1,limit=1]

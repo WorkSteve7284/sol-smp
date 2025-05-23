@@ -1,2 +1,0 @@
-scoreboard players operation #temp ID = @s ID
-execute unless data entity @s Target run data modify entity @s Target set from entity @e[distance=2.., limit=1,type=!minecraft:shulker_bullet,predicate=!vred:id_check,predicate=!vred:stuff,sort=nearest] UUID

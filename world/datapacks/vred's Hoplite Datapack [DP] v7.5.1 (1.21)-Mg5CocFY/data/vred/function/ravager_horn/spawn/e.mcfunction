@@ -1,1 +1,0 @@
-return run execute on vehicle unless entity @s

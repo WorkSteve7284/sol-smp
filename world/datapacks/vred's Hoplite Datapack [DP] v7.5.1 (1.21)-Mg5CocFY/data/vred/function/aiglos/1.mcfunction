@@ -1,2 +1,0 @@
-execute if entity @e[type=arrow,distance=..2.5,nbt={life:0s,inGround:0b,crit:1b}] anchored eyes run function vred:aiglos/aiglos1
-execute if entity @e[type=arrow,distance=..2.5,nbt={life:0s,inGround:0b,crit:0b}] run function vred:aiglos/aiglos2

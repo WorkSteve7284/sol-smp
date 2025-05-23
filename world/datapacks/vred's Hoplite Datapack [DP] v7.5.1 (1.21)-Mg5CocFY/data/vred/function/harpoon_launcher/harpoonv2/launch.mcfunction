@@ -1,3 +1,0 @@
-execute as @s at @s run summon item_display ^ ^ ^ {Tags:["harpoon_hook","vred_projectile"]}
-scoreboard players operation @e[type=minecraft:item_display,tag=harpoon_hook,nbt=!{item:{id:"minecraft:arrow",count:1,components:{"minecraft:custom_model_data":4}}},distance=..2] ID = @s ID
-execute as @s at @s run tp @e[type=minecraft:item_display,tag=harpoon_hook,nbt=!{item:{id:"minecraft:arrow",count:1,components:{"minecraft:custom_model_data":4}}},distance=..2] ^ ^ ^1 ~ ~

@@ -1,2 +1,0 @@
-execute as @s[tag=!pmotion_added] at @s rotated as @p run function vred:pufferfish_cannon/apply_motion
-execute if entity @s[tag=skin_pf] if data entity @s {OnGround:true} run particle dust{color:[0.21568627450980393,0.5215686274509804,0.792156862745098],scale:1} ~ ~ ~ 0.4 0 0.4 0.5 25

@@ -1,1 +1,0 @@
-return run execute on origin if entity @s[predicate=vred:sculkweavers_lantern]

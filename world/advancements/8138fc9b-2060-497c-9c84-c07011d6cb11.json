@@ -36,12 +36,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bookshelf": {
-    "criteria": {
-      "has_book": "2025-05-23 19:16:13 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
       "has_diamond": "2025-05-23 19:15:50 -0400"
@@ -66,21 +60,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/lectern": {
-    "criteria": {
-      "has_book": "2025-05-23 19:16:13 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2025-05-23 19:15:50 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
-    "criteria": {
-      "has_book": "2025-05-23 19:16:13 -0400"
     },
     "done": true
   },
@@ -93,12 +75,6 @@
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
       "has_diamond": "2025-05-23 19:15:50 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/writable_book": {
-    "criteria": {
-      "has_book": "2025-05-23 19:16:13 -0400"
     },
     "done": true
   },
@@ -129,6 +105,30 @@
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2025-05-23 19:15:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-05-23 19:16:13 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-05-23 19:16:13 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-05-23 19:16:13 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-05-23 19:16:13 -0400"
     },
     "done": true
   },
