@@ -175,7 +175,44 @@ jsonformatting:
         - '&fChannel: {venturechat_channel_color}{venturechat_channel_name}'
         click_action: 'run_command'
         click_text: '/chlist'
-    
+  Moderator:
+    priority: 2
+    json_attributes:
+      player_displayname:
+        hover_text:
+        - '&cModerator of the server!'
+        - '&bMessage me for help!'
+        click_action: 'suggest_command'
+        click_text: '/msg {player_name}'
+      vault_prefix:
+        hover_text:
+        - '&dModerator'
+        click_action: 'run_command'
+        click_text: '/help'
+      venturechat_channel_prefix:
+        hover_text:
+        - '&fChannel: {venturechat_channel_color}{venturechat_channel_name}'
+        click_action: 'run_command'
+        click_text: '/chlist'
+Developer:
+    priority: 1
+    json_attributes:
+      player_displayname:
+        hover_text:
+        - '&cDeveloper of the server!'
+        - '&bMessage me for help!'
+        click_action: 'suggest_command'
+        click_text: '/msg {player_name}'
+      vault_prefix:
+        hover_text:
+        - '&dServer Admin'
+        click_action: 'run_command'
+        click_text: '/help'
+      venturechat_channel_prefix:
+        hover_text:
+        - '&fChannel: {venturechat_channel_color}{venturechat_channel_name}'
+        click_action: 'run_command'
+        click_text: '/chlist'
 # The icon is the block shown in the GUI
 # The text is the display name of the block icon
 # Include a slash (/) before the command   
@@ -292,7 +329,7 @@ enable_factions_channel: false
 channels: 
   Global:
     color: dark_green
-    chatcolor: dark_green
+    chatcolor: white
     mutable: true
     filter: true
     autojoin: true
@@ -305,35 +342,35 @@ channels:
     speak_permissions: None
     channel_prefix: '&f[&2Global&f]'
     format: '{venturechat_channel_prefix} {vault_prefix}{player_displayname}&2:'
-  Network:
+  TBD:
     color: gold
     chatcolor: gold
-    mutable: true
-    filter: true
-    autojoin: true
+    mutable: false
+    filter: false
+    autojoin: false
     default: false
     distance: 0
-    cooldown: 3
-    bungeecord: true
-    alias: be
-    permissions: None
-    speak_permissions: None
-    channel_prefix: '&f[&6Network&f]'
+    cooldown: 0
+    bungeecord: false
+    alias: tbd
+    permissions: tbd
+    speak_permissions: tbd
+    channel_prefix: '&f[&6TBD Team Channel&f]'
     format: '{venturechat_channel_prefix} {vault_prefix}{player_displayname}&6:'
-  Announcement:
+  THE:
     color: red
     chatcolor: red
     mutable: false
     filter: false
-    autojoin: true
+    autojoin: false
     default: false
     distance: 0
     cooldown: 0
     bungeecord: true
-    alias: announce
-    permissions: None
-    speak_permissions: announcement
-    channel_prefix: '&f[&aServer Announcement&f]'
+    alias: the
+    permissions: the
+    speak_permissions: the
+    channel_prefix: '&f[&aTHE Team Channel&f]'
     format: '{venturechat_channel_prefix} {vault_prefix}{player_displayname}&c:'
   Staff:
     color: green
@@ -350,9 +387,9 @@ channels:
     speak_permissions: None
     channel_prefix: '&f[&aStaff&f]'
     format: '{venturechat_channel_prefix} {vault_prefix}{player_displayname}&a:'
-  Donator:
-    color: light_purple
-    chatcolor: light_purple
+  [Team 1]:
+    color: yellow
+    chatcolor: yellow
     mutable: true
     filter: true
     autojoin: true
@@ -360,14 +397,14 @@ channels:
     distance: 0
     cooldown: 0
     bungeecord: false
-    alias: d
-    permissions: donatorchannel
+    alias: t1
+    permissions: team1
     speak_permissions: None
-    channel_prefix: '&f[&dDonator&f]'
+    channel_prefix: '&f[&eTeam1&f]'
     format: '{venturechat_channel_prefix} {vault_prefix}{player_displayname}&d:'
-  Help:
-    color: aqua
-    chatcolor: aqua
+  [Team 2]:
+    color: yellow
+    chatcolor: yellow
     mutable: true
     filter: true
     autojoin: true
@@ -375,12 +412,12 @@ channels:
     distance: 0
     cooldown: 0
     bungeecord: false
-    alias: h
-    permissions: None
+    alias: t2
+    permissions: team2
     speak_permissions: None
-    channel_prefix: '&f[&bHelp&f]'
+    channel_prefix: '&f[&eTeam2&f]'
     format: '{venturechat_channel_prefix} {vault_prefix}{player_displayname}&b:'
-  Trade:
+  Marketplace:
     color: dark_aqua
     chatcolor: dark_aqua
     mutable: true
@@ -390,23 +427,38 @@ channels:
     distance: 0
     cooldown: 0
     bungeecord: false
-    alias: t
+    alias: m
     permissions: None
-    speak_permissions: None
-    channel_prefix: '&f[&3Trade&f]'
+    speak_permissions: market
+    channel_prefix: '&f[&3Marketplace&f]'
     format: '{venturechat_channel_prefix} {vault_prefix}{player_displayname}&3:'
-  Local:
+  [Team 3]:
     color: yellow
     chatcolor: yellow
     mutable: true
     filter: true
     autojoin: true
     default: false
-    distance: 230
+    distance: 0
     cooldown: 0
     bungeecord: false
-    alias: l
-    permissions: None
+    alias: t3
+    permissions: team3
     speak_permissions: None
-    channel_prefix: '&f[&eLocal&f]'
+    channel_prefix: '&f[&eTeam3&f]'
+    format: '{venturechat_channel_prefix} {vault_prefix}{player_displayname}&e:'
+ [Team 4]:
+    color: yellow
+    chatcolor: yellow
+    mutable: true
+    filter: true
+    autojoin: true
+    default: false
+    distance: 0
+    cooldown: 0
+    bungeecord: false
+    alias: t4
+    permissions: team4
+    speak_permissions: None
+    channel_prefix: '&f[&eTeam4&f]'
     format: '{venturechat_channel_prefix} {vault_prefix}{player_displayname}&e:'
