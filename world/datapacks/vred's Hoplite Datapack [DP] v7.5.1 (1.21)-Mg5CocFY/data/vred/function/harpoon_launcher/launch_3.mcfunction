@@ -1,3 +1,0 @@
-execute if entity @s[type=!player] at @s facing entity @e[type=player,distance=..100,tag=hparrow_pulling,sort=nearest,limit=1] eyes rotated ~ ~20 positioned ^ ^0.5 ^ run function vred:harpoon_launcher/non_player
-scoreboard players set $strength player_motion.api.launch 30000
-execute if entity @s[type=player] at @s facing entity @e[type=player,distance=..100,tag=hparrow_pulling,sort=nearest,limit=1] eyes positioned ^ ^1 ^1 rotated ~ ~20 run function player_motion:api/launch_looking

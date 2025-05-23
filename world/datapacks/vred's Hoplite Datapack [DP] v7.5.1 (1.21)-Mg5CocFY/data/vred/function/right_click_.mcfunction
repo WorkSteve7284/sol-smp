@@ -1,1 +1,0 @@
-execute as @s[predicate=vred:evoker_wand] at @s run function vred:evoker_wand/shield/activate

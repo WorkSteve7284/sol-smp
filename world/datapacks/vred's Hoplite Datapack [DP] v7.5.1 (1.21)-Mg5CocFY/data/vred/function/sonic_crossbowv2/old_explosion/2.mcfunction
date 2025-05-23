@@ -1,3 +1,0 @@
-$execute if score #explosion sonic_crossbow_config matches 1.. run summon creeper ~ ~0.5 ~ {Fuse:1,ExplosionRadius:$(explosion)b,ignited:1b,CustomName:'"a Sculk Explosion"',Invulnerable:1b}
-$execute if score #sculk sonic_crossbow_config matches 1.. run fill ~$(sculk) ~$(sculk) ~$(sculk) ~-$(sculk) ~-$(sculk) ~-$(sculk) minecraft:sculk replace #minecraft:sculk_replaceable
-$execute if score #damage sonic_crossbow_config matches 1.. as @e[distance=..$(damage_range),predicate=!vred:stuff,tag=!sonic_arrow] at @s run damage @s $(damage) player_explosion by @a[tag=sonic_arrow,limit=1]

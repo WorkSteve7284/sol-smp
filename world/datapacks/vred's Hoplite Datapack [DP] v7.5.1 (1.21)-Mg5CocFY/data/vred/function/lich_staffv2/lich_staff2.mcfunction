@@ -1,1 +1,0 @@
-tag @a[tag=liclich_staffv2] remove lich_staffv2

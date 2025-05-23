@@ -1,1 +1,0 @@
-execute unless function vred:evoker_wand/shield/kill facing entity @a[distance=..5,scores={evoker_timer=1..},sort=nearest,limit=1] feet facing ^ ^-0.1 ^-1 run function vred:evoker_wand/shield/non_player

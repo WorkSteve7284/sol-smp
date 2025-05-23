@@ -1,1 +1,0 @@
-execute if entity @e[predicate=!vred:harpoon_launcher,predicate=!vred:stuff,distance=..3,tag=!harpoon_manager,tag=!harpoon_launched] run function vred:harpoon_launcher/launch_2

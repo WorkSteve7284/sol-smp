@@ -1,3 +1,0 @@
-function vred:give/guardian_cannon
-execute if score #shout_crafting.enabled item_check matches 1.. run tellraw @a ["\uE031 ",{"selector":"@s","color":"dark_gray"},{"text":" has just obtained the ","color":"yellow"},{"text":"Guardian Cannon","color":"gold"},{"text":".","color":"yellow"}]
-execute if score #shout_crafting.enabled item_check matches 1.. run playsound ui.toast.challenge_complete neutral @s ~ ~ ~ 5

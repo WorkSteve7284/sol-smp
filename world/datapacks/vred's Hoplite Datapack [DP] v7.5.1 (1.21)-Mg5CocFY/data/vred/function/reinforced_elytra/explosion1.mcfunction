@@ -1,2 +1,0 @@
-execute store result storage vred:weapon_damage reinforced_elytra float 1 run scoreboard players get #reinforced_elytra hoplite_weapondmg
-function vred:reinforced_elytra/explosion with storage vred:weapon_damage
