@@ -26,7 +26,7 @@
   {
     "uuid": "7d4e6e31-3b64-4b12-887d-0a338e61297e",
     "name": "CT_Assailant",
-    "level": 1,
+    "level": 4,
     "bypassesPlayerLimit": false
   },
   {
@@ -38,7 +38,7 @@
   {
     "uuid": "8138fc9b-2060-497c-9c84-c07011d6cb11",
     "name": "GalacticCreator7",
-    "level": 1,
+    "level": 4,
     "bypassesPlayerLimit": false
   }
 ]

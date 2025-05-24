@@ -1,7 +1,7 @@
 name: CT_Assailant
 current: Global
 ignores: ''
-listen: Marketplace,Global
+listen: Marketplace,Staff,Team3,Team2,Team1,Global
 mutes: {}
 blockedcommands: ''
 host: false
@@ -13,4 +13,4 @@ commandspy: false
 rangedspy: false
 messagetoggle: true
 bungeetoggle: true
-date: 2025/May/23 19:55:53
+date: 2025/May/23 23:22:52

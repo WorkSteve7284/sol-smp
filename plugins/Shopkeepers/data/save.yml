@@ -216,4 +216,32 @@ data-version: 3|2|3955
         ==: org.bukkit.inventory.ItemStack
         v: 3955
         type: BOOK
+    '12':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3955
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            minecraft:loyalty: 3
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3955
+        type: NETHERITE_SCRAP
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3955
+        type: BOOK
+    '13':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3955
+        type: VILLAGER_SPAWN_EGG
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3955
+        type: NETHERITE_SCRAP
+        amount: 2
   snapshots: []

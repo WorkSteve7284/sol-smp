@@ -11,21 +11,20 @@
 #
 regions:
     poseidon:
-        min: {x: -35, y: 62, z: -403}
-        max: {x: -30, y: 62, z: -398}
+        min: {x: -38, y: 58, z: -404}
+        max: {x: -29, y: 71, z: -397}
         members: {}
-        flags: {other-explosion: deny, lava-fire: deny, frosted-ice-form: deny, mycelium-spread: deny,
-            water-flow: deny, leaf-decay: deny, snow-fall: deny, block-trampling: deny,
-            ice-melt: deny, firework-damage: deny, fire-spread: deny, enderdragon-block-damage: deny,
-            sculk-growth: deny, coral-fade: deny, snowman-trails: deny, rock-growth: deny,
-            wind-charge-burst: deny, mob-damage: deny, entity-painting-destroy: deny,
-            ravager-grief: deny, mushroom-growth: deny, use-anvil: deny, lightning: deny,
-            ice-form: deny, wither-damage: deny, breeze-charge-explosion: deny, enderman-grief: deny,
-            use-dripleaf: deny, pistons: deny, mob-spawning: deny, crop-growth: deny,
-            moisture-change: deny, item-drop: deny, soil-dry: deny, creeper-explosion: deny,
-            exp-drops: deny, vine-growth: deny, copper-fade: deny, item-frame-rotation: deny,
-            item-pickup: deny, snow-melt: deny, frosted-ice-melt: deny, lava-flow: deny,
-            entity-item-frame-destroy: deny, ghast-fireball: deny, grass-growth: deny}
+        flags: {other-explosion: deny, lava-fire: deny, use: deny, ice-melt: deny,
+            block-trampling: deny, snow-fall: deny, vehicle-destroy: deny, interact: deny,
+            chest-access: deny, firework-damage: deny, ride: deny, fire-spread: deny,
+            enderdragon-block-damage: deny, sleep: deny, vehicle-place: deny, snowman-trails: deny,
+            wind-charge-burst: deny, mob-damage: deny, block-break: deny, entity-painting-destroy: allow,
+            ravager-grief: allow, use-anvil: deny, respawn-anchors: deny, lightning: deny,
+            ice-form: deny, wither-damage: deny, breeze-charge-explosion: deny, lighter: deny,
+            use-dripleaf: deny, enderman-grief: deny, pvp: deny, pistons: deny, block-place: deny,
+            item-drop: allow, creeper-explosion: deny, exp-drops: deny, item-frame-rotation: deny,
+            item-pickup: allow, potion-splash: deny, damage-animals: deny, snow-melt: deny,
+            tnt: deny, entity-item-frame-destroy: allow, ghast-fireball: deny}
         owners: {}
         type: cuboid
         priority: 0

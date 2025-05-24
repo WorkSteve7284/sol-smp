@@ -258,6 +258,48 @@ blacklist:
     totem_of_undying:
       pickup: {}
       drop: {}
+    end_crystal:
+      use: {}
+    potion:
+      use: {}
+  world_the_end:
+    netherite_sword:
+      attack: {}
+    netherite_axe:
+      attack: {}
+    totem_of_undying:
+      pickup: {}
+      drops: {}
+    mace:
+      attack: {}
+    netherite_helmet:
+      wear: {}
+    netherite_chestplate:
+      wear: {}
+    netherite_leggings:
+      wear: {}
+    netherite_boots:
+      wear: {}
+  world_nether:
+    netherite_sword:
+      attack: {}
+    netherite_axe:
+      attack: {}
+    totem_of_undying:
+      hold: {}
+      pickup: {}
+    mace:
+      attack: {}
+    netherite_helmet:
+      wear: {}
+    netherite_chestplate:
+      wear: {}
+    netherite_leggings:
+      wear: {}
+    netherite_boots:
+      wear: {}
+    end_crystal:
+      use: {}
 # items:
 #  'diamond_helmet,iron_helmet':
 #    amount: 1

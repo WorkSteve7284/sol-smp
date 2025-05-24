@@ -1,5 +1,5 @@
 name: GalacticCreator7
-current: Global
+current: Staff
 ignores: ''
 listen: Marketplace,Staff,TBD,Team3,Team2,Team1,Global
 mutes: {}
@@ -13,4 +13,4 @@ commandspy: false
 rangedspy: false
 messagetoggle: true
 bungeetoggle: true
-date: 2025/May/23 19:59:07
+date: 2025/May/23 23:25:39

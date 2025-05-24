@@ -66,10 +66,10 @@ REGEN:
   linger: false
   dispense: false
 SLOW_FALLING:
-  splash: false
-  drink: false
-  linger: false
-  dispense: false
+  splash: true
+  drink: true
+  linger: true
+  dispense: true
 SLOWNESS:
   splash: false
   drink: false
@@ -91,10 +91,10 @@ THICK:
   linger: false
   dispense: false
 TURTLE_MASTER:
-  splash: false
-  drink: false
-  linger: false
-  dispense: false
+  splash: true
+  drink: true
+  linger: true
+  dispense: true
 UNCRAFTABLE:
   splash: false
   drink: false
