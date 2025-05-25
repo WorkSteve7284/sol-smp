@@ -1,1 +1,0 @@
-give @s enchanted_book[stored_enchantments={levels:{fire_aspect:2,multishot:1,punch:1,quick_charge:2,riptide:3,sharpness:2}},custom_name='["",{"text":"Grimoire","italic":false,"color":"gold"}]',lore=['["",{"translate":"item.grimoire.desc1"}]','["",{"translate":"item.grimoire.desc2"}]'],custom_model_data=1]

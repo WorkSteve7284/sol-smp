@@ -1,1 +1,0 @@
-give @s recovery_compass[custom_name='["",{"text":"Legendary Weapon Crate","italic":false,"color":"gold"}]',minecraft:food={nutrition:0,saturation:0,can_always_eat:true,eat_seconds:1000000},custom_data={crate:4b},custom_model_data=7]

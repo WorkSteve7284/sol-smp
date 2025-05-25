@@ -1,2 +1,0 @@
-execute if score #hoplite_health.enabled item_check matches 1.. run attribute @s minecraft:generic.max_health modifier add vred:hoplite_health 1 add_multiplied_base
-execute if score #hoplite_health.enabled item_check matches ..0 run attribute @s minecraft:generic.max_health modifier remove vred:hoplite_health

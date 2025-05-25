@@ -1,9 +1,0 @@
-{
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:inventory_changed"}
-    },
-    "rewards": {
-      "function": "vred:no_slots1"
-    }
-  }

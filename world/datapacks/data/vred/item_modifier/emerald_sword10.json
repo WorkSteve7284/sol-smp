@@ -1,9 +1,0 @@
-[
-  {
-    "function": "minecraft:set_enchantments",
-    "enchantments": {
-      "minecraft:sharpness": 10
-    },
-    "add": false
-  }
-]
