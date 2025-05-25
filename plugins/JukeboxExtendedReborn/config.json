@@ -1,0 +1,19 @@
+{
+  "lang": "auto",
+  "jukebox-behaviour": "vanilla",
+  "jukebox-gui-style": "scroll-vertical",
+  "jukebox-gui-size": 96,
+  "disable-music-overlap": true,
+  "jukebox-range": 64,
+  "disc-loottables-limit": {},
+  "fragment-loottables-limit": {},
+  "force-resource-pack": false,
+  "check-for-updates": true,
+  "allow-metrics": true,
+  "enable-resource-pack-host": true,
+  "web-interface-port": 9871,
+  "override-web-interface-base-url": "",
+  "web-interface-api-enabled": true,
+  "web-interface-password": "",
+  "$schema": "https://raw.githubusercontent.com/spartacus04/jext-reborn/master/schemas/config.json"
+}

@@ -50,11 +50,27 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    spawner2:
+        min: {x: -72, y: 70, z: 66}
+        max: {x: -72, y: 70, z: 66}
+        members: {}
+        flags: {block-break: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     blaze6:
         min: {x: 161, y: 76, z: 901}
         max: {x: 161, y: 76, z: 901}
         members: {}
         flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
+    spawner1:
+        min: {x: -63, y: 70, z: 120}
+        max: {x: -63, y: 70, z: 120}
+        members: {}
+        flags: {block-break: deny}
         owners: {}
         type: cuboid
         priority: 0

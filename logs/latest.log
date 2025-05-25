@@ -1,7 +1,617 @@
-[09:23:54] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[09:23:55] [ServerMain/ERROR]: Unknown biome, defaulting to plains
-[09:23:57] [ServerMain/INFO]: Loaded 1291 recipes
-[09:23:57] [ServerMain/ERROR]: Failed to load function vred:weapon_crafting/aiglos/success
+[21:18:24] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:18:24] [ServerMain/INFO]: Found non-pack entry './world/datapacks/pack.mcmeta', ignoring
+[21:18:24] [ServerMain/INFO]: Found non-pack entry './world/datapacks/pack.png', ignoring
+[21:18:24] [ServerMain/INFO]: Found non-pack entry './world/datapacks/data', ignoring
+[21:18:26] [ServerMain/INFO]: Loaded 1291 recipes
+[21:18:27] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[21:18:27] [Server thread/INFO]: Loading properties
+[21:18:27] [Server thread/INFO]: This server is running CraftBukkit version 4344-Spigot-a759b62-19bf846 (MC: 1.21.1) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[21:18:28] [Server thread/INFO]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
+[21:18:28] [Server thread/INFO]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
+[21:18:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:18:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:18:28] [Server thread/INFO]: Debug logging is disabled
+[21:18:28] [Server thread/INFO]: Default game type: SURVIVAL
+[21:18:28] [Server thread/INFO]: Generating keypair
+[21:18:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:18:28] [Server thread/INFO]: Using epoll channel type
+[21:18:29] [Server thread/INFO]: [DisableEffects] Loading DisableEffects v1.1
+[21:18:29] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.131
+[21:18:29] [Server thread/INFO]: [EnchantControl] Loading EnchantControl v1.4.6
+[21:18:29] [Server thread/INFO]: [BULPearl] Loading BULPearl v3.1.6
+[21:18:29] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
+[21:18:29] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[21:18:29] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.3.0
+[21:18:30] [Server thread/INFO]: [voicechat] Loading voicechat v2.5.26
+[21:18:30] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.3.9+6959-7adf70b
+[21:18:30] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6f6a013]
+[21:18:30] [Server thread/INFO]: [Images] Loading Images v2.5.5
+[21:18:30] [Server thread/INFO]: [Blue Slime Core] Loading BlueSlimeCore v2.9.6.431
+[21:18:30] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.29.0
+[21:18:30] [Server thread/INFO]: [F3NPerm] Loading F3NPerm v3.5
+[21:18:30] [Server thread/WARN]: [F3NPerm] Could not recognize server version, proceed with caution! (Bukkit version: 1.21.1-R0.1-SNAPSHOT)
+[21:18:30] [Server thread/INFO]: [F3NPerm] Provider ProtocolLibProvider loaded!
+[21:18:30] [Server thread/INFO]: [F3NPerm] Plugin loaded!
+[21:18:30] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.12+829a4a4
+[21:18:30] [Server thread/INFO]: [JEXT] Loading JukeboxExtendedReborn v2.1.9
+[21:18:30] [Server thread/INFO]: [Shopkeepers] Loading Shopkeepers v2.23.5
+[21:18:31] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (518 ms).
+[21:18:31] [Server thread/INFO]: [Shopkeepers] Compatibility provider loaded: 1_21_R2
+[21:18:31] [Server thread/INFO]: [Shopkeepers] Loading config.
+[21:18:31] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': CREAKING
+[21:18:31] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+[21:18:31] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
+[21:18:31] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': CREAKING
+[21:18:31] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+[21:18:31] [Server thread/INFO]: [Shopkeepers] Registering WorldGuard flag 'allow-shop'.
+[21:18:31] [Server thread/INFO]: [Shopkeepers] Registering defaults.
+[21:18:31] [Server thread/INFO]: [BanItem] Loading BanItem v3.7
+[21:18:31] [Server thread/INFO]: [GSit] Loading GSit v2.3.3
+[21:18:31] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[21:18:32] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[21:18:32] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.131[m
+[21:18:32] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[21:18:32] [Server thread/INFO]: [m
+[21:18:32] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[21:18:32] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[21:18:32] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[21:18:32] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[21:18:32] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1171ms)
+[21:18:32] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[21:18:32] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[21:18:32] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[21:18:32] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[21:18:32] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[21:18:32] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
+[21:18:32] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:18:33] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[21:18:33] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[21:18:34] [Server thread/INFO]: [WorldEdit] ====================================================
+[21:18:34] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[21:18:34] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[21:18:34] [Server thread/INFO]: [WorldEdit]   
+[21:18:34] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[21:18:34] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[21:18:34] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[21:18:34] [Server thread/INFO]: [WorldEdit]   
+[21:18:34] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[21:18:34] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[21:18:34] [Server thread/INFO]: [WorldEdit]   
+[21:18:34] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[21:18:34] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[21:18:34] [Server thread/INFO]: [WorldEdit]   
+[21:18:34] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[21:18:34] [Server thread/INFO]: [WorldEdit] ====================================================
+[21:18:34] [Server thread/INFO]: [Blue Slime Core] Enabling BlueSlimeCore v2.9.6.431
+[21:18:34] [Server thread/INFO]: [Blue Slime Core] Successfully loaded 2 language(s).
+[21:18:34] [Server thread/INFO]: [Blue Slime Core] Detected server as regular SpigotMC/PaperMC (not Folia)
+[21:18:34] [Server thread/INFO]: [JEXT] Enabling JukeboxExtendedReborn v2.1.9
+[21:18:39] [Server thread/INFO]: [[0;32;1mJEXT[0;37;1m][0;32;1m Enabled Jukebox Extended Reborn, Do Re Mi![m
+[21:18:39] [Server thread/INFO]: Preparing level "world"
+[21:18:39] [Server thread/INFO]: -------- World Settings For [world] --------
+[21:18:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:18:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:18:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:18:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:18:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:18:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:18:39] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:18:39] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:18:39] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:18:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:18:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:18:39] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:18:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:18:39] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:18:39] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:18:39] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:18:39] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[21:18:39] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[21:18:39] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[21:18:39] [Server thread/INFO]: Max TNT Explosions: 100
+[21:18:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:18:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[21:18:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[21:18:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[21:18:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:18:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:18:39] [Server thread/INFO]: Mob Spawn Range: 6
+[21:18:39] [Server thread/INFO]: View Distance: 8
+[21:18:39] [Server thread/INFO]: Simulation Distance: 8
+[21:18:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:18:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:18:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:18:39] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:18:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:18:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:18:40] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[21:18:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:18:40] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:18:40] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:18:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:18:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:18:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:18:40] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:18:40] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:18:40] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:18:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:18:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:18:40] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:18:40] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:18:40] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:18:40] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:18:40] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:18:40] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[21:18:40] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[21:18:40] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[21:18:40] [Server thread/INFO]: Max TNT Explosions: 100
+[21:18:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:18:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[21:18:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[21:18:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[21:18:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:18:40] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:18:40] [Server thread/INFO]: Mob Spawn Range: 6
+[21:18:40] [Server thread/INFO]: View Distance: 8
+[21:18:40] [Server thread/INFO]: Simulation Distance: 8
+[21:18:40] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:18:40] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:18:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:18:40] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:18:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:18:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:18:41] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[21:18:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Max TNT Explosions: 100
+[21:18:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:18:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[21:18:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[21:18:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[21:18:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:18:41] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:18:41] [Server thread/INFO]: Mob Spawn Range: 6
+[21:18:41] [Server thread/INFO]: View Distance: 8
+[21:18:41] [Server thread/INFO]: Simulation Distance: 8
+[21:18:41] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:18:41] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:18:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:18:41] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:18:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:18:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:18:41] [Server thread/INFO]: -------- World Settings For [world_vred_data_void] --------
+[21:18:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[21:18:41] [Server thread/INFO]: Max TNT Explosions: 100
+[21:18:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:18:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[21:18:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[21:18:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[21:18:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:18:41] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:18:41] [Server thread/INFO]: Mob Spawn Range: 6
+[21:18:41] [Server thread/INFO]: View Distance: 8
+[21:18:41] [Server thread/INFO]: Simulation Distance: 8
+[21:18:41] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:18:41] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:18:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:18:41] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:18:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:18:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:18:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:18:41] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[21:18:41] [Server thread/INFO]: Time elapsed: 517 ms
+[21:18:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:18:41] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[21:18:41] [Server thread/INFO]: Time elapsed: 192 ms
+[21:18:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:18:41] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[21:18:41] [Server thread/INFO]: Time elapsed: 135 ms
+[21:18:41] [Server thread/INFO]: Preparing start region for dimension vred:data_void
+[21:18:41] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[21:18:42] [Server thread/INFO]: Time elapsed: 88 ms
+[21:18:42] [Server thread/INFO]: [DisableEffects] Enabling DisableEffects v1.1
+[21:18:42] [Server thread/ERROR]: Error occurred while enabling DisableEffects v1.1 (Is it up to date?)
+java.lang.NoClassDefFoundError: net/kyori/adventure/text/Component
+	at io.github.asmodeus1354.disableEffects.DisableEffects.onEnable(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:267) ~[spigot-api-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:492) ~[spigot-api-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_21_R1.CraftServer.enablePlugin(CraftServer.java:576) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at org.bukkit.craftbukkit.v1_21_R1.CraftServer.enablePlugins(CraftServer.java:490) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:641) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:426) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:269) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1017) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: net.kyori.adventure.text.Component
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:160) ~[spigot-api-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:112) ~[spigot-api-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 12 more
+[21:18:42] [Server thread/INFO]: [EnchantControl] Enabling EnchantControl v1.4.6
+[21:18:42] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[9m---------------------------------------------[m
+[21:18:42] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m                     WARNING                   [m
+[21:18:42] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[m
+[21:18:42] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m            [0;36;22m[[0;31;1mEnchantControl[0;36;22m]             [m
+[21:18:42] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m          Could not determine VERSION.         [m
+[21:18:42] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m  Assuming you are running higher than [0;36;1m1.14  [m
+[21:18:42] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[m
+[21:18:42] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m                     WARNING                   [m
+[21:18:42] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[9m---------------------------------------------[m
+[21:18:42] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[9m---------------------------------[m
+[21:18:42] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m        [0;36;22m[[0;31;1mEnchantControl[0;36;22m][m
+[21:18:42] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m][m
+[21:18:42] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m      EnchantControl Enabled[m
+[21:18:42] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m       Server Version: 1.14[m
+[21:18:42] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m      Plugin Version: 1.4.6[m
+[21:18:42] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m                                               [m
+[21:18:42] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[9m------------------------------------------[m
+[21:18:42] [Server thread/INFO]: 
+[21:18:42] [Server thread/INFO]: [BULPearl] Enabling BULPearl v3.1.6
+[21:18:42] [Server thread/INFO]: [0;32;1m[BulPearl] [0;33;1mYour server version is v1_21_R1[m
+[21:18:42] [Server thread/INFO]: [0;32;1m[BulPearl] [0;33;1mIf that's not the case, please join the discord and contact the dev.[m
+[21:18:42] [Server thread/INFO]: [0;32;1m[BulPearl] [0;33;1mEnable BulPearl[m
+[21:18:42] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[21:18:42] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[21:18:42] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.26
+[21:18:42] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.1-R0.1
+[21:18:42] [Server thread/INFO]: [voicechat] Compatibility version 18
+[21:18:42] [Server thread/WARN]: [voicechat] Commodore command completion is not supported
+[21:18:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.5.26]
+[21:18:42] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
+[21:18:42] [Server thread/INFO]: [Images] Enabling Images v2.5.5
+[21:18:42] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.29.0
+[21:18:42] [Server thread/INFO]: [F3NPerm] Enabling F3NPerm v3.5
+[21:18:42] [Server thread/INFO]: [F3NPerm] Successfully hooked into LuckPerms!
+[21:18:42] [Server thread/INFO]: [F3NPerm] Plugin enabled!
+[21:18:42] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
+[21:18:42] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[21:18:42] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[21:18:42] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[21:18:42] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[21:18:42] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[21:18:42] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[21:18:42] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[21:18:42] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[21:18:42] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[21:18:42] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[21:18:42] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[21:18:42] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[21:18:42] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[21:18:42] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[21:18:42] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[21:18:42] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) TNT ignition is PERMITTED.
+[21:18:42] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) Lighters are PERMITTED.
+[21:18:42] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) Lava fire is PERMITTED.
+[21:18:42] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) Fire spread is UNRESTRICTED.
+[21:18:42] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_vred_data_void'
+[21:18:42] [Server thread/INFO]: [WorldGuard] Loading region data...
+[21:18:43] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.23.5
+[21:18:43] [Server thread/INFO]: [Shopkeepers] Loading the data of 1 shopkeepers ...
+[21:18:43] [Server thread/INFO]: [BanItem] Enabling BanItem v3.7
+[21:18:43] [Server thread/INFO]: [GSit] Enabling GSit v2.3.3
+[21:18:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [2.3.3]
+[21:18:43] [Server thread/INFO]: [WorldGuard] Registering session handler dev.geco.gsit.link.worldguard.RegionFlagHandler
+[21:18:43] [Server thread/INFO]: [0;37;22m[[0;33;22mGSit[0;37;22m][0;32;1m The plugin was successfully enabled.[m
+[21:18:43] [Server thread/INFO]: [0;37;22m[[0;33;22mGSit[0;37;22m][0;32;1m Link with[0;33;22m PlaceholderAPI[0;32;1m successful![m
+[21:18:43] [Server thread/INFO]: [0;37;22m[[0;33;22mGSit[0;37;22m][0;32;1m Link with[0;33;22m WorldGuard[0;32;1m successful![m
+[21:18:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:18:43] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[21:18:43] [Server thread/INFO]: Done (3.560s)! For help, type "help"
+[21:18:43] [Server thread/INFO]: [voicechat] Loading plugins
+[21:18:43] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[21:18:43] [Server thread/INFO]: [voicechat] Initializing plugins
+[21:18:43] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[21:18:43] [Server thread/INFO]: [voicechat] Using the Minecraft servers port as voice chat port
+[21:18:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[21:18:43] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.4.131 which is not a depend or softdepend of this plugin.
+[21:18:43] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 25565
+[21:18:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[21:18:43] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend or softdepend of this plugin.
+[21:18:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[21:18:43] [Server thread/INFO]: [0;32;1m3 placeholder hook(s) registered![m
+[21:18:43] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
+[21:18:43] [DefaultDispatcher-worker-1/INFO]: [[0;31;1mJEXT[0;37;1m] [0;31;1mresource-pack.zip not found, please provide it in the plugin directory[m
+[21:18:43] [DefaultDispatcher-worker-2/INFO]: [[0;31;1mJEXT[0;37;1m][0;31;1m No custom discs found! Check out the documentation for more info.[m
+[21:18:43] [DefaultDispatcher-worker-2/INFO]: [0;33;22m[[0;32;22mhttps://spartacus04.github.io/jext-reborn/docs/[0;33;22m][m
+[21:18:43] [Server thread/INFO]: [[0;32;1mJEXT[0;37;1m] [0;32;1mWebserver started on port 9871[m
+[21:18:43] [pool-15-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (9d4734818ab27069d76f264a4cda74a699806770)
+[21:18:43] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
+[21:18:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[21:18:44] [Craft Scheduler Thread - 1/INFO]: [Blue Slime Core]  
+[21:18:44] [Craft Scheduler Thread - 1/INFO]: [Blue Slime Core] [Update Checker] Found a possible update for plugin 'BlueSlimeCore'.
+[21:18:44] [Craft Scheduler Thread - 1/INFO]: [Blue Slime Core] [Update Checker] Local Version: 2.9.6.431
+[21:18:44] [Craft Scheduler Thread - 1/INFO]: [Blue Slime Core] [Update Checker] Remote Version: 2.9.6.454
+[21:18:44] [Craft Scheduler Thread - 1/INFO]: [Blue Slime Core] [Update Checker] Download Link: https://hangar.papermc.io/SirBlobman/BlueSlimeCore
+[21:18:44] [Server thread/INFO]: [BanItem] Successfully loaded 29 blacklisted & 0 whitelisted item(s).[m
+[21:18:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[21:18:45] [Craft Scheduler Thread - 1/INFO]: [Images] Loaded 0 images...
+[21:18:45] [User Authenticator #1/INFO]: [LuckPerms] Another plugin has cancelled the connection for e072ed27-2928-4c0d-9aac-b17c6a693f0b - worksteve. No permissions data will be loaded.
+[21:18:45] [User Authenticator #1/INFO]: Disconnecting worksteve (/192.168.86.1:64327): §cCurrently unavailable to check link status because the server is still connecting to Discord.
+
+Try again in a minute.
+[21:18:45] [User Authenticator #1/INFO]: UUID of player worksteve is e072ed27-2928-4c0d-9aac-b17c6a693f0b
+[21:18:45] [Server thread/INFO]: worksteve (/192.168.86.1:64327) lost connection: §cCurrently unavailable to check link status because the server is still connecting to Discord.
+
+Try again in a minute.
+[21:18:46] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[21:18:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:console-relay(1368283493095702578)
+[21:18:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Saved linked accounts in 4ms
+[21:18:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling LuckPerms hook
+[21:18:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling PlaceholderAPI hook
+[21:18:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: discordsrv [1.29.0]
+[21:18:46] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 2/2 guilds (0 cancelled)
+[21:18:54] [User Authenticator #2/INFO]: UUID of player worksteve is e072ed27-2928-4c0d-9aac-b17c6a693f0b
+[21:18:54] [Server thread/INFO]: worksteve joined the game
+[21:18:54] [Server thread/INFO]: worksteve[/192.168.86.1:64561] logged in with entity id 72 at ([world]721.4385019601315, 96.0, -203.135150516112)
+[21:18:54] [Server thread/INFO]: [voicechat] Received secret request of worksteve (18)
+[21:18:54] [Server thread/INFO]: [voicechat] Sent secret to worksteve
+[21:18:56] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e072ed27-2928-4c0d-9aac-b17c6a693f0b
+[21:18:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e072ed27-2928-4c0d-9aac-b17c6a693f0b
+[21:18:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player worksteve (e072ed27-2928-4c0d-9aac-b17c6a693f0b) successfully connected to voice chat
+[21:19:00] [Async Chat Thread - #0/INFO]: <worksteve> SERVER'S BAC[m
+[21:19:05] [Async Chat Thread - #1/INFO]: <worksteve> normal chat too[m
+[21:19:08] [Async Chat Thread - #0/INFO]: <worksteve> test discord[m
+[21:19:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > What's the command for seeing how many people are online
+[21:19:23] [User Authenticator #3/INFO]: UUID of player QuackaBear is a8d85ca1-3c68-4f60-bb64-9e30e02301be
+[21:19:24] [Server thread/INFO]: Hitman QuackaBear joined the game
+[21:19:24] [Server thread/INFO]: QuackaBear[/71.58.69.58:63926] logged in with entity id 205 at ([world]716.3353152525599, 24.5625, 217.708101737453)
+[21:19:24] [Server thread/INFO]: [voicechat] Received secret request of QuackaBear (18)
+[21:19:24] [Server thread/INFO]: [voicechat] Sent secret to QuackaBear
+[21:19:24] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player a8d85ca1-3c68-4f60-bb64-9e30e02301be
+[21:19:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player a8d85ca1-3c68-4f60-bb64-9e30e02301be
+[21:19:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player QuackaBear (a8d85ca1-3c68-4f60-bb64-9e30e02301be) successfully connected to voice chat
+[21:19:26] [User Authenticator #4/INFO]: UUID of player Runic_Spectator is d93a4f4c-cb87-43e1-b6ed-73fad1e758ae
+[21:19:26] [Async Chat Thread - #1/INFO]: <worksteve> im the only one[m
+[21:19:27] [Server thread/INFO]: Hitman Runic_Spectator joined the game
+[21:19:27] [Server thread/INFO]: Runic_Spectator[/71.58.104.58:58056] logged in with entity id 373 at ([world]725.1036861619218, 68.0, 303.3448983937835)
+[21:19:27] [Server thread/INFO]: [voicechat] Received secret request of Runic_Spectator (18)
+[21:19:27] [Server thread/INFO]: [voicechat] Sent secret to Runic_Spectator
+[21:19:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player d93a4f4c-cb87-43e1-b6ed-73fad1e758ae
+[21:19:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player d93a4f4c-cb87-43e1-b6ed-73fad1e758ae
+[21:19:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Runic_Spectator (d93a4f4c-cb87-43e1-b6ed-73fad1e758ae) successfully connected to voice chat
+[21:19:30] [Async Chat Thread - #0/INFO]: <worksteve> 3[m
+[21:19:32] [Async Chat Thread - #1/INFO]: <QuackaBear> not anymore[m
+[21:19:34] [Async Chat Thread - #0/INFO]: <Runic_Spectator> hello[m
+[21:19:37] [Async Chat Thread - #1/INFO]: <worksteve> theres 3 now[m
+[21:19:42] [Async Chat Thread - #0/INFO]: <worksteve> also do teams still work?[m
+[21:19:49] [Async Chat Thread - #1/INFO]: <worksteve> what plugin does that[m
+[21:20:22] [User Authenticator #5/INFO]: UUID of player Algorithm0_ is 8caf7e36-3e08-4dc8-9d78-dd3dfd2908af
+[21:20:22] [Server thread/INFO]: Algorithm0_ joined the game
+[21:20:22] [Server thread/INFO]: Algorithm0_[/75.75.186.168:63683] logged in with entity id 533 at ([world]591.7507071876986, -53.0, 316.5679284759319)
+[21:20:22] [Server thread/INFO]: [voicechat] Received secret request of Algorithm0_ (18)
+[21:20:22] [Server thread/INFO]: [voicechat] Sent secret to Algorithm0_
+[21:20:22] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 8caf7e36-3e08-4dc8-9d78-dd3dfd2908af
+[21:20:23] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 8caf7e36-3e08-4dc8-9d78-dd3dfd2908af
+[21:20:23] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Algorithm0_ (8caf7e36-3e08-4dc8-9d78-dd3dfd2908af) successfully connected to voice chat
+[21:20:24] [Server thread/INFO]: Hitman QuackaBear has made the advancement [Diamonds!]
+[21:21:13] [Async Chat Thread - #2/INFO]: <worksteve> is there a warped forest in the nether?[m
+[21:21:41] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] NPC1868 > Venture chat also does teams
+[21:21:48] [Async Chat Thread - #1/INFO]: <worksteve> but the teams still exist[m
+[21:21:51] [Server thread/INFO]: GalacticCreator7 (/204.111.140.53:1712) lost connection: Disconnected
+[21:21:59] [Async Chat Thread - #2/INFO]: <worksteve> also i didnt delete the plugin[m
+[21:22:03] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] NPC1868 > What happened to everyone
+[21:22:05] [Async Chat Thread - #1/INFO]: <worksteve> it still exists but is turned off[m
+[21:22:09] [Async Chat Thread - #2/INFO]: <worksteve> they didnt relog[m
+[21:22:34] [User Authenticator #6/INFO]: UUID of player Nablade is 95b42e68-2439-4a50-b435-f98489f7ced1
+[21:22:34] [Server thread/INFO]: Nablade joined the game
+[21:22:34] [Server thread/INFO]: Nablade[/71.58.88.182:50565] logged in with entity id 1207 at ([world]-94.8641107521944, 18.0, -33.46309354816925)
+[21:22:34] [Server thread/INFO]: [voicechat] Received secret request of Nablade (18)
+[21:22:34] [Server thread/INFO]: [voicechat] Sent secret to Nablade
+[21:22:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 95b42e68-2439-4a50-b435-f98489f7ced1
+[21:22:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 95b42e68-2439-4a50-b435-f98489f7ced1
+[21:22:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Nablade (95b42e68-2439-4a50-b435-f98489f7ced1) successfully connected to voice chat
+[21:22:42] [Async Chat Thread - #1/INFO]: <QuackaBear> theyre bedwars-ing[m
+[21:22:55] [Server thread/INFO]: worksteve issued server command: /team add Bagginses
+[21:22:55] [Server thread/INFO]: [worksteve: Created team [Bagginses]]
+[21:23:03] [Server thread/INFO]: worksteve issued server command: /team join Bagginses
+[21:23:03] [Server thread/INFO]: [worksteve: Added worksteve to team [Bagginses]]
+[21:23:20] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] NPC1868 > Oh lol
+[21:23:27] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] NPC1868 > Tell them to hop on for test lol
+[21:23:30] [Server thread/INFO]: Hitman Runic_Spectator has made the advancement [Enchanter]
+[21:23:33] [Async Chat Thread - #2/INFO]: <worksteve> i can see hitman in the tab menu[m
+[21:23:38] [Async Chat Thread - #1/INFO]: <worksteve> and in achievments[m
+[21:23:39] [User Authenticator #7/INFO]: UUID of player GalacticCreator7 is 8138fc9b-2060-497c-9c84-c07011d6cb11
+[21:23:40] [Server thread/INFO]: GalacticCreator7 joined the game
+[21:23:40] [Server thread/INFO]: GalacticCreator7[/204.111.140.53:1656] logged in with entity id 1755 at ([world]393.69999998807907, 87.0, 111.8063520932231)
+[21:23:41] [Server thread/INFO]: [voicechat] Received secret request of GalacticCreator7 (18)
+[21:23:41] [Server thread/INFO]: [voicechat] Sent secret to GalacticCreator7
+[21:23:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 8138fc9b-2060-497c-9c84-c07011d6cb11
+[21:23:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 8138fc9b-2060-497c-9c84-c07011d6cb11
+[21:23:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player GalacticCreator7 (8138fc9b-2060-497c-9c84-c07011d6cb11) successfully connected to voice chat
+[21:24:04] [Server thread/INFO]: worksteve issued server command: /team modify Bagginses color dark_green
+[21:24:04] [Server thread/INFO]: [worksteve: Updated the color for team [Bagginses] to dark_green]
+[21:24:20] [Async Chat Thread - #2/INFO]: <worksteve> test[m
+[21:24:25] [Async Chat Thread - #2/INFO]: <Algorithm0_> no[m
+[21:24:35] [Async Chat Thread - #1/INFO]: <worksteve> i was seeing if my chat message changed color[m
+[21:24:37] [Async Chat Thread - #2/INFO]: <worksteve> i made a team[m
+[21:24:48] [Async Chat Thread - #1/INFO]: <Algorithm0_> look in the tab menu[m
+[21:24:50] [Server thread/INFO]: worksteve issued server command: /team modify Bagginses prefix Bilbo
+[21:25:12] [Server thread/INFO]: Nablade issued server command: /gsit:bellyflop
+[21:25:16] [Server thread/INFO]: Nablade issued server command: /gsit:bellyflop
+[21:25:19] [Async Chat Thread - #2/INFO]: <GalacticCreator7> why am I gamemode adventure bruh[m
+[21:25:22] [Async Chat Thread - #1/INFO]: <worksteve> oof[m
+[21:25:23] [Server thread/INFO]: worksteve issued server command: /gamemode creative
+[21:25:26] [Server thread/INFO]: worksteve issued server command: /gamemode adventure
+[21:25:28] [Server thread/INFO]: GalacticCreator7 issued server command: /op GalacticCreator7
+[21:25:28] [Server thread/INFO]: [GalacticCreator7: Made GalacticCreator7 a server operator]
+[21:25:31] [Server thread/INFO]: GalacticCreator7 issued server command: /gamemode survival
+[21:25:36] [Server thread/INFO]: GalacticCreator7 issued server command: /gamemode survival GalacticCreator7
+[21:25:39] [Server thread/INFO]: Nablade issued server command: /global-gamerule doDaylightCycle false
+[21:25:43] [Server thread/INFO]: Nablade issued server command: /gsit:bellyflop
+[21:25:51] [Server thread/INFO]: GalacticCreator7 issued server command: /gamemode survival GalacticCreator7
+[21:25:58] [Server thread/INFO]: Hitman QuackaBear has made the advancement [Monster Hunter]
+[21:26:39] [Server thread/INFO]: GalacticCreator7 issued server command: /gamemode creative
+[21:26:39] [Server thread/INFO]: [GalacticCreator7: Set own game mode to Creative Mode]
+[21:26:45] [Server thread/INFO]: GalacticCreator7 issued server command: /gamemode survival
+[21:26:45] [Server thread/INFO]: [GalacticCreator7: Set own game mode to Survival Mode]
+[21:26:52] [Async Chat Thread - #4/INFO]: <Nablade> 578 -456[m
+[21:27:21] [Server thread/INFO]: [Not Secure] [Server] what u do
+[21:27:38] [Async Chat Thread - #3/INFO]: <GalacticCreator7> ok works now[m
+[21:27:56] [Server thread/INFO]: Plugins (18): [0;32;1mDisableEffects[0;37;1m, [0;32;1mLuckPerms[0;37;1m, [0;32;1mEnchantControl[0;37;1m, [0;32;1mBULPearl[0;37;1m, [0;32;1mPlaceholderAPI[0;37;1m, [0;32;1mVault[0;37;1m, [0;32;1mProtocolLib[0;37;1m, [0;32;1mvoicechat[0;37;1m, [0;32;1mWorldEdit[0;37;1m, [0;32;1mImages[0;37;1m, [0;32;1mBlueSlimeCore[0;37;1m, [0;32;1mDiscordSRV[0;37;1m, [0;32;1mF3NPerm[0;37;1m, [0;32;1mWorldGuard[0;37;1m, [0;32;1mJukeboxExtendedReborn[0;37;1m, [0;32;1mShopkeepers[0;37;1m, [0;32;1mBanItem[0;37;1m, [0;32;1mGSit[m
+[21:28:12] [User Authenticator #8/INFO]: UUID of player TarrioKnight is cffb87ba-4026-4ae4-967e-7cb14ec45408
+[21:28:13] [Server thread/INFO]: TarrioKnight joined the game
+[21:28:13] [Server thread/INFO]: TarrioKnight[/73.175.150.238:49689] logged in with entity id 4206 at ([world]361.5879752021307, 17.0, 111.81883991269459)
+[21:28:14] [Server thread/INFO]: [voicechat] Received secret request of TarrioKnight (18)
+[21:28:14] [Server thread/INFO]: [voicechat] Sent secret to TarrioKnight
+[21:28:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player cffb87ba-4026-4ae4-967e-7cb14ec45408
+[21:28:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player cffb87ba-4026-4ae4-967e-7cb14ec45408
+[21:28:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player TarrioKnight (cffb87ba-4026-4ae4-967e-7cb14ec45408) successfully connected to voice chat
+[21:28:19] [Server thread/INFO]: [Not Secure] [Server] chats broken what u do to it
+[21:28:25] [Async Chat Thread - #4/INFO]: <worksteve> its not broken[m
+[21:28:45] [Server thread/INFO]: [Not Secure] [Server] i turned it off
+[21:29:03] [Server thread/INFO]: [Not Secure] [Server] when u were in files u messed ventrechat and it failed to start for some reason
+[21:29:06] [Async Chat Thread - #3/INFO]: <worksteve> it was stopping Ward3r from talking[m
+[21:29:14] [Async Chat Thread - #4/INFO]: <worksteve> i moved it to a disabled folder[m
+[21:29:47] [User Authenticator #9/INFO]: UUID of player IHazHands is 8f9da2b8-41f6-439e-b709-7785b635a85d
+[21:29:48] [Server thread/INFO]: IHazHands joined the game
+[21:29:48] [Server thread/INFO]: IHazHands[/71.58.71.166:51755] logged in with entity id 5192 at ([world]718.6579373266106, 24.875, 218.8146196059404)
+[21:29:48] [Server thread/INFO]: [voicechat] Received secret request of IHazHands (18)
+[21:29:48] [Server thread/INFO]: [voicechat] Sent secret to IHazHands
+[21:29:49] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 8f9da2b8-41f6-439e-b709-7785b635a85d
+[21:29:50] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 8f9da2b8-41f6-439e-b709-7785b635a85d
+[21:29:50] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player IHazHands (8f9da2b8-41f6-439e-b709-7785b635a85d) successfully connected to voice chat
+[21:30:34] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Mr.Void (replying to Sam) > No hes just goofy and has nochatreports mod
+[21:30:44] [User Authenticator #10/INFO]: UUID of player A1klos is 92968cf2-8611-4eb4-8115-ac4a0d8f1530
+[21:30:44] [Server thread/INFO]: Hitman A1klos joined the game
+[21:30:44] [Server thread/INFO]: A1klos[/71.58.148.208:51332] logged in with entity id 5907 at ([world]713.6093890860751, 24.0, 229.07148207308398)
+[21:30:44] [Server thread/INFO]: [voicechat] Received secret request of A1klos (18)
+[21:30:44] [Server thread/INFO]: [voicechat] Sent secret to A1klos
+[21:30:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 92968cf2-8611-4eb4-8115-ac4a0d8f1530
+[21:30:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 92968cf2-8611-4eb4-8115-ac4a0d8f1530
+[21:30:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A1klos (92968cf2-8611-4eb4-8115-ac4a0d8f1530) successfully connected to voice chat
+[21:30:49] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Mr.Void > I had ti disable that on my end too
+[21:31:19] [User Authenticator #11/INFO]: UUID of player shiroi_step is c9c4cf71-309f-41a2-8142-fbde1027b25a
+[21:31:20] [Server thread/INFO]: Hitman shiroi_step joined the game
+[21:31:20] [Server thread/INFO]: shiroi_step[/70.106.211.114:63670] logged in with entity id 6538 at ([world]733.3346467729285, 71.33226489655115, 322.0823023783397)
+[21:31:20] [Server thread/INFO]: [voicechat] Received secret request of shiroi_step (18)
+[21:31:20] [Server thread/INFO]: [voicechat] Sent secret to shiroi_step
+[21:31:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player c9c4cf71-309f-41a2-8142-fbde1027b25a
+[21:31:21] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player c9c4cf71-309f-41a2-8142-fbde1027b25a
+[21:31:21] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player shiroi_step (c9c4cf71-309f-41a2-8142-fbde1027b25a) successfully connected to voice chat
+[21:31:23] [Server thread/INFO]: GalacticCreator7 has made the advancement [Ice Bucket Challenge]
+[21:31:28] [Server thread/INFO]: Nablade has made the advancement [Enchanter]
+[21:31:34] [Server thread/INFO]: TarrioKnight issued server command: /msg A1klos btw does the team know abt the promposition you gave us?
+[21:31:38] [Async Chat Thread - #5/INFO]: <GalacticCreator7> shall we test then?[m
+[21:31:39] [User Authenticator #12/INFO]: UUID of player Ward3r is 96b31cbd-bed2-41c9-9240-7926b1787e8d
+[21:31:39] [Server thread/INFO]: Ward3r joined the game
+[21:31:39] [Server thread/INFO]: Ward3r[/75.75.191.128:52503] logged in with entity id 6738 at ([world_nether]-83.03615512048694, 67.0, 107.94464561387807)
+[21:31:39] [Server thread/INFO]: [voicechat] Received secret request of Ward3r (18)
+[21:31:39] [Server thread/INFO]: [voicechat] Sent secret to Ward3r
+[21:31:39] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 96b31cbd-bed2-41c9-9240-7926b1787e8d
+[21:31:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 96b31cbd-bed2-41c9-9240-7926b1787e8d
+[21:31:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Ward3r (96b31cbd-bed2-41c9-9240-7926b1787e8d) successfully connected to voice chat
+[21:31:43] [Server thread/INFO]: A1klos issued server command: /msg TarrioKnight no
+[21:31:46] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Mr.Void > @Ward3r what client were u using
+[21:31:48] [Server thread/INFO]: Runic_Spectator issued server command: /w IHazHands The entire cartels
+[21:31:48] [Server thread/INFO]: TarrioKnight issued server command: /msg A1klos i see
+[21:31:54] [Netty Epoll Server IO #0/WARN]: Failed to update secure chat state for Ward3r: 'Chat disabled due to missing profile public key. Please try reconnecting.'
+[21:31:54] [Async Chat Thread - #4/INFO]: <Ward3r> test[m
+[21:31:57] [Async Chat Thread - #5/INFO]: <Ward3r> YES[m
+[21:31:58] [Server thread/INFO]: Hitman A1klos has made the advancement [Sweet Dreams]
+[21:32:08] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Mr.Void > Darren what mods ru running
+[21:32:10] [Async Chat Thread - #4/INFO]: <A1klos> the freaking[m
+[21:32:15] [Async Chat Thread - #5/INFO]: <Ward3r> 50+[m
+[21:32:21] [Server thread/INFO]: Runic_Spectator issued server command: /w IHazHands my team doesn't know about are heavy alliance of the cartel
+[21:32:22] [Async Chat Thread - #4/INFO]: <Ward3r> itll take a sec to list them[m
+[21:32:22] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > Darren did you have the No Chat Reports mod? If so thats the reason why it didn't work
+[21:32:22] [Async Chat Thread - #5/INFO]: <worksteve> im running 43[m
+[21:32:30] [Async Chat Thread - #4/INFO]: <A1klos> running 69[m
+[21:32:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Mr.Void > https://cdn.discordapp.com/attachments/1368282588355235881/1376010126040764486/Screenshot_20250524_213243_Discord.jpg?ex=6833c4cb&is=6832734b&hm=8364612f77c75a897ecc3bace335bceb2aadd5abca392af742b9b98fa56c590b&
+[21:33:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Mr.Void > Cus there it says ur not using secure chat
+[21:33:19] [Async Chat Thread - #5/INFO]: <GalacticCreator7> whose rich ahh built a portal with corners :skull:[m
+[21:33:22] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Mr.Void > Which means nochatreports
+[21:33:27] [Async Chat Thread - #4/INFO]: <worksteve> lol[m
+[21:33:40] [Async Chat Thread - #5/INFO]: <Nablade> NEED SUGARCANE[m
+[21:33:42] [Async Chat Thread - #4/INFO]: <worksteve> yo can you get me warped wood[m
+[21:33:43] [Async Chat Thread - #5/INFO]: <Nablade> AHHHHHHHHHHHHHHHHHHHHHHHHHH[m
+[21:33:56] [Async Chat Thread - #4/INFO]: <worksteve> I can give you 3 stacks of cobble for it[m
+[21:33:57] [Async Chat Thread - #5/INFO]: <A1klos> eric we arent chill anymore[m
+[21:34:02] [Async Chat Thread - #4/INFO]: <A1klos> >:([m
+[21:34:05] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Mr.Void > If u have a hack client installed many of those enable it by default
+[21:34:06] [Async Chat Thread - #5/INFO]: <GalacticCreator7> ?????[m
+[21:34:10] [Async Chat Thread - #4/INFO]: <GalacticCreator7> why[m
+[21:34:14] [Async Chat Thread - #5/INFO]: <GalacticCreator7> what did I do[m
+[21:34:17] [Async Chat Thread - #4/INFO]: <A1klos> nothing :)[m
+[21:34:21] [Async Chat Thread - #5/INFO]: <GalacticCreator7> bruh[m
+[21:34:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > lol
+[21:34:45] [Server thread/INFO]: Hitman A1klos has made the advancement [Who is Cutting Onions?]
+[21:35:12] [Server thread/INFO]: worksteve issued server command: /team remove Bagginses
+[21:35:12] [Server thread/INFO]: [worksteve: Removed team [Bagginses]]
+[21:35:22] [Async Chat Thread - #7/INFO]: <GalacticCreator7> sam wanna test weapons now?[m
+[21:35:25] [Server thread/INFO]: worksteve issued server command: /team add Hobbits "Hobbits"
+[21:35:25] [Server thread/INFO]: [worksteve: Created team [Hobbits]]
+[21:35:28] [Async Chat Thread - #6/INFO]: <worksteve> sure[m
+[21:35:32] [Server thread/INFO]: worksteve issued server command: /team join Hobbits
+[21:35:32] [Server thread/INFO]: [worksteve: Added worksteve to team [Hobbits]]
+[21:35:37] [Async Chat Thread - #7/INFO]: <A1klos> eric do you have any team members?[m
+[21:35:42] [Async Chat Thread - #6/INFO]: <GalacticCreator7> ok guys be ready for a lot of lag restarts and stuff[m
+[21:35:46] [Async Chat Thread - #7/INFO]: <A1klos> bruh[m
+[21:35:49] [Async Chat Thread - #6/INFO]: <GalacticCreator7> be pateint give us time, we are trying our best[m
+[21:35:53] [Server thread/INFO]: worksteve issued server command: /team modify Hobbits color dark_green
+[21:35:53] [Server thread/INFO]: [worksteve: Updated the color for team [Hobbits] to dark_green]
+[21:35:58] [Async Chat Thread - #7/INFO]: <GalacticCreator7> we made an announcement[m
+[21:35:59] [Async Chat Thread - #6/INFO]: <A1klos> eric do you have teammates[m
+[21:36:06] [Async Chat Thread - #7/INFO]: <GalacticCreator7> if your gonna be a jerk then just leave[m
+[21:36:10] [Async Chat Thread - #6/INFO]: <GalacticCreator7> Yeah full team why?[m
+[21:36:12] [Async Chat Thread - #7/INFO]: <A1klos> who[m
+[21:36:23] [Async Chat Thread - #6/INFO]: <GalacticCreator7> why?[m
+[21:36:30] [Async Chat Thread - #7/INFO]: <A1klos> I wanna know[m
+[21:36:30] [Async Chat Thread - #6/INFO]: <GalacticCreator7> u wanna see how easily you can jump me?[m
+[21:36:35] [Async Chat Thread - #7/INFO]: <A1klos> ytes[m
+[21:36:36] [Async Chat Thread - #6/INFO]: <A1klos> yes[m
+[21:36:39] [Async Chat Thread - #7/INFO]: <A1klos> :)[m
+[21:37:00] [Async Chat Thread - #6/INFO]: <GalacticCreator7> u r an actaul torrorist bro[m
+[21:37:05] [Async Chat Thread - #7/INFO]: <A1klos> THATS RACIST[m
+[21:37:05] [Async Chat Thread - #6/INFO]: <Ward3r> based.[m
+[21:37:08] [Server thread/INFO]: TarrioKnight has made the advancement [A Seedy Place]
+[21:37:23] [Async Chat Thread - #7/INFO]: <IHazHands> i need blaze rods[m
+[21:37:33] [Async Chat Thread - #6/INFO]: <IHazHands> i need to shove them in my butthole[m
+[21:37:36] [Async Chat Thread - #7/INFO]: <A1klos> what[m
+[21:37:42] [Async Chat Thread - #6/INFO]: <worksteve> i need warped wood[m
+[21:37:53] [Async Chat Thread - #7/INFO]: <GalacticCreator7> ok get ready guys[m
+[21:38:00] [Async Chat Thread - #6/INFO]: <GalacticCreator7> lets get a baseline test[m
+[21:38:04] [Async Chat Thread - #7/INFO]: <worksteve> do /tps[m
+[21:38:09] [Server thread/INFO]: GalacticCreator7 issued server command: /datapack enable "file/Speedsilver Pedestals [DP] v1.3-H7Iiixo1-zXB6PL3v.zip"
+[21:38:09] [Server thread/INFO]: [GalacticCreator7: Enabling data pack [file/Speedsilver Pedestals [DP] v1.3-H7Iiixo1-zXB6PL3v.zip (world)]]
+[21:38:09] [Server thread/INFO]: Loaded 1291 recipes
+[21:38:09] [Server thread/ERROR]: Failed to load function vred:weapon_crafting/aiglos/success
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 13: Can't find element 'minecraft:lightning' of type 'minecraft:entity_type' at position 16: ... lightning<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -17,441 +627,598 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 13
 	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 6 more
-[09:23:57] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[09:23:58] [Server thread/INFO]: Loading properties
-[09:23:58] [Server thread/INFO]: This server is running CraftBukkit version 4344-Spigot-a759b62-19bf846 (MC: 1.21.1) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[09:23:58] [Server thread/INFO]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
-[09:23:58] [Server thread/INFO]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
-[09:23:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[09:23:58] [Server thread/INFO]: Using 4 threads for Netty based IO
-[09:23:58] [Server thread/INFO]: Debug logging is disabled
-[09:23:58] [Server thread/INFO]: Default game type: SURVIVAL
-[09:23:58] [Server thread/INFO]: Generating keypair
-[09:23:58] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:23:58] [Server thread/INFO]: Using epoll channel type
-[09:23:59] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.131
-[09:24:00] [Server thread/INFO]: [EnchantControl] Loading EnchantControl v1.4.6
-[09:24:00] [Server thread/INFO]: [DisablePotions] Loading DisablePotions v1.1
-[09:24:00] [Server thread/INFO]: [BULPearl] Loading BULPearl v3.1.6
-[09:24:00] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
-[09:24:00] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[09:24:00] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.3.0
-[09:24:00] [Server thread/INFO]: [voicechat] Loading voicechat v2.5.26
-[09:24:00] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.3.9+6959-7adf70b
-[09:24:01] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@544d8bc8]
-[09:24:01] [Server thread/INFO]: [VentureChat] Loading VentureChat v3.7.2
-[09:24:01] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.29.0
-[09:24:01] [Server thread/INFO]: [F3NPerm] Loading F3NPerm v3.5
-[09:24:01] [Server thread/WARN]: [F3NPerm] Could not recognize server version, proceed with caution! (Bukkit version: 1.21.1-R0.1-SNAPSHOT)
-[09:24:01] [Server thread/INFO]: [F3NPerm] Provider ProtocolLibProvider loaded!
-[09:24:01] [Server thread/INFO]: [F3NPerm] Plugin loaded!
-[09:24:01] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.12+829a4a4
-[09:24:01] [Server thread/INFO]: [Shopkeepers] Loading Shopkeepers v2.23.5
-[09:24:01] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (563 ms).
-[09:24:01] [Server thread/INFO]: [Shopkeepers] Compatibility provider loaded: 1_21_R2
-[09:24:01] [Server thread/INFO]: [Shopkeepers] Loading config.
-[09:24:01] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': CREAKING
-[09:24:01] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
-[09:24:01] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
-[09:24:01] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': CREAKING
-[09:24:01] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
-[09:24:01] [Server thread/INFO]: [Shopkeepers] Registering WorldGuard flag 'allow-shop'.
-[09:24:01] [Server thread/INFO]: [Shopkeepers] Registering defaults.
-[09:24:01] [Server thread/INFO]: [BanItem] Loading BanItem v3.7
-[09:24:01] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
-[09:24:02] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
-[09:24:02] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.131[m
-[09:24:02] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
-[09:24:02] [Server thread/INFO]: [m
-[09:24:02] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[09:24:02] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[09:24:02] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[09:24:02] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[09:24:02] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1108ms)
-[09:24:02] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[09:24:02] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[09:24:03] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[09:24:03] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[09:24:03] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
-[09:24:03] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
-[09:24:03] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[09:24:03] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[09:24:03] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
-[09:24:04] [Server thread/INFO]: [WorldEdit] ====================================================
-[09:24:04] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[09:24:04] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[09:24:04] [Server thread/INFO]: [WorldEdit]   
-[09:24:04] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
-[09:24:04] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
-[09:24:04] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
-[09:24:04] [Server thread/INFO]: [WorldEdit]   
-[09:24:04] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[09:24:04] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
-[09:24:04] [Server thread/INFO]: [WorldEdit]   
-[09:24:04] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
-[09:24:04] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[09:24:04] [Server thread/INFO]: [WorldEdit]   
-[09:24:04] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[09:24:04] [Server thread/INFO]: [WorldEdit] ====================================================
-[09:24:04] [Server thread/INFO]: Preparing level "world"
-[09:24:04] [Server thread/INFO]: -------- World Settings For [world] --------
-[09:24:04] [Server thread/INFO]: Mob Spawn Range: 6
-[09:24:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[09:24:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[09:24:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[09:24:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[09:24:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[09:24:04] [Server thread/INFO]: Cane Growth Modifier: 100%
-[09:24:04] [Server thread/INFO]: Melon Growth Modifier: 100%
-[09:24:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[09:24:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[09:24:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[09:24:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[09:24:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[09:24:04] [Server thread/INFO]: Potato Growth Modifier: 100%
-[09:24:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[09:24:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[09:24:04] [Server thread/INFO]: Vine Growth Modifier: 100%
-[09:24:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[09:24:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[09:24:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[09:24:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[09:24:04] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[09:24:04] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[09:24:04] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[09:24:04] [Server thread/INFO]: Experience Merge Radius: 3.0
-[09:24:04] [Server thread/INFO]: Max TNT Explosions: 100
-[09:24:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[09:24:04] [Server thread/INFO]: View Distance: 8
-[09:24:04] [Server thread/INFO]: Simulation Distance: 8
-[09:24:04] [Server thread/INFO]: Item Despawn Rate: 6000
-[09:24:04] [Server thread/INFO]: Item Merge Radius: 2.5
-[09:24:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[09:24:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[09:24:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[09:24:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[09:24:05] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[09:24:05] [Server thread/INFO]: Mob Spawn Range: 6
-[09:24:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[09:24:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[09:24:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[09:24:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[09:24:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Cane Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Melon Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Potato Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Vine Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Experience Merge Radius: 3.0
-[09:24:05] [Server thread/INFO]: Max TNT Explosions: 100
-[09:24:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[09:24:05] [Server thread/INFO]: View Distance: 8
-[09:24:05] [Server thread/INFO]: Simulation Distance: 8
-[09:24:05] [Server thread/INFO]: Item Despawn Rate: 6000
-[09:24:05] [Server thread/INFO]: Item Merge Radius: 2.5
-[09:24:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[09:24:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[09:24:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[09:24:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[09:24:05] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[09:24:05] [Server thread/INFO]: Mob Spawn Range: 6
-[09:24:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[09:24:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[09:24:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[09:24:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[09:24:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Cane Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Melon Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Potato Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Vine Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Experience Merge Radius: 3.0
-[09:24:05] [Server thread/INFO]: Max TNT Explosions: 100
-[09:24:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[09:24:05] [Server thread/INFO]: View Distance: 8
-[09:24:05] [Server thread/INFO]: Simulation Distance: 8
-[09:24:05] [Server thread/INFO]: Item Despawn Rate: 6000
-[09:24:05] [Server thread/INFO]: Item Merge Radius: 2.5
-[09:24:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[09:24:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[09:24:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[09:24:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[09:24:05] [Server thread/INFO]: -------- World Settings For [world_vred_data_void] --------
-[09:24:05] [Server thread/INFO]: Mob Spawn Range: 6
-[09:24:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[09:24:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[09:24:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[09:24:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[09:24:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Cane Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Melon Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Potato Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Vine Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[09:24:05] [Server thread/INFO]: Experience Merge Radius: 3.0
-[09:24:05] [Server thread/INFO]: Max TNT Explosions: 100
-[09:24:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[09:24:05] [Server thread/INFO]: View Distance: 8
-[09:24:05] [Server thread/INFO]: Simulation Distance: 8
-[09:24:05] [Server thread/INFO]: Item Despawn Rate: 6000
-[09:24:05] [Server thread/INFO]: Item Merge Radius: 2.5
-[09:24:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[09:24:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[09:24:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[09:24:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[09:24:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:24:06] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[09:24:06] [Server thread/INFO]: Time elapsed: 533 ms
-[09:24:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[09:24:06] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[09:24:06] [Server thread/INFO]: Time elapsed: 202 ms
-[09:24:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[09:24:06] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[09:24:06] [Server thread/INFO]: Time elapsed: 124 ms
-[09:24:06] [Server thread/INFO]: Preparing start region for dimension vred:data_void
-[09:24:06] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[09:24:06] [Server thread/INFO]: Time elapsed: 93 ms
-[09:24:06] [Server thread/INFO]: [EnchantControl] Enabling EnchantControl v1.4.6
-[09:24:06] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[9m---------------------------------------------[m
-[09:24:06] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m                     WARNING                   [m
-[09:24:06] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[m
-[09:24:06] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m            [0;36;22m[[0;31;1mEnchantControl[0;36;22m]             [m
-[09:24:06] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m          Could not determine VERSION.         [m
-[09:24:06] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m  Assuming you are running higher than [0;36;1m1.14  [m
-[09:24:06] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[m
-[09:24:06] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m                     WARNING                   [m
-[09:24:06] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[9m---------------------------------------------[m
-[09:24:06] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[9m---------------------------------[m
-[09:24:06] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m        [0;36;22m[[0;31;1mEnchantControl[0;36;22m][m
-[09:24:06] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m][m
-[09:24:06] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m      EnchantControl Enabled[m
-[09:24:06] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m       Server Version: 1.14[m
-[09:24:06] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m      Plugin Version: 1.4.6[m
-[09:24:06] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m                                               [m
-[09:24:06] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[9m------------------------------------------[m
-[09:24:06] [Server thread/INFO]: 
-[09:24:06] [Server thread/INFO]: [DisablePotions] Enabling DisablePotions v1.1
-[09:24:06] [Server thread/INFO]: [BULPearl] Enabling BULPearl v3.1.6
-[09:24:07] [Server thread/INFO]: [0;32;1m[BulPearl] [0;33;1mYour server version is v1_21_R1[m
-[09:24:07] [Server thread/INFO]: [0;32;1m[BulPearl] [0;33;1mIf that's not the case, please join the discord and contact the dev.[m
-[09:24:07] [Server thread/INFO]: [0;32;1m[BulPearl] [0;33;1mEnable BulPearl[m
-[09:24:07] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[09:24:07] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[09:24:07] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.26
-[09:24:07] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.1-R0.1
-[09:24:07] [Server thread/INFO]: [voicechat] Compatibility version 18
-[09:24:07] [Server thread/WARN]: [voicechat] Commodore command completion is not supported
-[09:24:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.5.26]
-[09:24:07] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
-[09:24:07] [Server thread/INFO]: [VentureChat] Enabling VentureChat v3.7.2
-[09:24:07] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Initializing...[m
-[09:24:07] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Config found! Loading file.[m
-[09:24:07] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Checking for Vault...[m
-[09:24:07] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Loading player data[m
-[09:24:07] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Registering Listeners[m
-[09:24:07] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Attaching to Executors[m
-[09:24:07] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Enabling PlaceholderAPI Hook[m
-[09:24:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: venturechat [3.7.2]
-[09:24:07] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Enabled Successfully[m
-[09:24:07] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.29.0
-[09:24:07] [Server thread/INFO]: [F3NPerm] Enabling F3NPerm v3.5
-[09:24:07] [Server thread/INFO]: [F3NPerm] Successfully hooked into LuckPerms!
-[09:24:07] [Server thread/INFO]: [F3NPerm] Plugin enabled!
-[09:24:07] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
-[09:24:07] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[09:24:07] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[09:24:07] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[09:24:07] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[09:24:07] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[09:24:07] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[09:24:07] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[09:24:07] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[09:24:07] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[09:24:07] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[09:24:07] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[09:24:07] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[09:24:07] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[09:24:07] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[09:24:07] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[09:24:07] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) TNT ignition is PERMITTED.
-[09:24:07] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) Lighters are PERMITTED.
-[09:24:07] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) Lava fire is PERMITTED.
-[09:24:07] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) Fire spread is UNRESTRICTED.
-[09:24:07] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_vred_data_void'
-[09:24:07] [Server thread/INFO]: [WorldGuard] Loading region data...
-[09:24:07] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.23.5
-[09:24:07] [Server thread/INFO]: [Shopkeepers] Loading the data of 1 shopkeepers ...
-[09:24:08] [Server thread/INFO]: [BanItem] Enabling BanItem v3.7
-[09:24:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[09:24:08] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[09:24:08] [Server thread/INFO]: Done (3.550s)! For help, type "help"
-[09:24:08] [Server thread/INFO]: [voicechat] Loading plugins
-[09:24:08] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[09:24:08] [Server thread/INFO]: [voicechat] Initializing plugins
-[09:24:08] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[09:24:08] [Server thread/INFO]: [voicechat] Using the Minecraft servers port as voice chat port
-[09:24:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
-[09:24:08] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.4.131 which is not a depend or softdepend of this plugin.
-[09:24:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
-[09:24:08] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 25565
-[09:24:08] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend or softdepend of this plugin.
-[09:24:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
-[09:24:08] [Server thread/INFO]: [0;32;1m3 placeholder hook(s) registered![m
-[09:24:08] [Craft Scheduler Thread - 4/INFO]: [Vault] Checking for Updates ... 
-[09:24:08] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
-[09:24:08] [Craft Scheduler Thread - 4/INFO]: [Vault] No new version available
-[09:24:08] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[09:24:08] [pool-15-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (9d4734818ab27069d76f264a4cda74a699806770)
-[09:24:09] [Server thread/INFO]: [BanItem] Successfully loaded 28 blacklisted & 0 whitelisted item(s).[m
-[09:24:10] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[09:24:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:console-relay(1368283493095702578)
-[09:24:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Saved linked accounts in 3ms
-[09:24:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling VentureChat hook
-[09:24:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling LuckPerms hook
-[09:24:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling PlaceholderAPI hook
-[09:24:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: discordsrv [1.29.0]
-[09:24:10] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 2/2 guilds (0 cancelled)
-[09:24:21] [Server thread/INFO]: Incorrect argument for command
-[09:24:21] [Server thread/INFO]: ...rldborder 6<--[HERE]
-[09:24:41] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[09:24:41] [Server thread/INFO]: ...orldborder<--[HERE]
-[09:52:47] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] NPC1868 > Yes
-[09:52:53] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] NPC1868 > Max team size of 4
-[09:52:58] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] NPC1868 > Alliances are allowed
-[09:53:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | PVPer] T R SLIPPY > @Blackitty can I join ur team please
-[09:53:42] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] NPC1868 > Alliance means you can’t share recourse or base
-[09:54:17] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] NPC1868 > But you can assist your alliance in fights
-[09:56:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] NPC1868 (replying to T R SLIPPY) > Use modrinth
-[09:56:13] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] NPC1868 > It’s good
-[09:56:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | PVPer] T R SLIPPY > I already have the mods set up
-[09:57:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] NPC1868 > But you still have back?
-[09:57:33] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] NPC1868 > Hack?
-[09:58:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | PVPer] T R SLIPPY > https://cdn.discordapp.com/attachments/1361682158275657728/1375835415462023168/2025-05-24_09.57.09.png?ex=68332214&is=6831d094&hm=994805bfd5ae96d747a10e538af9e4e25d91a54d6a62624ad3ca99972c9dec43&
-[09:58:48] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | PVPer] T R SLIPPY (replying to NPC1868) > no
-[09:59:54] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] NPC1868 > Ok good
-[10:01:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Mr.Void (replying to T R SLIPPY) > Go to minecraft folder then mods the delete the jar file
-[10:03:05] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Wildcards] Nablade (replying to T R SLIPPY) > %appdata% find .Minecraft folder go to mods and delete the hacked file
-[10:03:15] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) (replying to T R SLIPPY) > hitman co. is full, Clara can't join
-[10:03:16] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | PVPer] T R SLIPPY > already did
-[10:03:23] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > Clara can join ur team tho
-[10:03:26] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | PVPer] T R SLIPPY (replying to CT_Assailant (David)) > someone left
-[10:03:33] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | PVPer] T R SLIPPY (replying to CT_Assailant (David)) > can I join ur team
-[10:03:41] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Mod] Ward3r (replying to T R SLIPPY) > Pigstep left
-[10:03:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) (replying to T R SLIPPY) > no nobody keft
-[10:03:46] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > oh relaly?
-[10:03:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Mod] Ward3r > Or no, kayden left
-[10:04:13] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > oh
-[10:04:23] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > left the team?
-[10:04:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > @Idiot (stabs anything moving) people are saying someone left your team, is this true?
-[10:15:17] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Mod] Ward3r > It is
-[10:15:46] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Mod] Ward3r > It was kayden, mike, kai, and pigstep. But kayden left for reasons i wont reveal and they replaced him
-[10:17:41] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | PVPer] T R SLIPPY > https://cdn.discordapp.com/attachments/1361682158275657728/1375840182405693440/EpIc_ReSoURcE_PaCK.zip?ex=68332685&is=6831d505&hm=50b461fe96f7699444122bae60ce58ed6702d773f4bdb06c6ce78b83b61f530e&
-[10:17:41] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | PVPer] T R SLIPPY > I made this its just a rework of diamond suttf
-[10:18:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | PVPer] T R SLIPPY > https://cdn.discordapp.com/attachments/1361682158275657728/1375840414497771540/2025-05-24_10.18.24.png?ex=683326bc&is=6831d53c&hm=6c33e3a27b62d274c9dfd6a67109d93995aed616f660b46f9dac2026151cfe7e&
-[10:20:49] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > nice
-[10:20:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) (replying to Ward3r) > hmmm
-[10:21:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > okay
-[10:21:22] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > @Idiot (stabs anything moving) can you update your team in #teams
-[10:22:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Mod] Ward3r > It is updated
-[10:22:58] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > oh mb
-[10:23:04] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > wait Clara joined???
-[10:23:08] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > I thought Dom was joking
-[10:23:16] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > do they even know Clara?
-[10:52:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | PVPer] T R SLIPPY > @CT_Assailant (David) can i join ur team pls
-[10:54:29] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > probably not
-[10:54:34] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > I have an idea of who I want on my team
-[10:54:40] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > I'll think about it tho
-[10:54:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > actually mabe
-[10:54:52] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > not sure
-[10:55:09] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Junior Mod] Blackitty (replying to T R SLIPPY) > We're full sry
-[10:56:08] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) (replying to Blackitty) > you only have 3 people wdym
-[10:56:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Junior Mod] Blackitty (replying to CT_Assailant (David)) > We're adding one more person I just need there name
-[10:56:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Junior Mod] Blackitty > Cause I don't know it
-[10:56:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Wildcards] Nablade (replying to T R SLIPPY) > Don’t worry all my teammates can’t get on until Monday at least
-[10:57:15] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > lol
-[10:57:16] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | PVPer] T R SLIPPY > yay?
-[10:57:20] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > oh yeah you guys could team
-[10:57:21] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > mb
-[10:57:53] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Wildcards] Nablade > Nah I’m teaming with Eric’s team for the first day
-[10:58:08] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] CT_Assailant (David) > oh k
-[10:58:12] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Wildcards] Nablade > After that I’ll probably just solo until the rest of my team gets on
-[11:13:40] [Server thread/INFO]: Stopping the server
-[11:13:40] [Server thread/INFO]: Stopping server
-[11:13:40] [Server thread/INFO]: [BanItem] Disabling BanItem v3.7
-[11:13:40] [Server thread/INFO]: [Shopkeepers] Disabling Shopkeepers v2.23.5
-[11:13:40] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.12+829a4a4
-[11:13:40] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[11:13:40] [Server thread/INFO]: [F3NPerm] Disabling F3NPerm v3.5
-[11:13:40] [Server thread/INFO]: [F3NPerm] Plugin disabled!
-[11:13:40] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.29.0
-[11:13:42] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 1920ms
-[11:13:42] [Server thread/INFO]: [VentureChat] Disabling VentureChat v3.7.2
-[11:13:42] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Disabling...[m
-[11:13:42] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Disabled Successfully[m
-[11:13:42] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.9+6959-7adf70b
-[11:13:42] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[11:13:42] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.26
-[11:13:42] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
-[11:13:42] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[11:13:42] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion vault
-[11:13:42] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin Vault was disabled.
-[11:13:42] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
-[11:13:42] [Server thread/INFO]: [BULPearl] Disabling BULPearl v3.1.6
-[11:13:42] [Server thread/INFO]: [0;32;1m[BulPearl] [0;31;1mDisable BulPearl[m
-[11:13:42] [Server thread/INFO]: [DisablePotions] Disabling DisablePotions v1.1
-[11:13:42] [Server thread/INFO]: [EnchantControl] Disabling EnchantControl v1.4.6
-[11:13:42] [Server thread/INFO]: EnchantControl Disabled
-[11:13:42] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.131
-[11:13:42] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[11:13:42] [Server thread/INFO]: [LuckPerms] Closing storage...
-[11:13:42] [Server thread/INFO]: [LuckPerms] Goodbye!
-[11:13:42] [Server thread/INFO]: Saving players
-[11:13:42] [Server thread/INFO]: Saving worlds
-[11:13:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:13:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[11:13:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[11:13:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_vred_data_void]'/vred:data_void
-[11:13:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:13:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:13:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:13:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (data_void): All chunks are saved
-[11:13:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:38:09] [Server thread/ERROR]: Failed to load function vred:weapon_crafting/player_check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / vred:id_check] at position 45: ...d:id_check<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / vred:id_check] at position 45: ...d:id_check<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:38:14] [Async Chat Thread - #6/INFO]: <GalacticCreator7> ok pedestals on[m
+[21:38:14] [Async Chat Thread - #7/INFO]: <worksteve> oh[m
+[21:38:16] [Async Chat Thread - #6/INFO]: <Ward3r> bark for me[m
+[21:38:17] [Async Chat Thread - #7/INFO]: <GalacticCreator7> is anything laggy?[m
+[21:38:18] [Async Chat Thread - #6/INFO]: <worksteve> that was a spike[m
+[21:38:25] [Async Chat Thread - #7/INFO]: <GalacticCreator7> well just for 1 sec right[m
+[21:38:27] [Server thread/INFO]: [0;33;22mTPS from last 1m, 5m, 15m: [0;32;1m*20.0, [0;32;1m*20.0, [0;32;1m*20.0[m
+[21:38:27] [Server thread/INFO]: [0;33;22mCurrent Memory Usage: [0;32;1m19113/61440 mb (Max: 61440 mb)[m
+[21:38:27] [Async Chat Thread - #6/INFO]: <GalacticCreator7> cause I enabled it[m
+[21:38:34] [Async Chat Thread - #7/INFO]: <worksteve> tps is fine[m
+[21:38:37] [Async Chat Thread - #6/INFO]: <GalacticCreator7> is it still laggy now?[m
+[21:38:44] [Async Chat Thread - #7/INFO]: <worksteve> no[m
+[21:38:46] [Async Chat Thread - #6/INFO]: <worksteve> tps @ 20[m
+[21:38:48] [Async Chat Thread - #7/INFO]: <GalacticCreator7> ok good[m
+[21:38:52] [Server thread/INFO]: GalacticCreator7 issued server command: /datapack enable "file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip"
+[21:38:52] [Server thread/INFO]: [GalacticCreator7: Enabling data pack [file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip (world)]]
+[21:38:52] [Worker-Main-3/ERROR]: Couldn't load tag minecraft:axe_attack as it is missing following references: vred:axe_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[21:38:52] [Worker-Main-3/ERROR]: Couldn't load tag minecraft:bypasses_armor as it is missing following references: vred:reaper_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip), vred:axe_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip), vred:ghammer_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip), vred:bleed_out (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[21:38:52] [Worker-Main-3/ERROR]: Couldn't load tag minecraft:bypasses_shield as it is missing following references: #minecraft:bypasses_armor (from vanilla)
+[21:38:52] [Worker-Main-3/ERROR]: Couldn't load tag minecraft:ghammer_attack as it is missing following references: vred:ghammer_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[21:38:52] [Worker-Main-3/ERROR]: Couldn't load tag minecraft:bleed_out as it is missing following references: vred:bleed_out (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[21:38:52] [Worker-Main-3/ERROR]: Couldn't load tag minecraft:atk_nocd as it is missing following references: vred:atk_nocd (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[21:38:52] [Worker-Main-3/ERROR]: Couldn't load tag minecraft:bypasses_cooldown as it is missing following references: vred:reaper_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip), vred:axe_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip), vred:ghammer_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip), vred:bleed_out (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip), vred:atk_nocd (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[21:38:52] [Worker-Main-3/ERROR]: Couldn't load tag minecraft:no_knockback as it is missing following references: vred:bleed_out (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[21:38:52] [Worker-Main-3/ERROR]: Couldn't load tag minecraft:reaper_attack as it is missing following references: vred:reaper_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[21:38:52] [Worker-Main-3/ERROR]: Couldn't load tag minecraft:elytra_kinetic as it is missing following references: vred:elytra_kinetic (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[21:38:52] [Worker-Main-6/ERROR]: Couldn't load tag minecraft:curse as it is missing following references: vred:warpick (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[21:38:53] [Server thread/INFO]: Loaded 1291 recipes
+[21:38:53] [Server thread/ERROR]: Failed to load function vred:reaper_scythe/reaper_hit2
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Can't find element 'vred:reaper_attack' of type 'minecraft:damage_type' at position 96: ...per_attack<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Can't find element 'vred:reaper_attack' of type 'minecraft:damage_type' at position 96: ...per_attack<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:38:53] [Server thread/ERROR]: Failed to load function vred:warpick/tick
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 6: Can't find element 'vred:warpick' of type 'minecraft:enchantment' at position 47: ...ed:warpick<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 6: Can't find element 'vred:warpick' of type 'minecraft:enchantment' at position 47: ...ed:warpick<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:38:53] [Server thread/ERROR]: Failed to load function vred:weapon_crafting/aiglos/success
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 13: Can't find element 'minecraft:lightning' of type 'minecraft:entity_type' at position 16: ... lightning<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 13: Can't find element 'minecraft:lightning' of type 'minecraft:entity_type' at position 16: ... lightning<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:38:53] [Server thread/ERROR]: Failed to load function vred:hypnosis_staff/atk/1
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Can't find element 'vred:bleed_out' of type 'minecraft:damage_type' at position 92: ...:bleed_out<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Can't find element 'vred:bleed_out' of type 'minecraft:damage_type' at position 92: ...:bleed_out<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:38:53] [Server thread/ERROR]: Failed to load function vred:ender_bow/endermite/ender_arrow1_1
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Can't find element 'vred:bleed_out' of type 'minecraft:damage_type' at position 26: ...:bleed_out<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Can't find element 'vred:bleed_out' of type 'minecraft:damage_type' at position 26: ...:bleed_out<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:38:53] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:damage_type] are present in data pack: minecraft:bypasses_armor, minecraft:bypasses_shield, minecraft:no_knockback
+[21:38:53] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:enchantment] are present in data pack: minecraft:curse
+[21:38:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2549ms or 50 ticks behind
+[21:38:55] [Async Chat Thread - #6/INFO]: <GalacticCreator7> ok now?[m
+[21:39:00] [Async Chat Thread - #7/INFO]: <worksteve> i didne see a spike[m
+[21:39:06] [Server thread/INFO]: [0;33;22mTPS from last 1m, 5m, 15m: [0;32;1m18.87, [0;32;1m19.76, [0;32;1m19.92[m
+[21:39:06] [Server thread/INFO]: [0;33;22mCurrent Memory Usage: [0;32;1m9634/61440 mb (Max: 61440 mb)[m
+[21:39:13] [Async Chat Thread - #6/INFO]: <GalacticCreator7> keep an eye on console[m
+[21:39:16] [Server thread/INFO]: [0;33;22mTPS from last 1m, 5m, 15m: [0;32;1m18.43, [0;32;1m19.66, [0;32;1m19.89[m
+[21:39:16] [Server thread/INFO]: [0;33;22mCurrent Memory Usage: [0;32;1m14946/61440 mb (Max: 61440 mb)[m
+[21:39:17] [Async Chat Thread - #7/INFO]: <GalacticCreator7> hows the tps[m
+[21:39:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8387ms or 167 ticks behind
+[21:39:19] [Server thread/INFO]: GalacticCreator7 issued server command: /tps
+[21:39:27] [Async Chat Thread - #7/INFO]: <worksteve> servers running 8s behind[m
+[21:39:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6936ms or 138 ticks behind
+[21:39:41] [Async Chat Thread - #6/INFO]: <worksteve> tps is ~18.5[m
+[21:39:43] [Async Chat Thread - #7/INFO]: <GalacticCreator7> ok so pedestals is not the issue[m
+[21:39:45] [Server thread/INFO]: A1klos issued server command: /tpa
+[21:39:46] [Async Chat Thread - #6/INFO]: <GalacticCreator7> stop trunign that one off[m
+[21:39:50] [Server thread/INFO]: A1klos issued server command: /gamemode creative
+[21:39:53] [Async Chat Thread - #7/INFO]: <A1klos> OMG GUYS I HAVE OP[m
+[21:39:53] [Server thread/INFO]: GalacticCreator7 issued server command: /datapack disable "file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip"
+[21:39:53] [Server thread/INFO]: [GalacticCreator7: Disabling data pack [file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip (world)]]
+[21:39:54] [Server thread/INFO]: Loaded 1291 recipes
+[21:39:54] [Server thread/ERROR]: Failed to load function vred:weapon_crafting/aiglos/success
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 13: Can't find element 'minecraft:lightning' of type 'minecraft:entity_type' at position 16: ... lightning<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 13: Can't find element 'minecraft:lightning' of type 'minecraft:entity_type' at position 16: ... lightning<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:39:54] [Server thread/ERROR]: Failed to load function vred:weapon_crafting/player_check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / vred:id_check] at position 45: ...d:id_check<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / vred:id_check] at position 45: ...d:id_check<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:39:54] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: vred:non_solid, vred:walk_through
+[21:39:54] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: vred:discs, vred:dyes
+[21:39:54] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:entity_type] are present in data pack: vred:passive
+[21:39:58] [Async Chat Thread - #6/INFO]: <A1klos> THIS IS FIRE[m
+[21:40:01] [Async Chat Thread - #7/INFO]: <QuackaBear> HUH[m
+[21:40:07] [Server thread/INFO]: Nothing changed. The player is not an operator
+[21:40:10] [Async Chat Thread - #6/INFO]: <GalacticCreator7> hes joking lol[m
+[21:40:19] [Async Chat Thread - #7/INFO]: <GalacticCreator7> wait[m
+[21:40:22] [Async Chat Thread - #6/INFO]: <GalacticCreator7> I need to try seomthing[m
+[21:40:23] [Async Chat Thread - #7/INFO]: <A1klos> I would never[m
+[21:40:27] [Server thread/INFO]: GalacticCreator7 issued server command: /gamemode spectator
+[21:40:27] [Server thread/INFO]: [GalacticCreator7: Set own game mode to Spectator Mode]
+[21:40:33] [Server thread/INFO]: GalacticCreator7 issued server command: /tps
+[21:40:39] [Async Chat Thread - #6/INFO]: <GalacticCreator7> ok yeah its better now[m
+[21:40:41] [Async Chat Thread - #7/INFO]: <GalacticCreator7> the tps is better[m
+[21:40:46] [Async Chat Thread - #6/INFO]: <worksteve> good[m
+[21:41:02] [Async Chat Thread - #7/INFO]: <worksteve> does anyone live by the ocea[m
+[21:41:04] [Async Chat Thread - #6/INFO]: <worksteve> n[m
+[21:41:06] [Async Chat Thread - #7/INFO]: <A1klos> yes[m
+[21:41:08] [Async Chat Thread - #6/INFO]: <A1klos> I do[m
+[21:41:14] [Async Chat Thread - #7/INFO]: <GalacticCreator7> im trying to load a bunch of chunks[m
+[21:41:15] [Async Chat Thread - #6/INFO]: <worksteve> im using your portal[m
+[21:41:17] [Async Chat Thread - #7/INFO]: <GalacticCreator7> see if it goes down[m
+[21:41:17] [Async Chat Thread - #6/INFO]: <worksteve> after i find it[m
+[21:41:27] [Server thread/INFO]: Made worksteve a server operator
+[21:41:29] [Async Chat Thread - #7/INFO]: <GalacticCreator7> sam moniter tps[m
+[21:41:32] [Server thread/INFO]: worksteve issued server command: /tps
+[21:41:35] [Async Chat Thread - #6/INFO]: <worksteve> ~20[m
+[21:41:41] [Async Chat Thread - #7/INFO]: <worksteve> ~20[m
+[21:41:43] [Server thread/INFO]: worksteve issued server command: /tps
+[21:41:58] [Server thread/INFO]: worksteve issued server command: /tps
+[21:41:58] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Mr.Void > https://cdn.discordapp.com/attachments/1368282588355235881/1376012388171776112/image0.jpg?ex=6833c6e6&is=68327566&hm=0b7cd197174cf090b65476307a1ac29cfe6621a50fd3f7da1eea54e5b634a50d&
+[21:42:03] [Server thread/INFO]: worksteve issued server command: /tps
+[21:42:04] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Mr.Void > It didnt start eric
+[21:42:08] [Async Chat Thread - #6/INFO]: <worksteve> what didnt start[m
+[21:42:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Mr.Void > The datapack
+[21:42:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Mr.Void > It errored
+[21:42:20] [Server thread/INFO]: GalacticCreator7 issued server command: /gamemode survival
+[21:42:20] [Server thread/INFO]: [GalacticCreator7: Set own game mode to Survival Mode]
+[21:42:23] [Async Chat Thread - #7/INFO]: <worksteve> oh[m
+[21:42:29] [Async Chat Thread - #6/INFO]: <GalacticCreator7> yeah im testing to see if the server can run well enough without it[m
+[21:42:36] [Server thread/INFO]: Runic_Spectator has completed the challenge [Return to Sender]
+[21:42:38] [Server thread/INFO]: worksteve issued server command: /tps
+[21:42:42] [Server thread/INFO]: GalacticCreator7 issued server command: /datapack enable "file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip"
+[21:42:42] [Server thread/INFO]: [GalacticCreator7: Enabling data pack [file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip (world)]]
+[21:42:42] [Worker-Main-7/ERROR]: Couldn't load tag minecraft:axe_attack as it is missing following references: vred:axe_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[21:42:42] [Worker-Main-7/ERROR]: Couldn't load tag minecraft:bypasses_armor as it is missing following references: vred:reaper_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip), vred:axe_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip), vred:ghammer_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip), vred:bleed_out (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[21:42:42] [Worker-Main-7/ERROR]: Couldn't load tag minecraft:bypasses_shield as it is missing following references: #minecraft:bypasses_armor (from vanilla)
+[21:42:42] [Worker-Main-7/ERROR]: Couldn't load tag minecraft:ghammer_attack as it is missing following references: vred:ghammer_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[21:42:42] [Worker-Main-7/ERROR]: Couldn't load tag minecraft:bleed_out as it is missing following references: vred:bleed_out (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[21:42:42] [Worker-Main-7/ERROR]: Couldn't load tag minecraft:atk_nocd as it is missing following references: vred:atk_nocd (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[21:42:42] [Worker-Main-7/ERROR]: Couldn't load tag minecraft:bypasses_cooldown as it is missing following references: vred:reaper_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip), vred:axe_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip), vred:ghammer_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip), vred:bleed_out (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip), vred:atk_nocd (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[21:42:42] [Worker-Main-7/ERROR]: Couldn't load tag minecraft:no_knockback as it is missing following references: vred:bleed_out (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[21:42:42] [Worker-Main-7/ERROR]: Couldn't load tag minecraft:reaper_attack as it is missing following references: vred:reaper_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[21:42:42] [Worker-Main-7/ERROR]: Couldn't load tag minecraft:elytra_kinetic as it is missing following references: vred:elytra_kinetic (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[21:42:42] [Worker-Main-3/ERROR]: Couldn't load tag minecraft:curse as it is missing following references: vred:warpick (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[21:42:43] [Server thread/INFO]: Loaded 1291 recipes
+[21:42:43] [Server thread/ERROR]: Failed to load function vred:reaper_scythe/reaper_hit2
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Can't find element 'vred:reaper_attack' of type 'minecraft:damage_type' at position 96: ...per_attack<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Can't find element 'vred:reaper_attack' of type 'minecraft:damage_type' at position 96: ...per_attack<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:42:43] [Server thread/ERROR]: Failed to load function vred:warpick/tick
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 6: Can't find element 'vred:warpick' of type 'minecraft:enchantment' at position 47: ...ed:warpick<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 6: Can't find element 'vred:warpick' of type 'minecraft:enchantment' at position 47: ...ed:warpick<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:42:43] [Server thread/ERROR]: Failed to load function vred:weapon_crafting/aiglos/success
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 13: Can't find element 'minecraft:lightning' of type 'minecraft:entity_type' at position 16: ... lightning<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 13: Can't find element 'minecraft:lightning' of type 'minecraft:entity_type' at position 16: ... lightning<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:42:43] [Server thread/ERROR]: Failed to load function vred:hypnosis_staff/atk/1
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Can't find element 'vred:bleed_out' of type 'minecraft:damage_type' at position 92: ...:bleed_out<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Can't find element 'vred:bleed_out' of type 'minecraft:damage_type' at position 92: ...:bleed_out<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:42:43] [Server thread/ERROR]: Failed to load function vred:ender_bow/endermite/ender_arrow1_1
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Can't find element 'vred:bleed_out' of type 'minecraft:damage_type' at position 26: ...:bleed_out<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Can't find element 'vred:bleed_out' of type 'minecraft:damage_type' at position 26: ...:bleed_out<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:42:43] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:damage_type] are present in data pack: minecraft:bypasses_armor, minecraft:bypasses_shield, minecraft:no_knockback
+[21:42:43] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:enchantment] are present in data pack: minecraft:curse
+[21:42:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Mr.Void > Yes it can
+[21:42:45] [Async Chat Thread - #7/INFO]: <GalacticCreator7> ok keep watching[m
+[21:42:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2513ms or 50 ticks behind
+[21:42:46] [Server thread/INFO]: worksteve issued server command: /tps
+[21:42:54] [Async Chat Thread - #6/INFO]: <worksteve> ill let you know if it goes down from 20[m
+[21:42:56] [Server thread/INFO]: worksteve issued server command: /tps
+[21:42:59] [Async Chat Thread - #7/INFO]: <worksteve> 19.3[m
+[21:43:02] [Server thread/INFO]: Runic_Spectator has made the advancement [A Terrible Fortress]
+[21:43:06] [Server thread/INFO]: worksteve issued server command: /tpsw
+[21:43:08] [Server thread/INFO]: worksteve issued server command: /tps
+[21:43:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7852ms or 157 ticks behind
+[21:43:10] [Async Chat Thread - #6/INFO]: <worksteve> 18.3[m
+[21:43:16] [Server thread/INFO]: worksteve issued server command: /tps
+[21:43:19] [Async Chat Thread - #7/INFO]: <worksteve> 18[m
+[21:43:20] [Server thread/INFO]: [Not Secure] [Server] its 157 ticks behind
+[21:43:29] [Async Chat Thread - #6/INFO]: <worksteve> tps is suffering[m
+[21:43:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7260ms or 145 ticks behind
+[21:43:32] [Server thread/INFO]: worksteve issued server command: /tps
+[21:43:35] [Async Chat Thread - #7/INFO]: <worksteve> 17.3[m
+[21:43:35] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[21:43:38] [Async Chat Thread - #6/INFO]: <A1klos> no shi*t[m
+[21:43:40] [Server thread/INFO]: worksteve issued server command: /tps
+[21:43:43] [Async Chat Thread - #7/INFO]: <worksteve> 17[m
+[21:43:43] [Async Chat Thread - #6/INFO]: <GalacticCreator7> ok[m
+[21:43:50] [Server thread/INFO]: GalacticCreator7 issued server command: /datapack disable "file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip"
+[21:43:50] [Server thread/INFO]: [GalacticCreator7: Disabling data pack [file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip (world)]]
+[21:43:50] [Server thread/INFO]: Loaded 1291 recipes
+[21:43:50] [Server thread/ERROR]: Failed to load function vred:weapon_crafting/aiglos/success
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 13: Can't find element 'minecraft:lightning' of type 'minecraft:entity_type' at position 16: ... lightning<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 13: Can't find element 'minecraft:lightning' of type 'minecraft:entity_type' at position 16: ... lightning<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:43:50] [Server thread/ERROR]: Failed to load function vred:weapon_crafting/player_check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / vred:id_check] at position 45: ...d:id_check<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / vred:id_check] at position 45: ...d:id_check<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:43:50] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: vred:non_solid, vred:walk_through
+[21:43:50] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: vred:discs, vred:dyes
+[21:43:50] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:entity_type] are present in data pack: vred:passive
+[21:43:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5896ms or 117 ticks behind
+[21:43:57] [Server thread/INFO]: worksteve issued server command: /tps
+[21:43:59] [Async Chat Thread - #6/INFO]: <GalacticCreator7> so even with just like 10 people?[m
+[21:44:02] [Async Chat Thread - #7/INFO]: <worksteve> yeah[m
+[21:44:08] [Async Chat Thread - #6/INFO]: <worksteve> 11[m
+[21:44:13] [Async Chat Thread - #7/INFO]: <worksteve> thats not the tps[m
+[21:44:15] [Server thread/INFO]: worksteve issued server command: /tps
+[21:44:17] [Async Chat Thread - #6/INFO]: <GalacticCreator7> you remember my previous server[m
+[21:44:20] [Async Chat Thread - #6/INFO]: <worksteve> tps is going back upw[m
+[21:44:23] [Server thread/INFO]: Ward3r has made the advancement [Sweet Dreams]
+[21:44:23] [Async Chat Thread - #7/INFO]: <worksteve> yeah idk[m
+[21:44:24] [Async Chat Thread - #6/INFO]: <GalacticCreator7> it is on aternos[m
+[21:44:26] [Async Chat Thread - #7/INFO]: <worksteve> maybe cpu is worse?[m
+[21:44:30] [Async Chat Thread - #7/INFO]: <GalacticCreator7> I had all 30 legendaries[m
+[21:44:41] [Async Chat Thread - #6/INFO]: <GalacticCreator7> and it was about as laggy as aternos usually is[m
+[21:44:52] [Async Chat Thread - #7/INFO]: <GalacticCreator7> so I dont know why tf its so laggy[m
+[21:44:58] [Async Chat Thread - #6/INFO]: <GalacticCreator7> this doesnt make any sense at all[m
+[21:45:04] [Async Chat Thread - #7/INFO]: <A1klos> why are we still using leg weapons if they are so fkn laggy?[m
+[21:45:11] [Server thread/INFO]: Runic_Spectator issued server command: /team join Hitmen
+[21:45:11] [Server thread/INFO]: [Runic_Spectator: Added Hitman Runic_Spectator to team [Hitmen]]
+[21:45:13] [Async Chat Thread - #6/INFO]: <GalacticCreator7> WHAT DO YOU THINK WE ARE DOING[m
+[21:45:15] [Async Chat Thread - #7/INFO]: <worksteve> we might want to remove them[m
+[21:45:16] [Server thread/INFO]: Runic_Spectator issued server command: /team join Hitmen shiroi_step
+[21:45:16] [Server thread/INFO]: [Hitman Runic_Spectator: Added Hitman shiroi_step to team [Hitmen]]
+[21:45:19] [Server thread/INFO]: Runic_Spectator issued server command: /team join Hitmen A1klos
+[21:45:19] [Server thread/INFO]: [Hitman Runic_Spectator: Added Hitman A1klos to team [Hitmen]]
+[21:45:19] [Async Chat Thread - #6/INFO]: <A1klos> yay[m
+[21:45:22] [Server thread/INFO]: Runic_Spectator issued server command: /team join Hitmen QuackaBear
+[21:45:22] [Server thread/INFO]: [Hitman Runic_Spectator: Added Hitman QuackaBear to team [Hitmen]]
+[21:45:26] [Async Chat Thread - #7/INFO]: <A1klos> zero lag[m
+[21:45:26] [Async Chat Thread - #6/INFO]: <GalacticCreator7> WE ARE TRYING TO FIX THEM DUMBASS[m
+[21:45:32] [Async Chat Thread - #7/INFO]: <GalacticCreator7> if you do not wanna help test[m
+[21:45:34] [Async Chat Thread - #6/INFO]: <A1klos> stop crashing out lil bro[m
+[21:45:37] [Async Chat Thread - #7/INFO]: <GalacticCreator7> then leave[m
+[21:45:38] [Server thread/INFO]: worksteve issued server command: /team modify Hobbits prefix "Hobbit"
+[21:45:50] [Server thread/INFO]: worksteve issued server command: /team join Hobbits worksteve
+[21:45:50] [Server thread/INFO]: [worksteve: Added Hobbitworksteve to team [Hobbits]]
+[21:45:55] [Server thread/INFO]: worksteve issued server command: /team modify Hobbits prefix "Hobbit "
+[21:45:56] [Async Chat Thread - #6/INFO]: <GalacticCreator7> I think this is pretty reasonable cause I said, its going to be laggy, if you dont wanna deal with it then dont play rn[m
+[21:46:00] [Async Chat Thread - #7/INFO]: <GalacticCreator7> did I not state very clearly?[m
+[21:46:13] [Async Chat Thread - #6/INFO]: <GalacticCreator7> if your gonna keep yapping about bad tps even tho we warned you just leave[m
+[21:46:15] [Async Chat Thread - #7/INFO]: <GalacticCreator7> we dont need you[m
+[21:46:27] [Async Chat Thread - #6/INFO]: <A1klos> I just like complaining :)[m
+[21:46:33] [Async Chat Thread - #7/INFO]: <A1klos> anyways[m
+[21:46:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Mr.Void > We dont need the fuckimg weapons lol
+[21:46:45] [Async Chat Thread - #6/INFO]: <A1klos> fr[m
+[21:46:50] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Mr.Void > Its not worth -3 tps
+[21:46:54] [Async Chat Thread - #7/INFO]: <GalacticCreator7> I understand[m
+[21:47:01] [Async Chat Thread - #6/INFO]: <GalacticCreator7> we are trying to make it not lose the -3 tps[m
+[21:47:06] [Async Chat Thread - #7/INFO]: <GalacticCreator7> so we can use it[m
+[21:47:10] [Async Chat Thread - #6/INFO]: <GalacticCreator7> thats why we are here[m
+[21:47:21] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Mr.Void > So keep working
+[21:47:39] [User Authenticator #13/INFO]: UUID of player CT_Assailant is 7d4e6e31-3b64-4b12-887d-0a338e61297e
+[21:47:40] [Server thread/INFO]: CT_Assailant joined the game
+[21:47:40] [Server thread/INFO]: CT_Assailant[/174.175.162.167:52393] logged in with entity id 28800 at ([world]-357.3718943753795, 70.0, -313.11235308225156)
+[21:47:41] [Server thread/INFO]: [voicechat] Received secret request of CT_Assailant (18)
+[21:47:41] [Server thread/INFO]: [voicechat] Sent secret to CT_Assailant
+[21:47:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 7d4e6e31-3b64-4b12-887d-0a338e61297e
+[21:47:42] [Async Chat Thread - #7/INFO]: <A1klos> NABLADE[m
+[21:47:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 7d4e6e31-3b64-4b12-887d-0a338e61297e
+[21:47:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player CT_Assailant (7d4e6e31-3b64-4b12-887d-0a338e61297e) successfully connected to voice chat
+[21:47:44] [Async Chat Thread - #6/INFO]: <A1klos> kos now[m
+[21:47:45] [Async Chat Thread - #7/INFO]: <GalacticCreator7> yeah I would if mr "I cant stop complaining about a process" would stfu[m
+[21:48:00] [Async Chat Thread - #6/INFO]: <GalacticCreator7> ok sam[m
+[21:48:04] [Async Chat Thread - #7/INFO]: <A1klos> blud is crashing out because of my ragebait[m
+[21:48:04] [Async Chat Thread - #6/INFO]: <worksteve> yes[m
+[21:48:05] [Server thread/INFO]: worksteve issued server command: /tps
+[21:48:11] [Async Chat Thread - #7/INFO]: <worksteve> its back to 20[m
+[21:48:13] [Async Chat Thread - #6/INFO]: <GalacticCreator7> try to use the clean datapack I sent you[m
+[21:48:15] [Async Chat Thread - #7/INFO]: <worksteve> ok[m
+[21:48:23] [Async Chat Thread - #6/INFO]: <worksteve> ill have to stop the server for a while then[m
+[21:48:35] [Async Chat Thread - #7/INFO]: <CT_Assailant> no please dont[m
+[21:48:38] [Async Chat Thread - #6/INFO]: <GalacticCreator7> Kai, dont bother joining back in if your just gonna ragebait[m
+[21:48:39] [Async Chat Thread - #7/INFO]: <CT_Assailant> so many epople are online[m
+[21:48:42] [Async Chat Thread - #6/INFO]: <GalacticCreator7> david we discussed this[m
+[21:48:58] [Async Chat Thread - #7/INFO]: <A1klos> its fine we'll just do some f4's[m
+[21:49:05] [Async Chat Thread - #6/INFO]: <GalacticCreator7> only?[m
+[21:49:06] [Async Chat Thread - #6/INFO]: <GalacticCreator7> lol[m
+[21:49:08] [Async Chat Thread - #7/INFO]: <GalacticCreator7> get better[m
+[21:49:14] [Async Chat Thread - #6/INFO]: <CT_Assailant> ERIC[m
+[21:49:16] [Async Chat Thread - #7/INFO]: <CT_Assailant> dont stop it[m
+[21:49:22] [Async Chat Thread - #6/INFO]: <CT_Assailant> not worth it yet[m
+[21:49:22] [Async Chat Thread - #7/INFO]: <A1klos> we are doing ironman eric[m
+[21:49:25] [Async Chat Thread - #6/INFO]: <worksteve> we discussed stopping the server[m
+[21:49:28] [Async Chat Thread - #7/INFO]: <A1klos> we started a week ago[m
+[21:49:29] [Async Chat Thread - #6/INFO]: <CT_Assailant> eric do it tomorrow[m
+[21:49:30] [Async Chat Thread - #7/INFO]: <A1klos> month*[m
+[21:49:30] [Async Chat Thread - #6/INFO]: <CT_Assailant> I know[m
+[21:49:31] [Async Chat Thread - #7/INFO]: <worksteve> thats happening[m
+[21:49:37] [Async Chat Thread - #6/INFO]: <GalacticCreator7> David I cannot do it tommrowo[m
+[21:49:37] [Async Chat Thread - #7/INFO]: <A1klos> we locked in[m
+[21:49:41] [Async Chat Thread - #6/INFO]: <CT_Assailant> but there are too many epople online[m
+[21:49:45] [Async Chat Thread - #7/INFO]: <GalacticCreator7> There will only be more people tommrowo[m
+[21:49:49] [Async Chat Thread - #6/INFO]: <worksteve> they were warned[m
+[21:49:56] [Async Chat Thread - #7/INFO]: <GalacticCreator7> yeah I thought we discussed[m
+[21:50:00] [Server thread/INFO]: IHazHands has made the advancement [We Need to Go Deeper]
+[21:50:09] [Server thread/INFO]: TarrioKnight has made the advancement [We Need to Go Deeper]
+[21:50:29] [Async Chat Thread - #7/INFO]: <worksteve> should i use the fresh download or remove the unnessecary weapons[m
+[21:50:48] [Async Chat Thread - #6/INFO]: <GalacticCreator7> try the fresh dl[m
+[21:50:50] [Async Chat Thread - #7/INFO]: <worksteve> ok[m
+[21:51:01] [Async Chat Thread - #6/INFO]: <worksteve> ill add both to the server just in case[m
+[21:51:05] [Async Chat Thread - #7/INFO]: <GalacticCreator7> no[m
+[21:51:10] [Async Chat Thread - #6/INFO]: <worksteve> ill disable one[m
+[21:51:12] [Async Chat Thread - #7/INFO]: <GalacticCreator7> dont enable both at once at least[m
+[21:51:13] [Async Chat Thread - #6/INFO]: <GalacticCreator7> ok[m
+[21:51:16] [Async Chat Thread - #7/INFO]: <GalacticCreator7> keep the current on[m
+[21:51:20] [Async Chat Thread - #6/INFO]: <worksteve> yeah[m
+[21:51:23] [Async Chat Thread - #7/INFO]: <GalacticCreator7> and add the fresh one I sent[m
+[21:51:33] [Server thread/INFO]: Hitman Runic_Spectator fell from a high place
+[21:51:38] [Async Chat Thread - #6/INFO]: <worksteve> 60% complete on the extraction[m
+[21:51:38] [Async Chat Thread - #7/INFO]: <GalacticCreator7> Ok guys. If nothing works today, we wont have them? does that work?[m
+[21:51:50] [Server thread/INFO]: A1klos lost connection: Disconnected
+[21:51:50] [Server thread/INFO]: [voicechat] Disconnecting client A1klos
+[21:51:50] [Server thread/INFO]: A1klos left the game
+[21:52:21] [Async Chat Thread - #6/INFO]: <worksteve> ill delete all the weapon files that we wont use right[m
+[21:52:26] [Async Chat Thread - #7/INFO]: <worksteve> but not like crafting[m
+[21:52:26] [Async Chat Thread - #6/INFO]: <GalacticCreator7> yeah[m
+[21:53:08] [Server thread/INFO]: Villager EntityVillager['Villager'/28838, l='ServerLevel[world]', x=-300.48, y=78.00, z=-356.97] died, message: 'Villager was slain by CT_Assailant'
+[21:53:13] [Server thread/INFO]: Villager EntityVillager['Villager'/28836, l='ServerLevel[world]', x=-294.66, y=77.00, z=-361.04] died, message: 'Villager was slain by CT_Assailant'
+[21:53:25] [Server thread/INFO]: Villager EntityVillager['Villager'/28843, l='ServerLevel[world]', x=-306.10, y=79.50, z=-336.20] died, message: 'Villager was slain by CT_Assailant'
+[21:53:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Hitmen] Kai > chat is anyone there in game
+[21:54:12] [Server thread/INFO]: Villager EntityVillager['Nitwit'/28835, l='ServerLevel[world]', x=-339.70, y=74.00, z=-337.70] died, message: 'Nitwit was slain by GalacticCreator7'
+[21:55:17] [Server thread/INFO]: Hitman QuackaBear has made the advancement [Take Aim]
+[21:55:21] [Server thread/INFO]: TarrioKnight has made the advancement [Take Aim]
+[21:55:22] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Hitmen] Kai > fire
+[21:55:26] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Hitmen] Kai > double
+[21:55:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Sam > ill send a message before the server goes down
+[21:55:45] [Async Chat Thread - #9/INFO]: <GalacticCreator7> ok[m
+[21:55:53] [Server thread/INFO]: TarrioKnight lost connection: Disconnected
+[21:55:53] [Server thread/INFO]: [voicechat] Disconnecting client TarrioKnight
+[21:55:53] [Server thread/INFO]: TarrioKnight left the game
+[21:56:01] [Async Chat Thread - #8/INFO]: <GalacticCreator7> thank you for undertsanding guys, this is the final few attempts[m
+[21:56:08] [Async Chat Thread - #9/INFO]: <GalacticCreator7> If this doesnt help, then we wont have them[m
+[21:56:10] [Server thread/INFO]: [Not Secure] [Server] stopping soon
+[21:56:24] [Server thread/INFO]: [Not Secure] [Server] if you want to log off somewhere safe do it now
+[21:56:35] [Server thread/INFO]: [Not Secure] [Server] your progress will be saved
+[21:56:37] [Async Chat Thread - #9/INFO]: <QuackaBear> we must get to the cave[m
+[21:56:37] [Server thread/INFO]: GalacticCreator7 lost connection: Disconnected
+[21:56:37] [Server thread/INFO]: [voicechat] Disconnecting client GalacticCreator7
+[21:56:37] [Server thread/INFO]: GalacticCreator7 left the game
+[21:57:19] [User Authenticator #14/INFO]: UUID of player GalacticCreator7 is 8138fc9b-2060-497c-9c84-c07011d6cb11
+[21:57:19] [Server thread/INFO]: GalacticCreator7 joined the game
+[21:57:19] [Server thread/INFO]: GalacticCreator7[/204.111.140.53:1230] logged in with entity id 37626 at ([world]-307.49576936255556, 80.0, -341.50336159850974)
+[21:57:19] [Server thread/INFO]: [voicechat] Received secret request of GalacticCreator7 (18)
+[21:57:19] [Server thread/INFO]: [voicechat] Sent secret to GalacticCreator7
+[21:57:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 8138fc9b-2060-497c-9c84-c07011d6cb11
+[21:57:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 8138fc9b-2060-497c-9c84-c07011d6cb11
+[21:57:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player GalacticCreator7 (8138fc9b-2060-497c-9c84-c07011d6cb11) successfully connected to voice chat
+[21:57:53] [Server thread/INFO]: Stopping the server
+[21:57:53] [Server thread/INFO]: Stopping server
+[21:57:53] [Server thread/INFO]: [GSit] Disabling GSit v2.3.3
+[21:57:53] [Server thread/INFO]: [WorldGuard] Unregistering session handler dev.geco.gsit.link.worldguard.RegionFlagHandler
+[21:57:53] [Server thread/INFO]: [0;37;22m[[0;33;22mGSit[0;37;22m][0;32;1m The plugin was successfully disabled.[m
+[21:57:53] [Server thread/INFO]: [BanItem] Disabling BanItem v3.7
+[21:57:53] [Server thread/INFO]: [Shopkeepers] Disabling Shopkeepers v2.23.5
+[21:57:53] [Server thread/INFO]: [JEXT] Disabling JukeboxExtendedReborn v2.1.9
+[21:57:53] [Server thread/INFO]: [[0;33;1mJEXT[0;37;1m] [0;33;1mWebserver stopped[m
+[21:57:53] [Server thread/INFO]: [[0;33;1mJEXT[0;37;1m][0;33;1m Disabled Jukebox Extended Reborn, Mi Re Do![m
+[21:57:53] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.12+829a4a4
+[21:57:53] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[21:57:53] [Server thread/INFO]: [F3NPerm] Disabling F3NPerm v3.5
+[21:57:53] [Server thread/INFO]: [F3NPerm] Plugin disabled!
+[21:57:53] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.29.0
+[21:57:54] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 659ms
+[21:57:54] [Server thread/INFO]: [Blue Slime Core] Disabling BlueSlimeCore v2.9.6.431
+[21:57:54] [Server thread/INFO]: [Images] Disabling Images v2.5.5
+[21:57:54] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.9+6959-7adf70b
+[21:57:54] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[21:57:54] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.26
+[21:57:54] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
+[21:57:54] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[21:57:54] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion vault
+[21:57:54] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin Vault was disabled.
+[21:57:54] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[21:57:54] [Server thread/INFO]: [BULPearl] Disabling BULPearl v3.1.6
+[21:57:54] [Server thread/INFO]: [0;32;1m[BulPearl] [0;31;1mDisable BulPearl[m
+[21:57:54] [Server thread/INFO]: [EnchantControl] Disabling EnchantControl v1.4.6
+[21:57:54] [Server thread/INFO]: EnchantControl Disabled
+[21:57:54] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.131
+[21:57:54] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[21:57:54] [Server thread/INFO]: [LuckPerms] Closing storage...
+[21:57:54] [Server thread/INFO]: [LuckPerms] Goodbye!
+[21:57:54] [Server thread/INFO]: [DisableEffects] Disabling DisableEffects v1.1
+[21:57:54] [Server thread/INFO]: Saving players
+[21:57:54] [Server thread/INFO]: worksteve lost connection: Server closed
+[21:57:54] [Server thread/INFO]: worksteve left the game.
+[21:57:54] [Server thread/INFO]: QuackaBear lost connection: Server closed
+[21:57:54] [Server thread/INFO]: QuackaBear left the game.
+[21:57:54] [Server thread/INFO]: Algorithm0_ lost connection: Server closed
+[21:57:54] [Server thread/INFO]: Algorithm0_ left the game.
+[21:57:54] [Server thread/INFO]: Nablade lost connection: Server closed
+[21:57:54] [Server thread/INFO]: Nablade left the game.
+[21:57:54] [Server thread/INFO]: IHazHands lost connection: Server closed
+[21:57:54] [Server thread/INFO]: IHazHands left the game.
+[21:57:54] [Server thread/INFO]: shiroi_step lost connection: Server closed
+[21:57:54] [Server thread/INFO]: shiroi_step left the game.
+[21:57:54] [Server thread/INFO]: Ward3r lost connection: Server closed
+[21:57:54] [Server thread/INFO]: Ward3r left the game.
+[21:57:54] [Server thread/INFO]: CT_Assailant lost connection: Server closed
+[21:57:54] [Server thread/INFO]: CT_Assailant left the game.
+[21:57:54] [Server thread/INFO]: Runic_Spectator lost connection: Server closed
+[21:57:54] [Server thread/INFO]: Runic_Spectator left the game.
+[21:57:54] [Server thread/INFO]: GalacticCreator7 lost connection: Server closed
+[21:57:54] [Server thread/INFO]: GalacticCreator7 left the game.
+[21:57:54] [Server thread/INFO]: Saving worlds
+[21:57:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:58:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:58:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:58:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_vred_data_void]'/vred:data_void
+[21:58:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:58:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:58:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:58:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (data_void): All chunks are saved
+[21:58:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

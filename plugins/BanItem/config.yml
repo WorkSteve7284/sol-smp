@@ -260,7 +260,9 @@ blacklist:
       drop: {}
     end_crystal:
       use: {}
-    potion:
+    ender_eye:
+      use: {}
+    respawn_anchor:
       use: {}
   world_the_end:
     netherite_sword:

@@ -1,0 +1,373 @@
+# If you need help with the config file, join my discord server https://discord.com/invite/8nE5HX5ecY
+
+############################################################
+# +------------------------------------------------------+ #
+# |                  Error Messages                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+messages:
+  consume: "§4[ERROR] §cYou can't consume that!"
+  shoot: "§4[ERROR] §cYou are not allowed to shoot that!"
+  splash: "§4[ERROR] §cYou are not allowed to throw that!"
+  splash_player: "§4[ERROR] §cYou are not allowed to throw that on players!"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                  General Settings                    | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Return the potion if an error occurs. Default is true.
+return_potion_on_error: true
+# Don't return if the player is in creative
+ignore_creative: true
+
+
+# Bypass restrictions for op players
+bypass_op: true
+
+# Ignore Game mode
+# Available game modes: SURVIVAL, CREATIVE, ADVENTURE
+white_list_game_modes:
+  - CREATIVE
+
+# Permissions to bypass restrictions use this format:
+  # disableEffects.bypass.<effect_name>
+  # Example for speed:
+  # disableEffects.bypass.speed
+
+############################################################
+# +------------------------------------------------------+ #
+# |                  Effect Settings                     | #
+# +------------------------------------------------------+ #
+############################################################
+
+# For each effect, you can enable or disable different methods:
+# - splash: Allow or deny using splash potions (PLAYER)
+# - arrow: Allow or deny shooting tipped arrows (PLAYER)
+# - dispenser: Allow or deny using dispensers for potions or arrows (DISPENSER)
+# - drink: Allow or deny drinking potions (PLAYER)
+# - brew: Allow or deny brewing the potion (ALL)
+# Optional settings:
+# - apply_cmd: Allow or deny effects from commands
+# - apply_all: Allow or deny effects from any source
+# - apply_plugin: Allow or deny effects from plugins
+# - on_entity: Allow or deny effects on entities with splash potions (NOT A PLAYER). TRUE to allow.
+
+# Default for these optional settings is false if not specified.
+
+effects:
+  # Increases movement speed.
+  SPEED:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Decreases movement speed.
+  SLOWNESS:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Increases dig speed.
+  HASTE:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Decreases dig speed.
+  MINING_FATIGUE:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Increases damage dealt.
+  STRENGTH:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Heals an entity.
+  INSTANT_HEALTH:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Hurts an entity.
+  INSTANT_DAMAGE:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Increases jump height.
+  JUMP_BOOST:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Warps vision on the client.
+  NAUSEA:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Regenerates health.
+  REGENERATION:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Decreases damage dealt to an entity.
+  RESISTANCE:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Stops fire damage.
+  FIRE_RESISTANCE:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Allows breathing underwater.
+  WATER_BREATHING:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Grants invisibility.
+  INVISIBILITY:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Blinds an entity.
+  BLINDNESS:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Allows an entity to see in the dark.
+  NIGHT_VISION:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Increases hunger.
+  HUNGER:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Decreases damage dealt by an entity.
+  WEAKNESS:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+    on_entity: true
+
+  # Deals damage to an entity over time.
+  POISON:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Deals damage to an entity over time.
+  WITHER:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Increases the maximum health of an entity.
+  HEALTH_BOOST:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Increases the maximum health of an entity with health that cannot be regenerated, but is refilled every 30 seconds.
+  ABSORPTION:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Increases the food level of an entity each tick.
+  SATURATION:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Outlines the entity so that it can be seen from afar.
+  GLOWING:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Causes the entity to float into the air.
+  LEVITATION:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Loot table luck.
+  LUCK:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Loot table unluck.
+  UNLUCK:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Slows entity fall rate.
+  SLOW_FALLING:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Effects granted by a nearby conduit. Includes enhanced underwater abilities.
+  CONDUIT_POWER:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Increases underwater movement speed.
+  DOLPHINS_GRACE:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Triggers an ominous event when the player enters a village or trial chambers.
+  BAD_OMEN:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Reduces the cost of villager trades.
+  HERO_OF_THE_VILLAGE:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Causes the player's vision to dim occasionally.
+  DARKNESS:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Causes trial spawners to become ominous.
+  TRIAL_OMEN:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Triggers a raid when a player enters a village.
+  RAID_OMEN:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Emits a wind burst upon death.
+  WIND_CHARGED:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Creates cobwebs upon death.
+  WEAVING:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+
+  # Causes slimes to spawn upon death.
+  OOZING:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true
+    on_entity: true
+
+  # Chance of spawning silverfish when hurt.
+  INFESTED:
+    splash: true
+    arrow: true
+    dispenser: true
+    drink: true
+    brew: true

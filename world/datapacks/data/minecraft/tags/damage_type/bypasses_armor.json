@@ -1,0 +1,26 @@
+{
+    "values": [
+        "vred:reaper_attack",
+        "vred:axe_attack",
+        "vred:ghammer_attack",
+        "vred:bleed_out",
+        "on_fire",
+"in_wall",
+"cramming",
+"drown",
+"fly_into_wall",
+"generic",
+"wither",
+"dragon_breath",
+"freeze",
+"starve",
+"fall",
+"stalagmite",
+"magic",
+"indirect_magic",
+"out_of_world",
+"sonic_boom",
+"generic_kill",
+"outside_border"
+    ]
+}

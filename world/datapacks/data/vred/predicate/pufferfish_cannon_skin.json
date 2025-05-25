@@ -1,0 +1,37 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:wooden_shovel"
+            ],
+            "components": {
+              "minecraft:custom_model_data": 6 
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "items": [
+              "minecraft:wooden_shovel"
+            ],
+            "components": {
+              "minecraft:custom_model_data": 6 
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:diamond_sword"
+                ],
+                "components": {
+              "minecraft:custom_data": "{midas_sword:1b}"
+            }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "vred:midas_sword/mob"
+    }
+  }
+  

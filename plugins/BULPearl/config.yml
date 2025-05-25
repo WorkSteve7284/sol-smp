@@ -5,7 +5,7 @@ damage: 2.0
 
 can_kill: true
 
-cooldown: 30
+cooldown: 40
 
 #[world1, world2, example3]
 cooldown_blacklist_world: []

@@ -1,0 +1,16 @@
+name: shiroi_step
+current: Global
+ignores: ''
+listen: Marketplace,Global
+mutes: {}
+blockedcommands: ''
+host: false
+party: ''
+filter: true
+notifications: true
+spy: false
+commandspy: false
+rangedspy: false
+messagetoggle: true
+bungeetoggle: true
+date: 2025/May/24 21:17:04

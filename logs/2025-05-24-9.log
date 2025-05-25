@@ -1,0 +1,1120 @@
+[14:22:41] [ServerMain/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[14:22:41] [ServerMain/WARN]: resource-pack-id missing, using default of c804877f-0334-3d7a-aaef-86dbe4d24933
+[14:22:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:22:43] [ServerMain/INFO]: Loaded 1291 recipes
+[14:22:43] [ServerMain/ERROR]: Failed to load function vred:weapon_crafting/aiglos/success
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 13: Can't find element 'minecraft:lightning' of type 'minecraft:entity_type' at position 16: ... lightning<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 13: Can't find element 'minecraft:lightning' of type 'minecraft:entity_type' at position 16: ... lightning<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[14:22:43] [ServerMain/ERROR]: Failed to load function vred:weapon_crafting/player_check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / vred:id_check] at position 45: ...d:id_check<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / vred:id_check] at position 45: ...d:id_check<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[14:22:44] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[14:22:44] [Server thread/INFO]: Loading properties
+[14:22:44] [Server thread/INFO]: This server is running CraftBukkit version 4344-Spigot-a759b62-19bf846 (MC: 1.21.1) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[14:22:44] [Server thread/INFO]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
+[14:22:44] [Server thread/INFO]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
+[14:22:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:22:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:22:44] [Server thread/INFO]: Debug logging is disabled
+[14:22:44] [Server thread/INFO]: Default game type: SURVIVAL
+[14:22:44] [Server thread/INFO]: Generating keypair
+[14:22:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:22:44] [Server thread/INFO]: Using epoll channel type
+[14:22:46] [Server thread/INFO]: [DisableEffects] Loading DisableEffects v1.1
+[14:22:46] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.131
+[14:22:46] [Server thread/INFO]: [EnchantControl] Loading EnchantControl v1.4.6
+[14:22:46] [Server thread/INFO]: [BULPearl] Loading BULPearl v3.1.6
+[14:22:46] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
+[14:22:46] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[14:22:46] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.3.0
+[14:22:46] [Server thread/INFO]: [voicechat] Loading voicechat v2.5.26
+[14:22:46] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.3.9+6959-7adf70b
+[14:22:47] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@15e3e204]
+[14:22:47] [Server thread/INFO]: [VentureChat] Loading VentureChat v3.7.2
+[14:22:47] [Server thread/INFO]: [Images] Loading Images v2.5.5
+[14:22:47] [Server thread/INFO]: [Blue Slime Core] Loading BlueSlimeCore v2.9.6.431
+[14:22:47] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.29.0
+[14:22:47] [Server thread/INFO]: [F3NPerm] Loading F3NPerm v3.5
+[14:22:47] [Server thread/WARN]: [F3NPerm] Could not recognize server version, proceed with caution! (Bukkit version: 1.21.1-R0.1-SNAPSHOT)
+[14:22:47] [Server thread/INFO]: [F3NPerm] Provider ProtocolLibProvider loaded!
+[14:22:47] [Server thread/INFO]: [F3NPerm] Plugin loaded!
+[14:22:47] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.12+829a4a4
+[14:22:47] [Server thread/INFO]: [JEXT] Loading JukeboxExtendedReborn v2.1.9
+[14:22:47] [Server thread/INFO]: [Shopkeepers] Loading Shopkeepers v2.23.5
+[14:22:48] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (507 ms).
+[14:22:48] [Server thread/INFO]: [Shopkeepers] Compatibility provider loaded: 1_21_R2
+[14:22:48] [Server thread/INFO]: [Shopkeepers] Loading config.
+[14:22:48] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': CREAKING
+[14:22:48] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+[14:22:48] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
+[14:22:48] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': CREAKING
+[14:22:48] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+[14:22:48] [Server thread/INFO]: [Shopkeepers] Registering WorldGuard flag 'allow-shop'.
+[14:22:48] [Server thread/INFO]: [Shopkeepers] Registering defaults.
+[14:22:48] [Server thread/INFO]: [BanItem] Loading BanItem v3.7
+[14:22:48] [Server thread/INFO]: [GSit] Loading GSit v2.3.3
+[14:22:48] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[14:22:48] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[14:22:48] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.131[m
+[14:22:48] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[14:22:48] [Server thread/INFO]: [m
+[14:22:48] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[14:22:48] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[14:22:49] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[14:22:49] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[14:22:49] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1164ms)
+[14:22:49] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[14:22:49] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:22:49] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[14:22:49] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[14:22:49] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[14:22:49] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
+[14:22:49] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:22:49] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[14:22:49] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[14:22:50] [Server thread/INFO]: [WorldEdit] ====================================================
+[14:22:50] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[14:22:50] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[14:22:50] [Server thread/INFO]: [WorldEdit]   
+[14:22:50] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[14:22:50] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[14:22:50] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[14:22:50] [Server thread/INFO]: [WorldEdit]   
+[14:22:50] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[14:22:50] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[14:22:50] [Server thread/INFO]: [WorldEdit]   
+[14:22:50] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[14:22:50] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[14:22:50] [Server thread/INFO]: [WorldEdit]   
+[14:22:50] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[14:22:50] [Server thread/INFO]: [WorldEdit] ====================================================
+[14:22:50] [Server thread/INFO]: [Blue Slime Core] Enabling BlueSlimeCore v2.9.6.431
+[14:22:50] [Server thread/INFO]: [Blue Slime Core] Successfully loaded 2 language(s).
+[14:22:50] [Server thread/INFO]: [Blue Slime Core] Detected server as regular SpigotMC/PaperMC (not Folia)
+[14:22:51] [Server thread/INFO]: [JEXT] Enabling JukeboxExtendedReborn v2.1.9
+[14:22:56] [Server thread/INFO]: [[0;32;1mJEXT[0;37;1m][0;32;1m Enabled Jukebox Extended Reborn, Do Re Mi![m
+[14:22:56] [Server thread/INFO]: Preparing level "world"
+[14:22:56] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:22:56] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:22:56] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[14:22:56] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:22:56] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:22:56] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:22:56] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:22:56] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:22:56] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:22:56] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:22:56] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:22:56] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:22:56] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:22:56] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:22:56] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:22:56] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:22:56] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:22:56] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:22:56] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:22:56] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:22:56] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:22:56] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:22:56] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[14:22:56] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[14:22:56] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[14:22:56] [Server thread/INFO]: Mob Spawn Range: 6
+[14:22:56] [Server thread/INFO]: Max TNT Explosions: 100
+[14:22:56] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:22:56] [Server thread/INFO]: View Distance: 8
+[14:22:56] [Server thread/INFO]: Simulation Distance: 8
+[14:22:56] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:22:56] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:22:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:22:56] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:22:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:22:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:22:57] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:22:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:22:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[14:22:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:22:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:22:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:22:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Mob Spawn Range: 6
+[14:22:57] [Server thread/INFO]: Max TNT Explosions: 100
+[14:22:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:22:57] [Server thread/INFO]: View Distance: 8
+[14:22:57] [Server thread/INFO]: Simulation Distance: 8
+[14:22:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:22:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:22:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:22:57] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:22:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:22:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:22:57] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:22:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:22:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[14:22:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:22:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:22:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:22:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Mob Spawn Range: 6
+[14:22:57] [Server thread/INFO]: Max TNT Explosions: 100
+[14:22:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:22:57] [Server thread/INFO]: View Distance: 8
+[14:22:57] [Server thread/INFO]: Simulation Distance: 8
+[14:22:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:22:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:22:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:22:57] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:22:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:22:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:22:57] [Server thread/INFO]: -------- World Settings For [world_vred_data_void] --------
+[14:22:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:22:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[14:22:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:22:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:22:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:22:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[14:22:57] [Server thread/INFO]: Mob Spawn Range: 6
+[14:22:57] [Server thread/INFO]: Max TNT Explosions: 100
+[14:22:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:22:57] [Server thread/INFO]: View Distance: 8
+[14:22:57] [Server thread/INFO]: Simulation Distance: 8
+[14:22:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:22:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:22:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:22:57] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:22:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:22:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:22:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:22:57] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[14:22:57] [Server thread/INFO]: Time elapsed: 518 ms
+[14:22:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:22:58] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[14:22:58] [Server thread/INFO]: Time elapsed: 181 ms
+[14:22:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:22:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:22:58] [Server thread/INFO]: Time elapsed: 141 ms
+[14:22:58] [Server thread/INFO]: Preparing start region for dimension vred:data_void
+[14:22:58] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[14:22:58] [Server thread/INFO]: Time elapsed: 96 ms
+[14:22:58] [Server thread/INFO]: [DisableEffects] Enabling DisableEffects v1.1
+[14:22:58] [Server thread/ERROR]: Error occurred while enabling DisableEffects v1.1 (Is it up to date?)
+java.lang.NoClassDefFoundError: net/kyori/adventure/text/Component
+	at io.github.asmodeus1354.disableEffects.DisableEffects.onEnable(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:267) ~[spigot-api-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:492) ~[spigot-api-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_21_R1.CraftServer.enablePlugin(CraftServer.java:576) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at org.bukkit.craftbukkit.v1_21_R1.CraftServer.enablePlugins(CraftServer.java:490) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:641) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:426) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:269) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1017) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: net.kyori.adventure.text.Component
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:160) ~[spigot-api-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:112) ~[spigot-api-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 12 more
+[14:22:58] [Server thread/INFO]: [EnchantControl] Enabling EnchantControl v1.4.6
+[14:22:58] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[9m---------------------------------------------[m
+[14:22:58] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m                     WARNING                   [m
+[14:22:58] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[m
+[14:22:58] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m            [0;36;22m[[0;31;1mEnchantControl[0;36;22m]             [m
+[14:22:58] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m          Could not determine VERSION.         [m
+[14:22:58] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m  Assuming you are running higher than [0;36;1m1.14  [m
+[14:22:58] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[m
+[14:22:58] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m                     WARNING                   [m
+[14:22:58] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[9m---------------------------------------------[m
+[14:22:58] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[9m---------------------------------[m
+[14:22:58] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m        [0;36;22m[[0;31;1mEnchantControl[0;36;22m][m
+[14:22:58] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m][m
+[14:22:58] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m      EnchantControl Enabled[m
+[14:22:58] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m       Server Version: 1.14[m
+[14:22:58] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m      Plugin Version: 1.4.6[m
+[14:22:58] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m                                               [m
+[14:22:58] [Server thread/INFO]: [0;36;22m[[0;31;1mEC[0;36;22m] [0;31;1m[9m------------------------------------------[m
+[14:22:58] [Server thread/INFO]: 
+[14:22:58] [Server thread/INFO]: [BULPearl] Enabling BULPearl v3.1.6
+[14:22:58] [Server thread/INFO]: [0;32;1m[BulPearl] [0;33;1mYour server version is v1_21_R1[m
+[14:22:58] [Server thread/INFO]: [0;32;1m[BulPearl] [0;33;1mIf that's not the case, please join the discord and contact the dev.[m
+[14:22:58] [Server thread/INFO]: [0;32;1m[BulPearl] [0;33;1mEnable BulPearl[m
+[14:22:58] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[14:22:58] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[14:22:58] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.26
+[14:22:58] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.1-R0.1
+[14:22:58] [Server thread/INFO]: [voicechat] Compatibility version 18
+[14:22:58] [Server thread/WARN]: [voicechat] Commodore command completion is not supported
+[14:22:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.5.26]
+[14:22:58] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
+[14:22:58] [Server thread/INFO]: [VentureChat] Enabling VentureChat v3.7.2
+[14:22:58] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Initializing...[m
+[14:22:58] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Config found! Loading file.[m
+[14:22:58] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Checking for Vault...[m
+[14:22:58] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Loading player data[m
+[14:22:59] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Registering Listeners[m
+[14:22:59] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Attaching to Executors[m
+[14:22:59] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Enabling PlaceholderAPI Hook[m
+[14:22:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: venturechat [3.7.2]
+[14:22:59] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Enabled Successfully[m
+[14:22:59] [Server thread/INFO]: [Images] Enabling Images v2.5.5
+[14:22:59] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.29.0
+[14:22:59] [Server thread/INFO]: [F3NPerm] Enabling F3NPerm v3.5
+[14:22:59] [Server thread/INFO]: [F3NPerm] Successfully hooked into LuckPerms!
+[14:22:59] [Server thread/INFO]: [F3NPerm] Plugin enabled!
+[14:22:59] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
+[14:22:59] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[14:22:59] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[14:22:59] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[14:22:59] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[14:22:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[14:22:59] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[14:22:59] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[14:22:59] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[14:22:59] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[14:22:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[14:22:59] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[14:22:59] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[14:22:59] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[14:22:59] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[14:22:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[14:22:59] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) TNT ignition is PERMITTED.
+[14:22:59] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) Lighters are PERMITTED.
+[14:22:59] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) Lava fire is PERMITTED.
+[14:22:59] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) Fire spread is UNRESTRICTED.
+[14:22:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_vred_data_void'
+[14:22:59] [Server thread/INFO]: [WorldGuard] Loading region data...
+[14:22:59] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.23.5
+[14:22:59] [Server thread/INFO]: [Shopkeepers] Loading the data of 1 shopkeepers ...
+[14:22:59] [Server thread/INFO]: [BanItem] Enabling BanItem v3.7
+[14:22:59] [Server thread/INFO]: [GSit] Enabling GSit v2.3.3
+[14:22:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [2.3.3]
+[14:22:59] [Server thread/INFO]: [WorldGuard] Registering session handler dev.geco.gsit.link.worldguard.RegionFlagHandler
+[14:22:59] [Server thread/INFO]: [0;37;22m[[0;33;22mGSit[0;37;22m][0;32;1m The plugin was successfully enabled.[m
+[14:22:59] [Server thread/INFO]: [0;37;22m[[0;33;22mGSit[0;37;22m][0;32;1m Link with[0;33;22m PlaceholderAPI[0;32;1m successful![m
+[14:22:59] [Server thread/INFO]: [0;37;22m[[0;33;22mGSit[0;37;22m][0;32;1m Link with[0;33;22m WorldGuard[0;32;1m successful![m
+[14:22:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:22:59] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[14:22:59] [Server thread/INFO]: Done (3.670s)! For help, type "help"
+[14:22:59] [Server thread/INFO]: [voicechat] Loading plugins
+[14:22:59] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[14:22:59] [Server thread/INFO]: [voicechat] Initializing plugins
+[14:22:59] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[14:22:59] [Server thread/INFO]: [voicechat] Using the Minecraft servers port as voice chat port
+[14:22:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[14:22:59] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.4.131 which is not a depend or softdepend of this plugin.
+[14:22:59] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 25565
+[14:22:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[14:22:59] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend or softdepend of this plugin.
+[14:22:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[14:22:59] [Server thread/INFO]: [0;32;1m3 placeholder hook(s) registered![m
+[14:22:59] [Craft Scheduler Thread - 4/INFO]: [Vault] Checking for Updates ... 
+[14:23:00] [DefaultDispatcher-worker-1/INFO]: [[0;32;1mJEXT[0;37;1m][0;32;1m Downloading resource pack...[m
+[14:23:00] [Server thread/INFO]: [[0;32;1mJEXT[0;37;1m] [0;32;1mWebserver started on port 9871[m
+[14:23:00] [DefaultDispatcher-worker-3/INFO]: [[0;31;1mJEXT[0;37;1m] [0;31;1mresource-pack.zip not found, please provide it in the plugin directory[m
+[14:23:00] [Craft Scheduler Thread - 4/INFO]: [Vault] No new version available
+[14:23:00] [pool-15-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (9d4734818ab27069d76f264a4cda74a699806770)
+[14:23:00] [Craft Scheduler Thread - 1/INFO]: [Blue Slime Core]  
+[14:23:00] [Craft Scheduler Thread - 1/INFO]: [Blue Slime Core] [Update Checker] Found a possible update for plugin 'BlueSlimeCore'.
+[14:23:00] [Craft Scheduler Thread - 1/INFO]: [Blue Slime Core] [Update Checker] Local Version: 2.9.6.431
+[14:23:00] [Craft Scheduler Thread - 1/INFO]: [Blue Slime Core] [Update Checker] Remote Version: 2.9.6.454
+[14:23:00] [Craft Scheduler Thread - 1/INFO]: [Blue Slime Core] [Update Checker] Download Link: https://hangar.papermc.io/SirBlobman/BlueSlimeCore
+[14:23:00] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[14:23:00] [DefaultDispatcher-worker-1/INFO]: [[0;32;1mJEXT[0;37;1m][0;32;1m Resource pack downloaded![m
+[14:23:00] [DefaultDispatcher-worker-1/WARN]: Exception in thread "DefaultDispatcher-worker-1" java.util.zip.ZipException: zip END header not found
+[14:23:00] [DefaultDispatcher-worker-1/WARN]: 	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1649)
+[14:23:00] [DefaultDispatcher-worker-1/WARN]: 	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1657)
+[14:23:00] [DefaultDispatcher-worker-1/WARN]: 	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1495)
+[14:23:00] [DefaultDispatcher-worker-1/WARN]: 	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1458)
+[14:23:00] [DefaultDispatcher-worker-1/WARN]: 	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+[14:23:00] [DefaultDispatcher-worker-1/WARN]: 	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+[14:23:00] [DefaultDispatcher-worker-1/WARN]: 	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+[14:23:00] [DefaultDispatcher-worker-1/WARN]: 	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+[14:23:00] [DefaultDispatcher-worker-1/WARN]: 	at me.spartacus04.jext.AssetsManager$reloadAssets$1$1.invokeSuspend(Unknown Source)
+[14:23:00] [DefaultDispatcher-worker-1/WARN]: 	at me.spartacus04.jext.dependencies.jext-reborn.kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(Unknown Source)
+[14:23:00] [DefaultDispatcher-worker-1/WARN]: 	at me.spartacus04.jext.dependencies.jext-reborn.kotlinx.coroutines.DispatchedTask.run(Unknown Source)
+[14:23:00] [DefaultDispatcher-worker-1/WARN]: 	at me.spartacus04.jext.dependencies.jext-reborn.kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(Unknown Source)
+[14:23:00] [DefaultDispatcher-worker-1/WARN]: 	at me.spartacus04.jext.dependencies.jext-reborn.kotlinx.coroutines.scheduling.TaskImpl.run(Unknown Source)
+[14:23:00] [DefaultDispatcher-worker-1/WARN]: 	at me.spartacus04.jext.dependencies.jext-reborn.kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(Unknown Source)
+[14:23:00] [DefaultDispatcher-worker-1/WARN]: 	at me.spartacus04.jext.dependencies.jext-reborn.kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(Unknown Source)
+[14:23:00] [DefaultDispatcher-worker-1/WARN]: 	at me.spartacus04.jext.dependencies.jext-reborn.kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(Unknown Source)
+[14:23:00] [DefaultDispatcher-worker-1/WARN]: 	at me.spartacus04.jext.dependencies.jext-reborn.kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(Unknown Source)
+[14:23:00] [DefaultDispatcher-worker-1/WARN]: 	Suppressed: me.spartacus04.jext.dependencies.jext-reborn.kotlinx.coroutines.internal.DiagnosticCoroutineContextException: [StandaloneCoroutine{Cancelling}@de0b70, Dispatchers.Default]
+[14:23:00] [DefaultDispatcher-worker-1/INFO]: [[0;31;1mJEXT[0;37;1m][0;31;1m No custom discs found! Check out the documentation for more info.[m
+[14:23:00] [DefaultDispatcher-worker-1/INFO]: [0;33;22m[[0;32;22mhttps://spartacus04.github.io/jext-reborn/docs/[0;33;22m][m
+[14:23:00] [Server thread/INFO]: [BanItem] Successfully loaded 30 blacklisted & 0 whitelisted item(s).[m
+[14:23:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[14:23:01] [User Authenticator #2/INFO]: [LuckPerms] Another plugin has cancelled the connection for cfa00a8c-944b-4e45-8f1d-fd31d2b79a04 - oatmandude. No permissions data will be loaded.
+[14:23:01] [User Authenticator #1/INFO]: [LuckPerms] Another plugin has cancelled the connection for 92968cf2-8611-4eb4-8115-ac4a0d8f1530 - A1klos. No permissions data will be loaded.
+[14:23:01] [User Authenticator #2/INFO]: Disconnecting oatmandude (/73.130.184.183:61597): §cCurrently unavailable to check link status because the server is still connecting to Discord.
+
+Try again in a minute.
+[14:23:01] [User Authenticator #1/INFO]: Disconnecting A1klos (/71.58.148.208:64929): §cCurrently unavailable to check link status because the server is still connecting to Discord.
+
+Try again in a minute.
+[14:23:01] [User Authenticator #1/INFO]: UUID of player A1klos is 92968cf2-8611-4eb4-8115-ac4a0d8f1530
+[14:23:01] [User Authenticator #2/INFO]: UUID of player oatmandude is cfa00a8c-944b-4e45-8f1d-fd31d2b79a04
+[14:23:01] [Server thread/INFO]: oatmandude (/73.130.184.183:61597) lost connection: §cCurrently unavailable to check link status because the server is still connecting to Discord.
+
+Try again in a minute.
+[14:23:01] [Server thread/INFO]: A1klos (/71.58.148.208:64929) lost connection: §cCurrently unavailable to check link status because the server is still connecting to Discord.
+
+Try again in a minute.
+[14:23:01] [Craft Scheduler Thread - 1/INFO]: [Images] Loaded 0 images...
+[14:23:02] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[14:23:02] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:console-relay(1368283493095702578)
+[14:23:02] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Saved linked accounts in 5ms
+[14:23:02] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling VentureChat hook
+[14:23:02] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling LuckPerms hook
+[14:23:02] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling PlaceholderAPI hook
+[14:23:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: discordsrv [1.29.0]
+[14:23:02] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 2/2 guilds (0 cancelled)
+[14:23:03] [User Authenticator #3/INFO]: UUID of player GalacticCreator7 is 8138fc9b-2060-497c-9c84-c07011d6cb11
+[14:23:05] [User Authenticator #4/INFO]: UUID of player Algorithm0_ is 8caf7e36-3e08-4dc8-9d78-dd3dfd2908af
+[14:23:05] [Server thread/INFO]: GalacticCreator7 joined the game
+[14:23:05] [Server thread/INFO]: GalacticCreator7[/204.111.140.53:1537] logged in with entity id 58 at ([world]343.0370886164322, 61.405321133954715, 651.6879627046734)
+[14:23:05] [Server thread/INFO]: [voicechat] Received secret request of GalacticCreator7 (18)
+[14:23:05] [Server thread/INFO]: [voicechat] Sent secret to GalacticCreator7
+[14:23:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 8138fc9b-2060-497c-9c84-c07011d6cb11
+[14:23:06] [User Authenticator #5/INFO]: UUID of player IHazHands is 8f9da2b8-41f6-439e-b709-7785b635a85d
+[14:23:06] [Server thread/INFO]: Algorithm0_ joined the game
+[14:23:06] [Server thread/INFO]: Algorithm0_[/75.75.186.168:60601] logged in with entity id 59 at ([world]58.520335336648245, -47.27870846452079, -723.6049439533783)
+[14:23:06] [User Authenticator #6/INFO]: UUID of player Ward3r is 96b31cbd-bed2-41c9-9240-7926b1787e8d
+[14:23:06] [Server thread/INFO]: [voicechat] Received secret request of Algorithm0_ (18)
+[14:23:06] [Server thread/INFO]: [voicechat] Sent secret to Algorithm0_
+[14:23:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 8caf7e36-3e08-4dc8-9d78-dd3dfd2908af
+[14:23:06] [User Authenticator #7/INFO]: UUID of player oatmandude is cfa00a8c-944b-4e45-8f1d-fd31d2b79a04
+[14:23:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 8138fc9b-2060-497c-9c84-c07011d6cb11
+[14:23:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player GalacticCreator7 (8138fc9b-2060-497c-9c84-c07011d6cb11) successfully connected to voice chat
+[14:23:07] [Server thread/INFO]: IHazHands joined the game
+[14:23:07] [Server thread/INFO]: IHazHands[/71.58.71.166:58831] logged in with entity id 75 at ([world]535.0253269984848, 106.24947197770308, 71.43966354553949)
+[14:23:07] [Server thread/INFO]: [voicechat] Received secret request of IHazHands (18)
+[14:23:07] [Server thread/INFO]: [voicechat] Sent secret to IHazHands
+[14:23:07] [Server thread/INFO]: Ward3r joined the game
+[14:23:07] [Server thread/INFO]: Ward3r[/75.75.191.128:59208] logged in with entity id 120 at ([world]-211.09403905714862, 69.41424525952915, -331.5563303899373)
+[14:23:07] [Server thread/INFO]: [voicechat] Received secret request of Ward3r (18)
+[14:23:07] [Server thread/INFO]: [voicechat] Sent secret to Ward3r
+[14:23:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 8caf7e36-3e08-4dc8-9d78-dd3dfd2908af
+[14:23:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Algorithm0_ (8caf7e36-3e08-4dc8-9d78-dd3dfd2908af) successfully connected to voice chat
+[14:23:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 96b31cbd-bed2-41c9-9240-7926b1787e8d
+[14:23:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 8f9da2b8-41f6-439e-b709-7785b635a85d
+[14:23:08] [Server thread/INFO]: oatmandude joined the game
+[14:23:08] [Server thread/INFO]: oatmandude[/73.130.184.183:61602] logged in with entity id 130 at ([world]-283.4049841487164, 101.9375, 614.6608888187244)
+[14:23:08] [Server thread/INFO]: [voicechat] Received secret request of oatmandude (18)
+[14:23:08] [Server thread/INFO]: [voicechat] Sent secret to oatmandude
+[14:23:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 96b31cbd-bed2-41c9-9240-7926b1787e8d
+[14:23:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Ward3r (96b31cbd-bed2-41c9-9240-7926b1787e8d) successfully connected to voice chat
+[14:23:09] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 8f9da2b8-41f6-439e-b709-7785b635a85d
+[14:23:09] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player IHazHands (8f9da2b8-41f6-439e-b709-7785b635a85d) successfully connected to voice chat
+[14:23:09] [User Authenticator #8/INFO]: UUID of player worksteve is e072ed27-2928-4c0d-9aac-b17c6a693f0b
+[14:23:10] [User Authenticator #9/INFO]: UUID of player A1klos is 92968cf2-8611-4eb4-8115-ac4a0d8f1530
+[14:23:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player cfa00a8c-944b-4e45-8f1d-fd31d2b79a04
+[14:23:10] [User Authenticator #10/INFO]: UUID of player IEATSDRINKS is b0083ba2-48d2-48e6-9008-ed350496cfc9
+[14:23:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player cfa00a8c-944b-4e45-8f1d-fd31d2b79a04
+[14:23:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player oatmandude (cfa00a8c-944b-4e45-8f1d-fd31d2b79a04) successfully connected to voice chat
+[14:23:11] [User Authenticator #11/INFO]: UUID of player B0nic is 0261fd3d-dcf9-4484-865a-d4eb6724b65c
+[14:23:11] [Server thread/INFO]: worksteve joined the game
+[14:23:11] [Server thread/INFO]: worksteve[/192.168.86.1:60885] logged in with entity id 458 at ([world]596.6999999880791, 35.0, -359.449763327022)
+[14:23:11] [User Authenticator #12/INFO]: UUID of player CT_Assailant is 7d4e6e31-3b64-4b12-887d-0a338e61297e
+[14:23:11] [Server thread/INFO]: [voicechat] Received secret request of worksteve (18)
+[14:23:11] [Server thread/INFO]: [voicechat] Sent secret to worksteve
+[14:23:11] [Server thread/INFO]: A1klos joined the game
+[14:23:11] [Server thread/INFO]: A1klos[/71.58.148.208:64933] logged in with entity id 486 at ([world]138.1941300365152, -15.58603963942925, -675.9258219506804)
+[14:23:11] [Server thread/INFO]: IEATSDRINKS joined the game
+[14:23:11] [Server thread/INFO]: IEATSDRINKS[/73.175.150.164:56476] logged in with entity id 513 at ([world]-516.2998930522627, 97.17319996740818, 476.64560663292303)
+[14:23:11] [Server thread/INFO]: [voicechat] Received secret request of A1klos (18)
+[14:23:11] [Server thread/INFO]: [voicechat] Sent secret to A1klos
+[14:23:11] [Server thread/INFO]: [voicechat] Received secret request of IEATSDRINKS (18)
+[14:23:11] [Server thread/INFO]: [voicechat] Sent secret to IEATSDRINKS
+[14:23:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player b0083ba2-48d2-48e6-9008-ed350496cfc9
+[14:23:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 92968cf2-8611-4eb4-8115-ac4a0d8f1530
+[14:23:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e072ed27-2928-4c0d-9aac-b17c6a693f0b
+[14:23:12] [Server thread/INFO]: B0nic joined the game
+[14:23:12] [Server thread/INFO]: B0nic[/73.130.184.183:57313] logged in with entity id 569 at ([world]347.5168454708432, 80.0, 145.79911802646728)
+[14:23:12] [Server thread/INFO]: [voicechat] Received secret request of B0nic (18)
+[14:23:12] [Server thread/INFO]: [voicechat] Sent secret to B0nic
+[14:23:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player b0083ba2-48d2-48e6-9008-ed350496cfc9
+[14:23:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player IEATSDRINKS (b0083ba2-48d2-48e6-9008-ed350496cfc9) successfully connected to voice chat
+[14:23:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 92968cf2-8611-4eb4-8115-ac4a0d8f1530
+[14:23:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A1klos (92968cf2-8611-4eb4-8115-ac4a0d8f1530) successfully connected to voice chat
+[14:23:13] [Server thread/INFO]: CT_Assailant joined the game
+[14:23:13] [Server thread/INFO]: CT_Assailant[/174.175.162.167:52817] logged in with entity id 570 at ([world]-342.7696736287207, 81.25983709287071, 67.20984761752055)
+[14:23:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 0261fd3d-dcf9-4484-865a-d4eb6724b65c
+[14:23:13] [Server thread/INFO]: [voicechat] Received secret request of CT_Assailant (18)
+[14:23:13] [Server thread/INFO]: [voicechat] Sent secret to CT_Assailant
+[14:23:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 7d4e6e31-3b64-4b12-887d-0a338e61297e
+[14:23:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e072ed27-2928-4c0d-9aac-b17c6a693f0b
+[14:23:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player worksteve (e072ed27-2928-4c0d-9aac-b17c6a693f0b) successfully connected to voice chat
+[14:23:14] [Server thread/INFO]: worksteve suffocated in a wall
+[14:23:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 0261fd3d-dcf9-4484-865a-d4eb6724b65c
+[14:23:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player B0nic (0261fd3d-dcf9-4484-865a-d4eb6724b65c) successfully connected to voice chat
+[14:23:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 7d4e6e31-3b64-4b12-887d-0a338e61297e
+[14:23:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player CT_Assailant (7d4e6e31-3b64-4b12-887d-0a338e61297e) successfully connected to voice chat
+[14:23:22] [Craft Scheduler Thread - 2/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [38;2;0;207;255m[Server Developer][m worksteve[0;32;22m:[0;37;1m what?[m
+[14:23:26] [Craft Scheduler Thread - 5/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [38;2;0;207;255m[Server Developer][m worksteve[0;32;22m:[0;37;1m howd i die[m
+[14:23:27] [User Authenticator #13/INFO]: UUID of player Runic_Spectator is d93a4f4c-cb87-43e1-b6ed-73fad1e758ae
+[14:23:29] [Server thread/INFO]: Runic_Spectator joined the game
+[14:23:29] [Server thread/INFO]: Runic_Spectator[/71.58.104.58:56924] logged in with entity id 1734 at ([world]7.822895646505489, -3.580243188183575, -254.26839838984603)
+[14:23:29] [Server thread/INFO]: [voicechat] Received secret request of Runic_Spectator (18)
+[14:23:29] [Server thread/INFO]: [voicechat] Sent secret to Runic_Spectator
+[14:23:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player d93a4f4c-cb87-43e1-b6ed-73fad1e758ae
+[14:23:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player d93a4f4c-cb87-43e1-b6ed-73fad1e758ae
+[14:23:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Runic_Spectator (d93a4f4c-cb87-43e1-b6ed-73fad1e758ae) successfully connected to voice chat
+[14:23:37] [User Authenticator #14/INFO]: UUID of player TarrioKnight is cffb87ba-4026-4ae4-967e-7cb14ec45408
+[14:23:39] [Server thread/INFO]: TarrioKnight joined the game
+[14:23:39] [Server thread/INFO]: TarrioKnight[/73.175.150.238:58347] logged in with entity id 2057 at ([world]-117.69999998807907, 111.58477326871305, 306.9361237064555)
+[14:23:40] [Server thread/INFO]: [voicechat] Received secret request of TarrioKnight (18)
+[14:23:40] [Server thread/INFO]: [voicechat] Sent secret to TarrioKnight
+[14:23:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player cffb87ba-4026-4ae4-967e-7cb14ec45408
+[14:23:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player cffb87ba-4026-4ae4-967e-7cb14ec45408
+[14:23:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player TarrioKnight (cffb87ba-4026-4ae4-967e-7cb14ec45408) successfully connected to voice chat
+[14:23:43] [Craft Scheduler Thread - 4/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [38;2;0;207;255m[Server Developer][m worksteve[0;32;22m:[0;37;1m i had 2 stacks of iron'[m
+[14:23:43] [User Authenticator #15/INFO]: UUID of player Nablade is 95b42e68-2439-4a50-b435-f98489f7ced1
+[14:23:46] [Server thread/INFO]: Nablade joined the game
+[14:23:46] [Server thread/INFO]: Nablade[/71.58.88.182:49929] logged in with entity id 2302 at ([world]342.1103481018812, 63.08576431274414, 661.7216139305134)
+[14:23:46] [Server thread/INFO]: [voicechat] Received secret request of Nablade (18)
+[14:23:46] [Server thread/INFO]: [voicechat] Sent secret to Nablade
+[14:23:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 95b42e68-2439-4a50-b435-f98489f7ced1
+[14:23:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 95b42e68-2439-4a50-b435-f98489f7ced1
+[14:23:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Nablade (95b42e68-2439-4a50-b435-f98489f7ced1) successfully connected to voice chat
+[14:23:48] [Craft Scheduler Thread - 2/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [38;2;0;207;255m[Server Developer][m GalacticCreator7[0;32;22m:[0;37;1m hello?[m
+[14:23:51] [User Authenticator #16/INFO]: UUID of player shiroi_step is c9c4cf71-309f-41a2-8142-fbde1027b25a
+[14:23:52] [Craft Scheduler Thread - 13/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [38;2;0;207;255m[Server Developer][m GalacticCreator7[0;32;22m:[0;37;1m David[m
+[14:23:53] [Server thread/INFO]: shiroi_step joined the game
+[14:23:53] [Server thread/INFO]: shiroi_step[/70.106.211.114:61587] logged in with entity id 2482 at ([world]342.1103481018812, 64.80736426353455, 661.7216139305134)
+[14:23:53] [Server thread/INFO]: [voicechat] Received secret request of shiroi_step (18)
+[14:23:53] [Server thread/INFO]: [voicechat] Sent secret to shiroi_step
+[14:23:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player c9c4cf71-309f-41a2-8142-fbde1027b25a
+[14:23:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player c9c4cf71-309f-41a2-8142-fbde1027b25a
+[14:23:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player shiroi_step (c9c4cf71-309f-41a2-8142-fbde1027b25a) successfully connected to voice chat
+[14:23:55] [User Authenticator #17/INFO]: UUID of player HVRugby is 5c5decd3-aeed-4d09-9cb2-9805a5ea706e
+[14:23:55] [Server thread/INFO]: HVRugby joined the game
+[14:23:55] [Server thread/INFO]: HVRugby[/71.58.211.199:53502] logged in with entity id 2590 at ([world]204.00145018195397, -31.0, 162.40892465327798)
+[14:23:56] [Server thread/INFO]: [voicechat] Received secret request of HVRugby (18)
+[14:23:56] [Server thread/INFO]: [voicechat] Sent secret to HVRugby
+[14:23:56] [User Authenticator #18/INFO]: UUID of player Mahleumon is bec93be4-7299-4dc2-9ade-359fdcd8c2aa
+[14:23:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 5c5decd3-aeed-4d09-9cb2-9805a5ea706e
+[14:23:57] [User Authenticator #19/INFO]: UUID of player AronCamoflauge07 is a53714a2-0825-4dd4-9259-481c0e147e6f
+[14:23:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 5c5decd3-aeed-4d09-9cb2-9805a5ea706e
+[14:23:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player HVRugby (5c5decd3-aeed-4d09-9cb2-9805a5ea706e) successfully connected to voice chat
+[14:23:59] [Server thread/INFO]: AronCamoflauge07 joined the game
+[14:23:59] [Server thread/INFO]: AronCamoflauge07[/75.75.189.27:38132] logged in with entity id 2717 at ([world]-342.732805825414, -51.0, -13.053634761835673)
+[14:24:00] [Server thread/INFO]: Mahleumon joined the game
+[14:24:00] [Server thread/INFO]: Mahleumon[/174.175.186.171:32594] logged in with entity id 2669 at ([world]265.8407512342529, -31.0, 103.15770773511719)
+[14:24:00] [Server thread/INFO]: [voicechat] Received secret request of Mahleumon (18)
+[14:24:00] [Server thread/INFO]: [voicechat] Sent secret to Mahleumon
+[14:24:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player bec93be4-7299-4dc2-9ade-359fdcd8c2aa
+[14:24:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player bec93be4-7299-4dc2-9ade-359fdcd8c2aa
+[14:24:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Mahleumon (bec93be4-7299-4dc2-9ade-359fdcd8c2aa) successfully connected to voice chat
+[14:24:10] [Craft Scheduler Thread - 9/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [38;2;0;207;255m[Server Developer][m GalacticCreator7[0;32;22m:[0;37;1m lets try something if it lag spikes Im very sorry and I will stop it[m
+[14:24:32] [Server thread/INFO]: GalacticCreator7 issued server command: /datapack enable "file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip"
+[14:24:32] [Server thread/INFO]: [GalacticCreator7: Enabling data pack [file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip (world)]]
+[14:24:33] [Worker-Main-11/ERROR]: Couldn't load tag minecraft:curse as it is missing following references: vred:warpick (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[14:24:33] [Worker-Main-12/ERROR]: Couldn't load tag minecraft:axe_attack as it is missing following references: vred:axe_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[14:24:33] [Worker-Main-12/ERROR]: Couldn't load tag minecraft:bypasses_armor as it is missing following references: vred:reaper_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip), vred:axe_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip), vred:ghammer_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip), vred:bleed_out (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[14:24:33] [Worker-Main-12/ERROR]: Couldn't load tag minecraft:bypasses_shield as it is missing following references: #minecraft:bypasses_armor (from vanilla)
+[14:24:33] [Worker-Main-12/ERROR]: Couldn't load tag minecraft:ghammer_attack as it is missing following references: vred:ghammer_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[14:24:33] [Worker-Main-12/ERROR]: Couldn't load tag minecraft:bleed_out as it is missing following references: vred:bleed_out (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[14:24:33] [Worker-Main-12/ERROR]: Couldn't load tag minecraft:atk_nocd as it is missing following references: vred:atk_nocd (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[14:24:33] [Worker-Main-12/ERROR]: Couldn't load tag minecraft:bypasses_cooldown as it is missing following references: vred:reaper_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip), vred:axe_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip), vred:ghammer_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip), vred:bleed_out (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip), vred:atk_nocd (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[14:24:33] [Worker-Main-12/ERROR]: Couldn't load tag minecraft:no_knockback as it is missing following references: vred:bleed_out (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[14:24:33] [Worker-Main-12/ERROR]: Couldn't load tag minecraft:reaper_attack as it is missing following references: vred:reaper_attack (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[14:24:33] [Worker-Main-12/ERROR]: Couldn't load tag minecraft:elytra_kinetic as it is missing following references: vred:elytra_kinetic (from file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip)
+[14:24:33] [Server thread/INFO]: Loaded 1291 recipes
+[14:24:33] [Server thread/ERROR]: Failed to load function vred:reaper_scythe/reaper_hit2
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Can't find element 'vred:reaper_attack' of type 'minecraft:damage_type' at position 96: ...per_attack<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Can't find element 'vred:reaper_attack' of type 'minecraft:damage_type' at position 96: ...per_attack<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[14:24:33] [Server thread/ERROR]: Failed to load function vred:warpick/tick
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 6: Can't find element 'vred:warpick' of type 'minecraft:enchantment' at position 47: ...ed:warpick<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 6: Can't find element 'vred:warpick' of type 'minecraft:enchantment' at position 47: ...ed:warpick<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[14:24:33] [Server thread/ERROR]: Failed to load function vred:weapon_crafting/aiglos/success
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 13: Can't find element 'minecraft:lightning' of type 'minecraft:entity_type' at position 16: ... lightning<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 13: Can't find element 'minecraft:lightning' of type 'minecraft:entity_type' at position 16: ... lightning<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[14:24:33] [Server thread/ERROR]: Failed to load function vred:hypnosis_staff/atk/1
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Can't find element 'vred:bleed_out' of type 'minecraft:damage_type' at position 92: ...:bleed_out<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Can't find element 'vred:bleed_out' of type 'minecraft:damage_type' at position 92: ...:bleed_out<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[14:24:33] [Server thread/ERROR]: Failed to load function vred:ender_bow/endermite/ender_arrow1_1
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Can't find element 'vred:bleed_out' of type 'minecraft:damage_type' at position 26: ...:bleed_out<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Can't find element 'vred:bleed_out' of type 'minecraft:damage_type' at position 26: ...:bleed_out<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[14:24:34] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:damage_type] are present in data pack: minecraft:bypasses_armor, minecraft:bypasses_shield, minecraft:no_knockback
+[14:24:34] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:enchantment] are present in data pack: minecraft:curse
+[14:24:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4481ms or 89 ticks behind
+[14:24:35] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:35] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:36] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:36] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:36] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:36] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:36] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:37] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:37] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:37] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:37] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:37] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:37] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:38] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:38] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:38] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:38] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:38] [Craft Scheduler Thread - 24/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [0;31;22m[Owner][m CT_Assailant[0;32;22m:[0;37;1m uhh[m
+[14:24:38] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:38] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:39] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:39] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:39] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:39] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:39] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:39] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:39] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:40] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:40] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:40] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:40] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:40] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:40] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:41] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:41] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:41] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:41] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:41] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:41] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:41] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:42] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:42] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:42] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:42] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:42] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:42] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:42] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:43] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:43] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:43] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:43] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:43] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:43] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:43] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:44] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:44] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:44] [Server thread/WARN]: Cherry Boat (vehicle of GalacticCreator7) moved wrongly! 2.0619507647025292
+[14:24:44] [Server thread/WARN]: Cherry Boat (vehicle of GalacticCreator7) moved wrongly! 2.0619507647025292
+[14:24:44] [Server thread/WARN]: Cherry Boat (vehicle of GalacticCreator7) moved wrongly! 2.0619507647025292
+[14:24:44] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:44] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:44] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:44] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:44] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:45] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:45] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:45] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:45] [Craft Scheduler Thread - 7/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] IEATSDRINKS[0;32;22m:[0;37;1m im so laggy that i somehow duped my furnace[m
+[14:24:45] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:45] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:45] [Craft Scheduler Thread - 13/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [38;2;0;207;255m[Server Developer][m GalacticCreator7[0;32;22m:[0;37;1m IS it lagging?[m
+[14:24:45] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:45] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:46] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:46] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:46] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:46] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:46] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:46] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:46] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:47] [Craft Scheduler Thread - 3/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [0;31;22m[Owner][m CT_Assailant[0;32;22m:[0;37;1m is there lag?[m
+[14:24:47] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:47] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:47] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:47] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:47] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:47] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:48] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:48] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:48] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:48] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:48] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:48] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:49] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:49] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:49] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:49] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:49] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:49] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:50] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:50] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:50] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:50] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:50] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:51] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:51] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:51] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:51] [Craft Scheduler Thread - 18/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [38;2;0;207;255m[Server Developer][m GalacticCreator7[0;32;22m:[0;37;1m This is very important[m
+[14:24:51] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:51] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:51] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:52] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:52] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:52] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:52] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:52] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:52] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:53] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:53] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:53] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:53] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:53] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:53] [Craft Scheduler Thread - 20/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [38;2;0;207;255m[Server Developer][m worksteve[0;32;22m:[0;37;1m yes[m
+[14:24:53] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:54] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:54] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:54] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:54] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:54] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:54] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:55] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:55] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:55] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:55] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:55] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:55] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:56] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:56] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:56] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:56] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:56] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:56] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:57] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:57] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:57] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:57] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:57] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:57] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:58] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:58] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:58] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:58] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:58] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:58] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:58] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:59] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:59] [Server thread/INFO]: worksteve lost connection: Disconnected
+[14:24:59] [Server thread/INFO]: [voicechat] Disconnecting client worksteve
+[14:24:59] [Server thread/INFO]: worksteve left the game
+[14:24:59] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:59] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:59] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:59] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:59] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:24:59] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:25:00] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:25:00] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[14:25:00] [Server thread/INFO]: GalacticCreator7 issued server command: /datapack disable "file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip"
+[14:25:00] [Server thread/INFO]: [GalacticCreator7: Disabling data pack [file/vred's Hoplite Datapack [DP] v7.5.1 (1.21)-Mg5CocFY-WkhVoxEN.zip (world)]]
+[14:25:00] [Server thread/INFO]: Loaded 1291 recipes
+[14:25:00] [Server thread/ERROR]: Failed to load function vred:weapon_crafting/aiglos/success
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 13: Can't find element 'minecraft:lightning' of type 'minecraft:entity_type' at position 16: ... lightning<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 13: Can't find element 'minecraft:lightning' of type 'minecraft:entity_type' at position 16: ... lightning<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[14:25:00] [Server thread/ERROR]: Failed to load function vred:weapon_crafting/player_check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / vred:id_check] at position 45: ...d:id_check<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / vred:id_check] at position 45: ...d:id_check<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.a(SourceFile:80) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.CustomFunctionManager.a(SourceFile:89) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[14:25:00] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: vred:non_solid, vred:walk_through
+[14:25:00] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: vred:discs, vred:dyes
+[14:25:00] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:entity_type] are present in data pack: vred:passive
+[14:25:01] [Craft Scheduler Thread - 20/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [0;31;22m[Owner][m CT_Assailant[0;32;22m:[0;37;1m yes there is lag[m
+[14:25:03] [Craft Scheduler Thread - 17/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] TarrioKnight[0;32;22m:[0;37;1m Q[m
+[14:25:04] [Craft Scheduler Thread - 17/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [38;2;0;207;255m[Server Developer][m GalacticCreator7[0;32;22m:[0;37;1m its disabled now[m
+[14:25:06] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Sam > tps lag
+[14:25:08] [Server thread/INFO]: IHazHands tried to swim in lava
+[14:25:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19760ms or 395 ticks behind
+[14:25:11] [Server thread/INFO]: CT_Assailant issued server command: /datapack disable "file/Speedsilver Pedestals [DP] v1.3-H7Iiixo1-zXB6PL3v.zip"
+[14:25:11] [Server thread/INFO]: [CT_Assailant: Disabling data pack [file/Speedsilver Pedestals [DP] v1.3-H7Iiixo1-zXB6PL3v.zip (world)]]
+[14:25:11] [Server thread/INFO]: Loaded 1291 recipes
+[14:25:11] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: vred:non_solid, vred:walk_through
+[14:25:11] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: vred:discs, vred:dyes
+[14:25:11] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:entity_type] are present in data pack: vred:passive
+[14:25:12] [Craft Scheduler Thread - 2/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [38;2;0;207;255m[Server Developer][m GalacticCreator7[0;32;22m:[0;37;1m it adds the legendaries lol[m
+[14:25:12] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Sam > it was running 4s behind
+[14:25:15] [Server thread/INFO]: IHazHands tried to swim in lava
+[14:25:18] [Craft Scheduler Thread - 2/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [0;31;22m[Owner][m CT_Assailant[0;32;22m:[0;37;1m no reason to have the pedestals enabled[m
+[14:25:19] [Server thread/INFO]: IHazHands tried to swim in lava
+[14:25:23] [Craft Scheduler Thread - 22/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [0;31;22m[Owner][m CT_Assailant[0;32;22m:[0;37;1m wait how[m
+[14:25:24] [Server thread/INFO]: IHazHands tried to swim in lava
+[14:25:25] [Craft Scheduler Thread - 22/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [0;31;22m[Owner][m CT_Assailant[0;32;22m:[0;37;1m how[m
+[14:25:26] [Craft Scheduler Thread - 22/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [0;31;22m[Owner][m CT_Assailant[0;32;22m:[0;37;1m what[m
+[14:25:28] [Server thread/INFO]: IHazHands tried to swim in lava
+[14:25:32] [Server thread/INFO]: IHazHands tried to swim in lava
+[14:25:33] [Server thread/INFO]: Mahleumon has made the advancement [Hot Stuff]
+[14:25:36] [Craft Scheduler Thread - 22/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] IHazHands[0;32;22m:[0;37;1m hot[m
+[14:25:36] [Server thread/INFO]: IHazHands tried to swim in lava
+[14:25:40] [Server thread/INFO]: IHazHands tried to swim in lava
+[14:25:45] [Server thread/INFO]: IHazHands tried to swim in lava
+[14:25:49] [Server thread/INFO]: IHazHands tried to swim in lava
+[14:25:54] [Server thread/INFO]: IHazHands tried to swim in lava
+[14:25:57] [Craft Scheduler Thread - 18/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] A1klos[0;32;22m:[0;37;1m STOP COMMITING[m
+[14:25:58] [Craft Scheduler Thread - 18/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [0;31;22m[Owner][m CT_Assailant[0;32;22m:[0;37;1m bundles dont work?[m
+[14:25:58] [Server thread/INFO]: IHazHands tried to swim in lava
+[14:26:01] [Craft Scheduler Thread - 21/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] A1klos[0;32;22m:[0;37;1m SUICIDE[m
+[14:26:04] [Craft Scheduler Thread - 21/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] IHazHands[0;32;22m:[0;37;1m no[m
+[14:26:08] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Sam > its still lagging
+[14:26:09] [Craft Scheduler Thread - 18/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] IEATSDRINKS[0;32;22m:[0;37;1m why do you keep killing yourself[m
+[14:26:10] [Craft Scheduler Thread - 18/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] IHazHands[0;32;22m:[0;37;1m im depress[m
+[14:26:12] [Server thread/INFO]: TarrioKnight issued server command: /msg Ward3r one seccerooney
+[14:26:17] [Craft Scheduler Thread - 18/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] IHazHands[0;32;22m:[0;37;1m i lost the wife and kids[m
+[14:26:20] [Server thread/INFO]: HVRugby has made the advancement [Ice Bucket Challenge]
+[14:26:22] [Craft Scheduler Thread - 18/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [0;31;22m[Owner][m CT_Assailant[0;32;22m:[0;37;1m XD[m
+[14:26:28] [Craft Scheduler Thread - 18/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] A1klos[0;32;22m:[0;37;1m just become a drug addict like me[m
+[14:26:29] [Craft Scheduler Thread - 28/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] IHazHands[0;32;22m:[0;37;1m they took the house[m
+[14:26:33] [Craft Scheduler Thread - 28/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] IHazHands[0;32;22m:[0;37;1m they took my stuff[m
+[14:26:36] [Craft Scheduler Thread - 28/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] A1klos[0;32;22m:[0;37;1m I am currently 27% blood alcohol level[m
+[14:26:41] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Sam > IDK how to fix the lag
+[14:26:43] [Server thread/INFO]: IHazHands tried to swim in lava
+[14:26:47] [Server thread/INFO]: TarrioKnight issued server command: /msg Ward3r can you hear me i can hear you
+[14:26:49] [Server thread/INFO]: Runic_Spectator burned to death
+[14:26:58] [Server thread/INFO]: Villager EntityVillager['Villager'/850, l='ServerLevel[world]', x=359.70, y=60.05, z=24.28] died, message: 'Villager drowned'
+[14:27:20] [Craft Scheduler Thread - 8/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] IHazHands[0;32;22m:[0;37;1m im just gonna become a gambling addict now[m
+[14:27:45] [Craft Scheduler Thread - 27/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [0;31;22m[Owner][m CT_Assailant[0;32;22m:[0;37;1m someone sleep[m
+[14:27:54] [Server thread/INFO]: IHazHands tried to swim in lava
+[14:27:58] [Server thread/INFO]: IHazHands tried to swim in lava
+[14:28:02] [Server thread/INFO]: IHazHands tried to swim in lava
+[14:28:06] [Server thread/INFO]: IHazHands tried to swim in lava
+[14:28:23] [Craft Scheduler Thread - 30/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [0;31;22m[Owner][m CT_Assailant[0;32;22m:[0;37;1m HELLO[m
+[14:28:39] [Server thread/INFO]: GalacticCreator7 issued server command: /msg Nablade
+[14:28:44] [Server thread/INFO]: CT_Assailant has made the advancement [Enchanter]
+[14:28:50] [Server thread/INFO]: oatmandude tried to swim in lava
+[14:29:42] [Craft Scheduler Thread - 8/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] Nablade[0;32;22m:[0;37;1m my bad gang[m
+[14:29:53] [Server thread/INFO]: IHazHands drowned
+[14:29:59] [Server thread/INFO]: B0nic has made the advancement [A Seedy Place]
+[14:30:00] [Craft Scheduler Thread - 8/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] IHazHands[0;32;22m:[0;37;1m can you open the border[m
+[14:30:04] [Craft Scheduler Thread - 8/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] A1klos[0;32;22m:[0;37;1m someone ban issac[m
+[14:30:07] [Craft Scheduler Thread - 30/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] IHazHands[0;32;22m:[0;37;1m so i can leave and start a new life[m
+[14:30:09] [Craft Scheduler Thread - 30/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] A1klos[0;32;22m:[0;37;1m he is promoting suicide[m
+[14:30:18] [Craft Scheduler Thread - 31/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] IHazHands[0;32;22m:[0;37;1m whos issac[m
+[14:30:26] [Craft Scheduler Thread - 33/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] IEATSDRINKS[0;32;22m:[0;37;1m pablo[m
+[14:30:29] [Server thread/INFO]: GalacticCreator7 has made the advancement [Hot Stuff]
+[14:30:29] [Craft Scheduler Thread - 34/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] A1klos[0;32;22m:[0;37;1m *mr hands*[m
+[14:30:34] [Craft Scheduler Thread - 30/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] IHazHands[0;32;22m:[0;37;1m whos mr hands[m
+[14:30:38] [Server thread/INFO]: GalacticCreator7 issued server command: /msg Nablade WYA
+[14:30:44] [Craft Scheduler Thread - 34/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] A1klos[0;32;22m:[0;37;1m . . .[m
+[14:30:46] [Server thread/INFO]: Nablade issued server command: /msg GalacticCreator7 I did a hit and run
+[14:30:46] [Server thread/INFO]: GalacticCreator7 issued server command: /msg Runic_Spectator wya
+[14:30:48] [Server thread/INFO]: AronCamoflauge07 issued server command: /msg Runic_Spectator have you got and disc fragments?
+[14:31:11] [Craft Scheduler Thread - 32/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] IHazHands[0;32;22m:[0;37;1m man...[m
+[14:31:21] [Craft Scheduler Thread - 32/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [0;31;22m[Owner][m CT_Assailant[0;32;22m:[0;37;1m bro nablade burned dom for no reason[m
+[14:31:24] [Server thread/INFO]: GalacticCreator7 issued server command: /msg shiroi_step wya
+[14:31:25] [Craft Scheduler Thread - 30/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [0;31;22m[Owner][m CT_Assailant[0;32;22m:[0;37;1m with lav[m
+[14:31:26] [Craft Scheduler Thread - 30/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] [0;31;22m[Owner][m CT_Assailant[0;32;22m:[0;37;1m lava[m
+[14:31:27] [Craft Scheduler Thread - 30/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] Nablade[0;32;22m:[0;37;1m I SAID MY BAD[m
+[14:31:37] [Craft Scheduler Thread - 30/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] Nablade[0;32;22m:[0;37;1m and I didnt take his stuff[m
+[14:31:44] [Craft Scheduler Thread - 30/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] oatmandude[0;32;22m:[0;37;1m because it burned[m
+[14:31:49] [Server thread/INFO]: IEATSDRINKS lost connection: Disconnected
+[14:31:49] [Server thread/INFO]: [voicechat] Disconnecting client IEATSDRINKS
+[14:31:49] [Server thread/INFO]: IEATSDRINKS left the game
+[14:31:50] [Server thread/INFO]: GalacticCreator7 issued server command: /msg Nablade where are u bro
+[14:31:58] [Craft Scheduler Thread - 30/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] oatmandude[0;32;22m:[0;37;1m bros braincells are working over time but its still not enough[m
+[14:32:00] [Server thread/INFO]: TarrioKnight has made the advancement [Stone Age]
+[14:32:19] [Craft Scheduler Thread - 36/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] Nablade[0;32;22m:[0;37;1m I SAID MY BAD[m
+[14:32:27] [Craft Scheduler Thread - 32/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] A1klos[0;32;22m:[0;37;1m nablade what is happening over there[m
+[14:32:34] [Craft Scheduler Thread - 36/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] IHazHands[0;32;22m:[0;37;1m well i found the cave i ded in[m
+[14:32:35] [Craft Scheduler Thread - 36/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] Nablade[0;32;22m:[0;37;1m I killed a man[m
+[14:32:39] [Craft Scheduler Thread - 32/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] A1klos[0;32;22m:[0;37;1m crazy[m
+[14:32:42] [Craft Scheduler Thread - 36/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] IHazHands[0;32;22m:[0;37;1m everything is gone[m
+[14:32:45] [Craft Scheduler Thread - 36/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] A1klos[0;32;22m:[0;37;1m at this point just remove the grace period[m
+[14:32:54] [Craft Scheduler Thread - 32/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] A1klos[0;32;22m:[0;37;1m because you can lava ppl[m
+[14:33:01] [User Authenticator #20/INFO]: UUID of player IEATSDRINKS is b0083ba2-48d2-48e6-9008-ed350496cfc9
+[14:33:02] [Server thread/INFO]: IEATSDRINKS joined the game
+[14:33:02] [Server thread/INFO]: IEATSDRINKS[/73.175.150.164:56521] logged in with entity id 19614 at ([world]-548.0802231360981, 181.0, 316.47010134910096)
+[14:33:02] [Server thread/INFO]: [voicechat] Received secret request of IEATSDRINKS (18)
+[14:33:02] [Server thread/INFO]: [voicechat] Sent secret to IEATSDRINKS
+[14:33:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player b0083ba2-48d2-48e6-9008-ed350496cfc9
+[14:33:03] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player b0083ba2-48d2-48e6-9008-ed350496cfc9
+[14:33:03] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player IEATSDRINKS (b0083ba2-48d2-48e6-9008-ed350496cfc9) successfully connected to voice chat
+[14:33:17] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Server Developer] Mr.Void (replying to Kai) > Cant do without sam
+[14:33:22] [Server thread/INFO]: IEATSDRINKS issued server command: /msg Runic_Spectator e
+[14:33:27] [Craft Scheduler Thread - 36/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] IHazHands[0;32;22m:[0;37;1m no oh dear way[m
+[14:33:40] [Server thread/INFO]: IEATSDRINKS issued server command: /msg Runic_Spectator -548 181 316
+[14:33:52] [Server thread/INFO]: oatmandude has made the advancement [Diamonds!]
+[14:34:02] [Server thread/INFO]: IEATSDRINKS issued server command: /msg A1klos -548 181 316
+[14:34:14] [Server thread/INFO]: IEATSDRINKS issued server command: /gsit:glay
+[14:34:16] [Netty Epoll Server IO #1/WARN]: Failed to update secure chat state for Ward3r: 'Chat disabled due to missing profile public key. Please try reconnecting.'
+[14:34:16] [Netty Epoll Server IO #1/WARN]: Failed to update secure chat state for Ward3r: 'Chat disabled due to missing profile public key. Please try reconnecting.'
+[14:34:18] [Server thread/INFO]: IEATSDRINKS issued server command: /gsit:glay
+[14:34:26] [Server thread/INFO]: IEATSDRINKS issued server command: /gsit:glay
+[14:34:48] [Server thread/INFO]: IEATSDRINKS issued server command: /gsit:glay
+[14:34:56] [Server thread/INFO]: IEATSDRINKS issued server command: /gsit:glay
+[14:34:58] [Server thread/INFO]: Runic_Spectator has made the advancement [Take Aim]
+[14:35:31] [Server thread/INFO]: CT_Assailant has made the advancement [Best Friends Forever]
+[14:35:50] [Server thread/INFO]: Runic_Spectator fell from a high place
+[14:36:08] [Craft Scheduler Thread - 39/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] B0nic[0;32;22m:[0;37;1m can hear me[m
+[14:36:09] [Server thread/INFO]: IHazHands fell from a high place
+[14:36:13] [Server thread/INFO]: IHazHands fell from a high place
+[14:36:16] [Server thread/INFO]: IHazHands fell from a high place
+[14:36:23] [Craft Scheduler Thread - 39/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] IHazHands[0;32;22m:[0;37;1m shift[m
+[14:36:36] [Server thread/INFO]: IEATSDRINKS issued server command: /gsit:glay
+[14:37:02] [Craft Scheduler Thread - 43/INFO]: [0;37;1m[[0;32;22mGlobal[0;37;1m] IHazHands[0;32;22m:[0;37;1m i need door[m
+[14:37:05] [Server thread/INFO]: IHazHands tried to swim in lava
+[14:37:13] [Server thread/ERROR]: Encountered an unexpected exception
+net.minecraft.ReportedException: Exception ticking world
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1478) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.dedicated.DedicatedServer.c(DedicatedServer.java:406) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1321) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1071) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "it.unimi.dsi.fastutil.ints.IntArrayList.getInt(int)" because "this.wrapped" is null
+	at it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap$MapIterator.nextEntry(Int2ObjectOpenHashMap.java:663) ~[fastutil-8.5.12.jar:?]
+	at it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap$ValueIterator.next(Int2ObjectOpenHashMap.java:1168) ~[fastutil-8.5.12.jar:?]
+	at net.minecraft.server.level.PlayerChunkMap.l(PlayerChunkMap.java:1282) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.level.ChunkProviderServer.a(ChunkProviderServer.java:354) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.level.WorldServer.a(WorldServer.java:412) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1472) ~[spigot-1.21.1-R0.1-SNAPSHOT.jar:4344-Spigot-a759b62-19bf846]
+	... 5 more
+[14:37:13] [Server thread/ERROR]: This crash report has been saved to: /root/sol-smp/crash-reports/crash-2025-05-24_14.37.13-server.txt
+[14:37:13] [Server thread/INFO]: Stopping server
+[14:37:13] [Server thread/INFO]: [GSit] Disabling GSit v2.3.3
+[14:37:13] [Server thread/INFO]: [WorldGuard] Unregistering session handler dev.geco.gsit.link.worldguard.RegionFlagHandler
+[14:37:13] [Server thread/INFO]: [0;37;22m[[0;33;22mGSit[0;37;22m][0;32;1m The plugin was successfully disabled.[m
+[14:37:13] [Server thread/INFO]: [BanItem] Disabling BanItem v3.7
+[14:37:13] [Server thread/INFO]: [Shopkeepers] Disabling Shopkeepers v2.23.5
+[14:37:13] [Server thread/INFO]: [JEXT] Disabling JukeboxExtendedReborn v2.1.9
+[14:37:13] [Server thread/INFO]: [[0;33;1mJEXT[0;37;1m] [0;33;1mWebserver stopped[m
+[14:37:13] [Server thread/INFO]: [[0;33;1mJEXT[0;37;1m][0;33;1m Disabled Jukebox Extended Reborn, Mi Re Do![m
+[14:37:13] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.12+829a4a4
+[14:37:13] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[14:37:13] [Server thread/INFO]: [F3NPerm] Disabling F3NPerm v3.5
+[14:37:13] [Server thread/INFO]: [F3NPerm] Plugin disabled!
+[14:37:13] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.29.0
+[14:37:13] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 275ms
+[14:37:13] [Server thread/INFO]: [Blue Slime Core] Disabling BlueSlimeCore v2.9.6.431
+[14:37:13] [Server thread/INFO]: [Images] Disabling Images v2.5.5
+[14:37:13] [Server thread/INFO]: [VentureChat] Disabling VentureChat v3.7.2
+[14:37:13] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Disabling...[m
+[14:37:13] [Server thread/INFO]: [0;30;1m[[0;33;1mVentureChat[0;30;1m][0;33;1m - Disabled Successfully[m
+[14:37:13] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.9+6959-7adf70b
+[14:37:13] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[14:37:13] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.26
+[14:37:13] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
+[14:37:13] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[14:37:13] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion vault
+[14:37:13] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin Vault was disabled.
+[14:37:13] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[14:37:13] [Server thread/INFO]: [BULPearl] Disabling BULPearl v3.1.6
+[14:37:13] [Server thread/INFO]: [0;32;1m[BulPearl] [0;31;1mDisable BulPearl[m
+[14:37:13] [Server thread/INFO]: [EnchantControl] Disabling EnchantControl v1.4.6
+[14:37:13] [Server thread/INFO]: EnchantControl Disabled
+[14:37:13] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.131
+[14:37:13] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[14:37:13] [Server thread/INFO]: [LuckPerms] Closing storage...
+[14:37:13] [Server thread/INFO]: [LuckPerms] Goodbye!
+[14:37:13] [Server thread/INFO]: [DisableEffects] Disabling DisableEffects v1.1
+[14:37:13] [Server thread/INFO]: Saving players
+[14:37:13] [Server thread/INFO]: GalacticCreator7 lost connection: Server closed
+[14:37:13] [Server thread/INFO]: GalacticCreator7 left the game.
+[14:37:13] [Server thread/INFO]: Algorithm0_ lost connection: Server closed
+[14:37:13] [Server thread/INFO]: Algorithm0_ left the game.
+[14:37:13] [Server thread/INFO]: Ward3r lost connection: Server closed
+[14:37:13] [Server thread/INFO]: Ward3r left the game.
+[14:37:13] [Server thread/INFO]: A1klos lost connection: Server closed
+[14:37:13] [Server thread/INFO]: A1klos left the game.
+[14:37:13] [Server thread/INFO]: B0nic lost connection: Server closed
+[14:37:13] [Server thread/INFO]: B0nic left the game.
+[14:37:13] [Server thread/INFO]: CT_Assailant lost connection: Server closed
+[14:37:13] [Server thread/INFO]: CT_Assailant left the game.
+[14:37:13] [Server thread/INFO]: TarrioKnight lost connection: Server closed
+[14:37:13] [Server thread/INFO]: TarrioKnight left the game.
+[14:37:13] [Server thread/INFO]: Nablade lost connection: Server closed
+[14:37:13] [Server thread/INFO]: Nablade left the game.
+[14:37:13] [Server thread/INFO]: shiroi_step lost connection: Server closed
+[14:37:13] [Server thread/INFO]: shiroi_step left the game.
+[14:37:13] [Server thread/INFO]: HVRugby lost connection: Server closed
+[14:37:13] [Server thread/INFO]: HVRugby left the game.
+[14:37:13] [Server thread/INFO]: AronCamoflauge07 lost connection: Server closed
+[14:37:13] [Server thread/INFO]: AronCamoflauge07 left the game.
+[14:37:13] [Server thread/INFO]: Mahleumon lost connection: Server closed
+[14:37:13] [Server thread/INFO]: Mahleumon left the game.
+[14:37:13] [Server thread/INFO]: oatmandude lost connection: Server closed
+[14:37:13] [Server thread/INFO]: oatmandude left the game.
+[14:37:13] [Server thread/INFO]: IEATSDRINKS lost connection: Server closed
+[14:37:13] [Server thread/INFO]: IEATSDRINKS left the game.
+[14:37:13] [Server thread/INFO]: Runic_Spectator lost connection: Server closed
+[14:37:13] [Server thread/INFO]: Runic_Spectator left the game.
+[14:37:13] [Server thread/INFO]: IHazHands lost connection: Server closed
+[14:37:13] [Server thread/INFO]: IHazHands left the game.
+[14:37:13] [Server thread/INFO]: Saving worlds
+[14:37:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:37:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:37:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:37:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_vred_data_void]'/vred:data_void
+[14:37:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:37:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:37:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:37:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (data_void): All chunks are saved
+[14:37:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -15,16 +15,23 @@ regions:
         max: {x: -29, y: 71, z: -397}
         members: {}
         flags: {other-explosion: deny, lava-fire: deny, use: deny, ice-melt: deny,
-            block-trampling: deny, snow-fall: deny, vehicle-destroy: deny, interact: deny,
+            snow-fall: deny, block-trampling: deny, vehicle-destroy: deny, interact: deny,
             chest-access: deny, firework-damage: deny, ride: deny, fire-spread: deny,
             enderdragon-block-damage: deny, sleep: deny, vehicle-place: deny, snowman-trails: deny,
-            wind-charge-burst: deny, mob-damage: deny, block-break: deny, entity-painting-destroy: allow,
-            ravager-grief: allow, use-anvil: deny, respawn-anchors: deny, lightning: deny,
-            ice-form: deny, wither-damage: deny, breeze-charge-explosion: deny, lighter: deny,
-            use-dripleaf: deny, enderman-grief: deny, pvp: deny, pistons: deny, block-place: deny,
-            item-drop: allow, creeper-explosion: deny, exp-drops: deny, item-frame-rotation: deny,
-            item-pickup: allow, potion-splash: deny, damage-animals: deny, snow-melt: deny,
-            tnt: deny, entity-item-frame-destroy: allow, ghast-fireball: deny}
+            wind-charge-burst: deny, mob-damage: deny, block-break: deny, ravager-grief: allow,
+            entity-painting-destroy: allow, respawn-anchors: deny, use-anvil: deny,
+            lightning: deny, ice-form: deny, wither-damage: deny, breeze-charge-explosion: deny,
+            lighter: deny, enderman-grief: deny, use-dripleaf: deny, pistons: deny,
+            pvp: deny, block-place: deny, item-drop: allow, creeper-explosion: deny,
+            exp-drops: deny, item-frame-rotation: deny, item-pickup: allow, potion-splash: deny,
+            damage-animals: deny, snow-melt: deny, tnt: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: allow}
         owners: {}
         type: cuboid
+        priority: 0
+    __global__:
+        members: {}
+        flags: {passthrough: allow}
+        owners: {}
+        type: global
         priority: 0

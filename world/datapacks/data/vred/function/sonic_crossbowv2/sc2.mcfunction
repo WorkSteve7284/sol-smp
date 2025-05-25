@@ -1,0 +1,1 @@
+kill @e[type=arrow,distance=..6,nbt={life:0s,inGround:0b}]

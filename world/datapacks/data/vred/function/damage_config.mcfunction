@@ -1,0 +1,16 @@
+execute unless score #aiglos hoplite_weapondmg = #aiglos hoplite_weapondmg run scoreboard players set #aiglos hoplite_weapondmg 10
+execute unless score #corrupted_crossbow hoplite_weapondmg = #corrupted_crossbow hoplite_weapondmg run scoreboard players set #corrupted_crossbow hoplite_weapondmg 10
+execute unless score #golem_hammer hoplite_weapondmg = #golem_hammer hoplite_weapondmg run scoreboard players set #golem_hammer hoplite_weapondmg 9
+execute unless score #guardian_cannon hoplite_weapondmg = #guardian_cannon hoplite_weapondmg run scoreboard players set #guardian_cannon hoplite_weapondmg 6
+execute unless score #ice_horn hoplite_weapondmg = #ice_horn hoplite_weapondmg run scoreboard players set #ice_horn hoplite_weapondmg 8
+execute unless score #lich_staff hoplite_weapondmg = #lich_staff hoplite_weapondmg run scoreboard players set #lich_staff hoplite_weapondmg 10
+execute unless score #mjolnir hoplite_weapondmg = #mjolnir hoplite_weapondmg run scoreboard players set #mjolnir hoplite_weapondmg 9
+execute unless score #poseidon_trident hoplite_weapondmg = #poseidon_trident hoplite_weapondmg run scoreboard players set #poseidon_trident hoplite_weapondmg 7
+execute unless score #reinforced_elytra hoplite_weapondmg = #reinforced_elytra hoplite_weapondmg run scoreboard players set #reinforced_elytra hoplite_weapondmg 12
+execute unless score #wither_sickles hoplite_weapondmg = #wither_sickles hoplite_weapondmg run scoreboard players set #wither_sickles hoplite_weapondmg 6
+execute unless score #magma_club hoplite_weapondmg = #magma_club hoplite_weapondmg run scoreboard players set #magma_club hoplite_weapondmg 9
+execute unless score #sonic_crossbow hoplite_weapondmg = #sonic_crossbow hoplite_weapondmg run scoreboard players set #sonic_crossbow hoplite_weapondmg 6
+execute unless score #warpick hoplite_weapondmg = #warpick hoplite_weapondmg run scoreboard players set #warpick hoplite_weapondmg 9
+execute unless score #crimson_chainsword hoplite_weapondmg = #crimson_chainsword hoplite_weapondmg run scoreboard players set #crimson_chainsword hoplite_weapondmg 1
+execute unless score #armadillo_detonator hoplite_weapondmg = #armadillo_detonator hoplite_weapondmg run scoreboard players set #armadillo_detonator hoplite_weapondmg 7
+execute unless score #reaper_scythe hoplite_weapondmg = #reaper_scythe hoplite_weapondmg run scoreboard players set #reaper_scythe hoplite_weapondmg 10
